@@ -5,10 +5,13 @@ title: API Deployment
 
 <h1>API Deployment</h1>
 <p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-deploy.jpg" width="290" align="right" style="padding: 15px;" /></p>
-<p>API Design is a project I have just spun off core research and monitoring of API service proviers.  It isn't a category that is full of fully defined and has a bunch of tools and services quite yet, but it needs to be. So I'm going to jumpstart it!</p>
-<p>I consider API design, everything that goes into planning and designing your API, as well as the design of your API that lives on as your operational interface.</p>
-<p>Your API design will be the definition of each endpoint, its methods, fields and more.  In a technical sense it is a JSON or XML blueprint that describes your API, and in a creative sense, API design is an art and can possess a strange technical beauty.</p>
-<p>Right now there are only a handful of services and tools available.  I will be finding the best news, analysis and other resources to help you with API design. As my research evolves, I will list more, if there is anything you think so be listed, let me know.</p>
+<p>One question that I get asked a lot, is which of the API service providers will help me deploy my API.  Historically the primary API service providers like 3Scale, Apigee and Mashery only help you "manage" your API, you still have to deploy that actual API endpoint via your own systems.  This has evolved over time, and more of them are actually heaping facilitate deploy like with Intel's API Gateway.</p>  
+
+<p>If you are a larger company, you probably have the resources and tools to deploy APIs from your existing database or other systems. For those that don't, this project is dedicated to brining together news, analysis, tools and services that others can use to actually deploy an API.</p>   
+
+<p>I'm separating out API design from deployment.  Depending on your approach, the deployment of your API could be one and the same with API design or it could be an entirely different beast.</p>
+
+<p>While API design, deployment and management are all interconnected, it can be helpful to look at them in separate lights.</p>
 <hr />
 <!-- Begin List API Design companies--->
 {% raw  %}
@@ -47,7 +50,7 @@ listCompanies();
 <script id="toolListingTemplate" type="text/template">       
     <li style="list-style: none; padding: 30px; border: 0px solid #000;">
         <a href="tools-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
-        <a href="tools-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
+        <a href="tools-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="tools-detail.html?id={{id}}">details</a>.
     </li>                                                                                               
 </script>
 {% endraw %}
