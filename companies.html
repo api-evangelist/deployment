@@ -1,0 +1,66 @@
+---
+layout: page
+title: Companies
+---
+<style>
+
+    .baaslistingcontainer{
+        padding-left: 10px; 
+        padding-right: 10px; 
+        width:550px;
+    }
+    .baaslisting{
+        padding-left: 30px;
+    }  
+    .baaslisting li{
+        list-style: none; 
+        padding: 30px; 
+        border: 0px solid #000;
+    }       
+</style>
+
+<ul class="toolbar">
+    <li>{"<a href="https://raw.github.com/kinlane/aggregation/gh-pages/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
+    <li>{"<a href="https://gist.github.com/kinlane/5992075" title="Script" target="_blank">SCRIPT</a>"}</li>
+</ul>
+
+<h1 class="title">API Aggregation Companies</h1>
+
+<!--3D Printers Full Listing Template--->
+{% raw  %}
+<script id="companyListingTemplate" type="text/template">       
+    <li>
+        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
+        <a href="companies-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
+    </li>                                                                                               
+</script>
+{% endraw %}
+
+<!--3D Printers Full Listing Container--->
+<div class="baaslistingcontainter">
+     <ul id="companyListing" class="baaslisting"></ul>
+</div>  
+
+<!--3D Printers Full Listing JavaScript--->
+<script type="text/javascript">
+
+// Requires Mustache - http://mustache.github.io/
+
+function listCompanies()
+    {
+    $.getJSON('data/companies.json', function(data) {
+        toggle = 0;
+         $.each(data['company'], function(key, val) {
+            var template = $('#companyListingTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#companyListing').append(html);                          
+            });
+        });
+    } 
+</script>
+
+<!--Trigger 3D Printers Full Listing JavaScript onLoad-->
+<script type="text/javascript">
+listCompanies();
+</script>
