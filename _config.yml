@@ -1,5 +1,7 @@
 title : API Deployment
 
+markdown: kramdown
+
 safe: true
 lsi: false
 pygments: true
