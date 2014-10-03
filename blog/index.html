@@ -9,7 +9,7 @@ title: API Deployment - News and Analysis
 {% for post in paginator.posts %}
 <div class="post">
     
-    {% if page.type == "post" %}
+    {% if page.type != "" %}
     <a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}"><img style="padding: 5px;" src="{{ post.image }}" width="50" align="left" /></a>
     {% endif %}
     <a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-size: 18px;"><h4><strong>{{ post.title }}</strong></a>
