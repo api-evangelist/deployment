@@ -9,13 +9,12 @@ title: API Deployment - News and Analysis
 {% for post in paginator.posts %}
 <div class="post">
     
-    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><h4><strong>{{ post.title }}</strong> <i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i></h4></a>
-    <!_--<p><i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i></p>-->
+    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><h4><strong>{{ post.title }}</strong> <i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }} by {{ post.domain }}</span></strong></i></h4></a></p>
+    <!---<p><i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i></p>-->
     <!--<p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}"><img src="{{ post.image }}" width="150" align="right" style="padding: 15px;" /></a></p>-->
     <!--<p>{{ post.content | strip_html | truncatewords: 150 }}</p>-->
-    <p align="center"><a href="{{ post.source }}">Read Full Story</a></p>
-    <br />
-    <hr />     
+   <!--<p align="center"><a href="{{ post.source }}">Read Full Story</a></p>--->
+	<hr />     
    
 </div>
 {% endfor %}
