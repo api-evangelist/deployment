@@ -1,1 +1,9 @@
-{"buildingblockcategories":[{"category":"Deployment","slug":"deployment"}],"published":"11\/06\/2014"}
+{
+	"buildingblockcategories": [
+		{
+			"category": "API Design",
+			"slug": "api-design"
+		}
+	],
+	"published": "11/13/2014"
+}
