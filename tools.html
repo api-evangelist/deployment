@@ -21,6 +21,7 @@ title: Tools
 <script type="text/javascript">
 function listTools()
     {
+    alert('hello');
     $.getJSON('data/tools.json', function(data) {
         toggle = 0;
          $.each(data['tools'], function(key, val) {
