@@ -31,30 +31,27 @@ title: Building Blocks
 </style>
 
 <ul class="toolbar">
-    <li>{"<a href="https://raw.github.com/kinlane/api-deployment/gh-pages/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://raw.github.com/kinlane/api-design/gh-pages/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
     <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
-    <li>{"<a href="https://gist.github.com/kinlane/5993280" title="Script" target="_blank">SCRIPT</a>"}</li>
 </ul>
 
-<h1 class="title">Building Blocks</h1>
+<h1 class="title">Building Blocks of API Design</h1>
 
-<p>As I track on API deployment, I'm trying to distill the services, and tooling down into what I consider to be common building blocks. My goal with identifying ApI deployment building blocks is to provide a simple list of the moving parts that make up the space.</p>
-
-<p>Some of these building blocks overlap with other core areas of my research like design, and management, but I hope this list captures the basic building blocks of what anyone needs to know, to follow the world of API deployment.</p>
+<p>These are some of the building blocks of the API design space I've been seeing evolve out of open API design tools and companies. It can be tough to generalize what the building blocks are across the space, and identify how it overlaps with other areas I'm tracking, but this is my best attempt to date.</p>
 
 <!--BaaS Full Listing Template--->
 {% raw  %}
 <script id="buildingblockTemplate" type="text/template">
     <tr>       
-        <td width="60" align="center" valign="top"><img src="{{image}}" width="50" align="left" style="padding: 15px;" /></td>
-        <td align="left" valign="middle"><strong>{{name}}</strong> - {{details}}</td>
+        <td width="60" align="center" valign="middle"><img src="{{image}}" width="75" align="left" style="padding: 15px;" /></td>
+        <td align="left" valign="middle"><strong>{{name}}</strong> - {{summary}}</td>
     </tr>                                                                                           
 </script>
 {% endraw %}
 
 <!--Full Listing Container--->
 <div class="buildingblocklistingcontainter">
-     <table id="buildingblockListing" class="buildingblocklistingul" style="width: 90%; padding-left: 25px;" cellpadding="5" cellspacing="2"></table>
+     <table id="buildingblockListing" class="buildingblocklistingul" style="width: 90%; padding-left: 25px;"></table>
 </div>  
 
 <!--BaaS Full Listing JavaScript--->
@@ -77,4 +74,4 @@ function listbuidingblocks()
 listbuidingblocks();
 </script>
 
-<p>If there are any features, service or tools you depend on when deploying your APIs, please let me know at <a href="https://twitter.com/kinlane/">@kinlane</a>. I'm not trying to create an exhaustive list, just get an idea for what is available across the providers, and where the gaps are potentially.</p>
+<p>If there are any features you depend on when designing your APIs, please let me know <a href="https://twitter.com/kinlane/">@kinlane</a>. I'm not trying to create a complete list, just get an idea for what is available across the providers, and where the gaps are potentially.</p>
