@@ -1,6 +1,21 @@
 {
 	"company": [
 		{
+			"id": "20",
+			"name": "Akana",
+			"summary": "Akana&rsquo;s (formerly SOA Software) platform helps businesses accelerate digital transformation by securely extending their reach across multiple channels &ndash; mobile, cloud and Internet of Things. Akana enables enterprises to share data as APIs, connect and integrate applications, drive partner adoption, monetize their assets, and provide intelligent insights into their business and operatio",
+			"details": "Akana&rsquo;s (formerly SOA Software) platform helps businesses accelerate digital transformation by securely extending their reach across multiple channels &ndash; mobile, cloud and Internet of Things. Akana enables enterprises to share data as APIs, connect and integrate applications, drive partner adoption, monetize their assets, and provide intelligent insights into their business and operations.",
+			"website": "http://www.akana.com/",
+			"twitter": "https://twitter.com/AkanaInc",
+			"github": "",
+			"blog": "https://blog.akana.com/",
+			"blogrss": "https://blog.akana.com/feed/",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akana-logo-formerly-soa.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/Atmosphere-Screenshot.png",
+			"tags": "API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
+		},
+		{
 			"id": "125",
 			"name": "ApiAxle",
 			"summary": "ApiAxle is a proxy that sits on your network, in front of your API(s) and manages things that you shouldn't have to, like rate limiting, authentication and caching. It's fast, open and easy to configure. ApiAxle is different to the cloud based services such as Mashery in that it&rsquo;s intended to be installed within your LAN and be managed by you. This means you own your users, you own your data",
@@ -44,6 +59,21 @@
 			"logo_width": "225",
 			"screenshot": null,
 			"tags": "API Management,API-Deployment,API-Deployment,Spreadsheets"
+		},
+		{
+			"id": "11783",
+			"name": "Apitite",
+			"summary": "Apitite is a web application programming interface (API) creation and management service on the cloud. Apitite enables businesses to securely expose their existing data to their users, employees, and partners automatically. Through our web interface, clients can create web APIs by providing connection details to their datastore, specifying which data to expose, and listing who should be granted ac",
+			"details": "Apitite is a web application programming interface (API) creation and management service on the cloud. Apitite enables businesses to securely expose their existing data to their users, employees, and partners automatically. Through our web interface, clients can create web APIs by providing connection details to their datastore, specifying which data to expose, and listing who should be granted access to the data. In addition, clients can access usage analytics to observe how their users are consuming their data. Apitite takes care of the web hosting, security, and user access of each API.",
+			"website": "https://www.apitite.net/",
+			"twitter": "https://twitter.com/ApititeAPI",
+			"github": "",
+			"blog": "http://blog.apitite.net/",
+			"blogrss": "http://blog.apitite.net/feeds/posts/default?alt=rss",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitite-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API-Deployment"
 		},
 		{
 			"id": "59",
@@ -211,6 +241,21 @@
 			"tags": "Advertising,Advertising-Stack,Analytics-Stack,API-Deployment,Database,Document-Stack,Geo-Stack,Geo-Stack-Location,Geo-Stack-Mapping,Images-Stack,Machine-Learning-Stack,Mapping,Network-Stack,Orange-Report-Transportation,PaaS,Payment-API,Payments,Photo-Stack,Platform-Stack,Real-Time,Search,Social,Spreadsheets,Task-Stack,Transit,Translation-Stack,Utility-Stack,Website-Stack"
 		},
 		{
+			"id": "11758",
+			"name": "HTTPHUB",
+			"summary": "What you POST is What you GET. HTTPHUB allows for the creation of API backends for applications and devices, using simple HTTP requests. We are a group of enthusiastic hi-tech geeks with a passion for the latest technologies and for the latest gadgets. We like challenging ourselves to solve new and difficult problems and to create beautiful and innovative services, that can be used and appreciated",
+			"details": "What you POST is What you GET. HTTPHUB allows for the creation of API backends for applications and devices, using simple HTTP requests. We are a group of enthusiastic hi-tech geeks with a passion for the latest technologies and for the latest gadgets. We like challenging ourselves to solve new and difficult problems and to create beautiful and innovative services, that can be used and appreciated by millions of people.",
+			"website": "https://www.httphub.com/",
+			"twitter": "https://twitter.com/httphub",
+			"github": "",
+			"blog": "",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/httphub-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,API-Deployment"
+		},
+		{
 			"id": "1728",
 			"name": "import.io",
 			"summary": "Importio turns the web into a database, releasing the vast potential of data trapped in websites. Allowing you to identify a website, select the data and treat it as a table in your database. In effect transform the data into a row and column format. You can then add more websites to your data set, the same as adding more rows and query in real-time to access the data.",
@@ -301,6 +346,21 @@
 			"tags": "API Design,API Management,API-Deployment"
 		},
 		{
+			"id": "11781",
+			"name": "OpenLegacy",
+			"summary": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacy&rsquo;s comprehensive, end-to-end integration platform unlocks the application services and information in mainfram",
+			"details": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacy&rsquo;s comprehensive, end-to-end integration platform unlocks the application services and information in mainframes, AS/400 and databases, automatically transforming them into mobile, web and cloud applications. This approach maintains the strength, reliability, and security of the existing systems while extending them with agile API technology.",
+			"website": "http://openlegacy.com/",
+			"twitter": "https://twitter.com/openlegacy",
+			"github": "https://github.com/openlegacy",
+			"blog": "http://openlegacy.com/blog/",
+			"blogrss": "http://openlegacy.com/feed/",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,API-Deployment"
+		},
+		{
 			"id": "1813",
 			"name": "Oracle SOA",
 			"summary": "Secures service-oriented architecture (SOA) deployments on-premise, across domain boundaries, or in the cloud enabling organizations to securely and rapidly adopt cloud, mobile, and SOA services. Provides a lightweight API gateway for securing and managing APIs. Connects mobile devices to existing enterprise systems. Significantly lowers integration costs, decreases total cost of ownership, and re",
@@ -376,21 +436,6 @@
 			"tags": "API Management,API-Deployment"
 		},
 		{
-			"id": "20",
-			"name": "Akana",
-			"summary": "Akana&rsquo;s (formerly SOA Software) platform helps businesses accelerate digital transformation by securely extending their reach across multiple channels &ndash; mobile, cloud and Internet of Things. Akana enables enterprises to share data as APIs, connect and integrate applications, drive partner adoption, monetize their assets, and provide intelligent insights into their business and operatio",
-			"details": "Akana&rsquo;s (formerly SOA Software) platform helps businesses accelerate digital transformation by securely extending their reach across multiple channels &ndash; mobile, cloud and Internet of Things. Akana enables enterprises to share data as APIs, connect and integrate applications, drive partner adoption, monetize their assets, and provide intelligent insights into their business and operations.",
-			"website": "http://www.akana.com/",
-			"twitter": "https://twitter.com/AkanaInc",
-			"github": "",
-			"blog": "https://blog.akana.com/",
-			"blogrss": "https://blog.akana.com/feed/",
-			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akana-logo-formerly-soa.png",
-			"logo_width": "150",
-			"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/Atmosphere-Screenshot.png",
-			"tags": "API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
-		},
-		{
 			"id": "2959",
 			"name": "StrongLoop",
 			"summary": "StrongLoop is based in San Mateo, CA and employs over 30 developers working with Node.js. StrongLoop develops StrongLoop Suite, a leading Mobile API Tier along with being the primary code contributor to Node.js. StrongLoop Suite includes an open source private mBaaS, an operations console and a supported package of Node.js, containing advanced debugging, clustering and support for private npm regi",
@@ -434,51 +479,6 @@
 			"logo_width": "150",
 			"screenshot": null,
 			"tags": "API Deployment,API Design,API Management,API-Deployment,API-Management"
-		},
-		{
-			"id": "11758",
-			"name": "HTTPHUB",
-			"summary": "What you POST is What you GET. HTTPHUB allows for the creation of API backends for applications and devices, using simple HTTP requests. We are a group of enthusiastic hi-tech geeks with a passion for the latest technologies and for the latest gadgets. We like challenging ourselves to solve new and difficult problems and to create beautiful and innovative services, that can be used and appreciated",
-			"details": "What you POST is What you GET. HTTPHUB allows for the creation of API backends for applications and devices, using simple HTTP requests. We are a group of enthusiastic hi-tech geeks with a passion for the latest technologies and for the latest gadgets. We like challenging ourselves to solve new and difficult problems and to create beautiful and innovative services, that can be used and appreciated by millions of people.",
-			"website": "https://www.httphub.com/",
-			"twitter": "https://twitter.com/httphub",
-			"github": "",
-			"blog": "",
-			"blogrss": "",
-			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/httphub-logo.png",
-			"logo_width": "150",
-			"screenshot": null,
-			"tags": "API Deployment,API-Deployment"
-		},
-		{
-			"id": "11781",
-			"name": "OpenLegacy",
-			"summary": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacy&rsquo;s comprehensive, end-to-end integration platform unlocks the application services and information in mainfram",
-			"details": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacy&rsquo;s comprehensive, end-to-end integration platform unlocks the application services and information in mainframes, AS/400 and databases, automatically transforming them into mobile, web and cloud applications. This approach maintains the strength, reliability, and security of the existing systems while extending them with agile API technology.",
-			"website": "http://openlegacy.com/",
-			"twitter": "https://twitter.com/openlegacy",
-			"github": "https://github.com/openlegacy",
-			"blog": "http://openlegacy.com/blog/",
-			"blogrss": "http://openlegacy.com/feed/",
-			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png",
-			"logo_width": "150",
-			"screenshot": null,
-			"tags": "API Deployment,API-Deployment"
-		},
-		{
-			"id": "11783",
-			"name": "Apitite",
-			"summary": "Apitite is a web application programming interface (API) creation and management service on the cloud. Apitite enables businesses to securely expose their existing data to their users, employees, and partners automatically. Through our web interface, clients can create web APIs by providing connection details to their datastore, specifying which data to expose, and listing who should be granted ac",
-			"details": "Apitite is a web application programming interface (API) creation and management service on the cloud. Apitite enables businesses to securely expose their existing data to their users, employees, and partners automatically. Through our web interface, clients can create web APIs by providing connection details to their datastore, specifying which data to expose, and listing who should be granted access to the data. In addition, clients can access usage analytics to observe how their users are consuming their data. Apitite takes care of the web hosting, security, and user access of each API.",
-			"website": "https://www.apitite.net/",
-			"twitter": "https://twitter.com/ApititeAPI",
-			"github": "",
-			"blog": "http://blog.apitite.net/",
-			"blogrss": "http://blog.apitite.net/feeds/posts/default?alt=rss",
-			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitite-logo.png",
-			"logo_width": "150",
-			"screenshot": null,
-			"tags": "API-Deployment"
 		}
 	],
 	"published": "03/12/2015"
