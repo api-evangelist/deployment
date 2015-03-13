@@ -16,6 +16,21 @@
 			"tags": "API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
 		},
 		{
+			"id": "11780",
+			"name": "Algorithmia",
+			"summary": "We're building a community around state-of-the-art algorithm development. Users can create, share, and build on other algorithms and then instantly make them available as a web service.",
+			"details": "We're building a community around state-of-the-art algorithm development. Users can create, share, and build on other algorithms and then instantly make them available as a web service.",
+			"website": "https://algorithmia.com",
+			"twitter": "https://twitter.com/algorithmia",
+			"github": "",
+			"blog": "http://blog.algorithmia.com/",
+			"blogrss": "http://blog.algorithmia.com/rss",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/algorithmia-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,Code-Stack"
+		},
+		{
 			"id": "125",
 			"name": "ApiAxle",
 			"summary": "ApiAxle is a proxy that sits on your network, in front of your API(s) and manages things that you shouldn't have to, like rate limiting, authentication and caching. It's fast, open and easy to configure. ApiAxle is different to the cloud based services such as Mashery in that it&rsquo;s intended to be installed within your LAN and be managed by you. This means you own your users, you own your data",
@@ -149,6 +164,21 @@
 			"logo_width": "150",
 			"screenshot": null,
 			"tags": "API-Deployment,Python"
+		},
+		{
+			"id": "11784",
+			"name": "deployd",
+			"summary": "An open source platform. Design, build, and scale APIs for web and mobile apps in minutes instead of days. 1) No boilerplate. With one command, your API is up and running. It's an empty canvas waiting for you to add Resources. No boilerplate code necessary. 2) Resources - Deployd APIs are built of plug-and-play resources, such as Collection, which can easily be added and defined through the deploy",
+			"details": "An open source platform. Design, build, and scale APIs for web and mobile apps in minutes instead of days. 1) No boilerplate. With one command, your API is up and running. It's an empty canvas waiting for you to add Resources. No boilerplate code necessary. 2) Resources - Deployd APIs are built of plug-and-play resources, such as Collection, which can easily be added and defined through the deployd dashboard. 3) Dashboard - Add and manage your API's resources through an intuitive web-based dashboard. 4) 1-step deploy - When it's time to deploy, easily deploy it yourself anywhere that can host a Node.js app and MongoDB.",
+			"website": "http://deployd.com/",
+			"twitter": "https://twitter.com/deploydapp",
+			"github": "https://github.com/deployd",
+			"blog": "",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/deployd-logo.jpeg",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,API Design,API Management"
 		},
 		{
 			"id": "6565",
@@ -481,5 +511,5 @@
 			"tags": "API Deployment,API Design,API Management,API-Deployment,API-Management"
 		}
 	],
-	"published": "03/12/2015"
+	"published": "03/13/2015"
 }
