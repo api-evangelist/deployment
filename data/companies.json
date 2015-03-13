@@ -331,6 +331,21 @@
 			"tags": "Aggregation,API-Deployment,Data,Database-Stack"
 		},
 		{
+			"id": "11520",
+			"name": "Service Stack",
+			"summary": "ServiceStack started development in 2008 with the mission of creating a best-practices services framework with an emphasis on simplicity and speed, reducing the effort in creating and maintaining resilient message-based SOA Services and rich web apps.",
+			"details": "ServiceStack started development in 2008 with the mission of creating a best-practices services framework with an emphasis on simplicity and speed, reducing the effort in creating and maintaining resilient message-based SOA Services and rich web apps.",
+			"website": "https://servicestack.net",
+			"twitter": "https://twitter.com/ServiceStack",
+			"github": "https://github.com/ServiceStack",
+			"blog": "",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-stack.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API-Deployment"
+		},
+		{
 			"id": "6697",
 			"name": "Sheetlabs",
 			"summary": "Sheetlabs turn spreadsheets into well-documented APIs, quickly and easily. Many businesses still share product lists, service coverage areas, or other tabular information with one another using spreadsheets attached to email. There are so many things that can go wrong with this. Sheetlabs was built with the goal of making it really easy for businesses to build APIs on top of their spreadsheets.",
@@ -365,12 +380,12 @@
 			"name": "SOA Software",
 			"summary": "SOA Software, Inc. provides API management and integrated service-oriented architecture (SOA) governance automation solutions. It offers Enterprise API Management; Policy Manager, which provides SOA registry/repository and SOA policy governance solutions; Repository Manager, which provides software development asset repository, lifecycle management, and metadata federation solutions; and Portfolio",
 			"details": "SOA Software, Inc. provides API management and integrated service-oriented architecture (SOA) governance automation solutions. It offers Enterprise API Management; Policy Manager, which provides SOA registry/repository and SOA policy governance solutions; Repository Manager, which provides software development asset repository, lifecycle management, and metadata federation solutions; and Portfolio Manager, a planning governance product that helps ensure the alignment of SOA programs with strategic IT investment and business objectives. The company also provides Service Manager, a SOA management and security product, which provides security, routing, mediation, monitoring, and management for SOA and Web services; and SOLA, which provides a governable mainframe SOA platform.",
-			"website": "http://soa.com",
-			"twitter": "https://twitter.com/SOASoftwareInc",
+			"website": "http://www.akana.com/",
+			"twitter": "https://twitter.com/AkanaInc",
 			"github": "",
-			"blog": "http://blog.soa.com/",
-			"blogrss": "http://feeds.feedburner.com/SOA/Blog",
-			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/soa-software-logo.png",
+			"blog": "https://blog.akana.com/",
+			"blogrss": "https://blog.akana.com/feed/",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akana-logo-formerly-soa.png",
 			"logo_width": "150",
 			"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/Atmosphere-Screenshot.png",
 			"tags": "API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
@@ -404,7 +419,52 @@
 			"logo_width": "200",
 			"screenshot": null,
 			"tags": "Adaptive Intelligence,API Management,API-Deployment,BaaS,Chicago,E-commerce"
+		},
+		{
+			"id": "11502",
+			"name": "WaveMaker, Inc.",
+			"summary": "WaveMaker, Inc. provides WaveMaker Enterprise &ndash; An aPaaS software for rapid application delivery of enterprise custom apps. WaveMaker Enterprise provides benefits such as visual rapid application development, out of the box support for security, web services integration and data modelling, high performance cloud platform based on Docker containers, a self service management console that prov",
+			"details": "WaveMaker, Inc. provides WaveMaker Enterprise &ndash; An aPaaS software for rapid application delivery of enterprise custom apps. WaveMaker Enterprise provides benefits such as visual rapid application development, out of the box support for security, web services integration and data modelling, high performance cloud platform based on Docker containers, a self service management console that provides simplified administration and many more such features.",
+			"website": "http://www.wavemaker.com/",
+			"twitter": "https://twitter.com/WaveMaker",
+			"github": "https://github.com/wavemaker",
+			"blog": "http://www.wavemaker.com/blog/",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wavemaker-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,API Design,API Management,API-Deployment,API-Management"
+		},
+		{
+			"id": "11758",
+			"name": "HTTPHUB",
+			"summary": "What you POST is What you GET. HTTPHUB allows for the creation of API backends for applications and devices, using simple HTTP requests. We are a group of enthusiastic hi-tech geeks with a passion for the latest technologies and for the latest gadgets. We like challenging ourselves to solve new and difficult problems and to create beautiful and innovative services, that can be used and appreciated",
+			"details": "What you POST is What you GET. HTTPHUB allows for the creation of API backends for applications and devices, using simple HTTP requests. We are a group of enthusiastic hi-tech geeks with a passion for the latest technologies and for the latest gadgets. We like challenging ourselves to solve new and difficult problems and to create beautiful and innovative services, that can be used and appreciated by millions of people.",
+			"website": "https://www.httphub.com/",
+			"twitter": "https://twitter.com/httphub",
+			"github": "",
+			"blog": "",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/httphub-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,API-Deployment"
+		},
+		{
+			"id": "11781",
+			"name": "OpenLegacy",
+			"summary": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacy&rsquo;s comprehensive, end-to-end integration platform unlocks the application services and information in mainfram",
+			"details": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacy&rsquo;s comprehensive, end-to-end integration platform unlocks the application services and information in mainframes, AS/400 and databases, automatically transforming them into mobile, web and cloud applications. This approach maintains the strength, reliability, and security of the existing systems while extending them with agile API technology.",
+			"website": "http://openlegacy.com/",
+			"twitter": "https://twitter.com/openlegacy",
+			"github": "https://github.com/openlegacy",
+			"blog": "http://openlegacy.com/blog/",
+			"blogrss": "http://openlegacy.com/feed/",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Deployment,API-Deployment"
 		}
 	],
-	"published": "03/09/2015"
+	"published": "03/12/2015"
 }
