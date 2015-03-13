@@ -464,6 +464,21 @@
 			"logo_width": "150",
 			"screenshot": null,
 			"tags": "API Deployment,API-Deployment"
+		},
+		{
+			"id": "11783",
+			"name": "Apitite",
+			"summary": "Apitite is a web application programming interface (API) creation and management service on the cloud. Apitite enables businesses to securely expose their existing data to their users, employees, and partners automatically. Through our web interface, clients can create web APIs by providing connection details to their datastore, specifying which data to expose, and listing who should be granted ac",
+			"details": "Apitite is a web application programming interface (API) creation and management service on the cloud. Apitite enables businesses to securely expose their existing data to their users, employees, and partners automatically. Through our web interface, clients can create web APIs by providing connection details to their datastore, specifying which data to expose, and listing who should be granted access to the data. In addition, clients can access usage analytics to observe how their users are consuming their data. Apitite takes care of the web hosting, security, and user access of each API.",
+			"website": "https://www.apitite.net/",
+			"twitter": "https://twitter.com/ApititeAPI",
+			"github": "",
+			"blog": "http://blog.apitite.net/",
+			"blogrss": "http://blog.apitite.net/feeds/posts/default?alt=rss",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitite-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API-Deployment"
 		}
 	],
 	"published": "03/12/2015"
