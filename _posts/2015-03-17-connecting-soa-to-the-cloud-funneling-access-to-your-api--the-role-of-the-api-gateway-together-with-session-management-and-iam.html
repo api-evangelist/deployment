@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Connecting SOA to the Cloud: Funneling access to your API - The role of the API Gateway together with session management and IAM'
+url: http://www.soatothecloud.com/2015/03/funneling-access-to-your-api-role-of.html
+source: http://www.soatothecloud.com/2015/03/funneling-access-to-your-api-role-of.html
+domain: www.soatothecloud.com
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-soatothecloud-com201503funneling-access-to-your-api-role-of-html.png
+---
+
+<p>Dragan Pendic is at Gartner IAM in London right now, and has shared this excellent slide from Gartners Mary Ruddy:
+ The diagram shows the funnel-like progression of API Security from the edge through to the API itself, involving finer and finer levels of authorization as you get closer to the API.The message to Evaluate Sessions at the edge echoes the advice of Gunnar Peterson in the Top Ten API Security Considerations paper to Think of sessions, not just APIs.In that paper, Gunnar notes session management for APIs is not as simple as it might first appear:
+ Its true that ADC (Application Delivery Controller) products are sometimes used to connect to WAM (Web Access Management) products like Oracle Access Manager, to validate sessions.But what is less well known is that API Gateways also can connect to WAM products for session validation.In the screenshot below, we see how the Axway API Gateway can connect to Oracle Access Manager to validate an SSO Token (in this case the obsso token):
+ One the session is validated, a common practice is to look up attributes of the client, and do attribute stuffing to place these into the API request, to be used for authorization.</p>
+
