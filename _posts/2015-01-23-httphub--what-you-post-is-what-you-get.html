@@ -7,8 +7,3 @@ domain: httphub.com
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/httphub-com.png
 ---
 
-<p>Features:  					- Unlimited requests (rate limited)  					- 3Gb of storage space  					- 300.000 resources  					- 3.000 namespace users  					- 3Mb Max POST size  					- Signup and quota management for namespace users  					- Authenticate with credentials or IP address  					- Register up to 5 different accounts using the same email address  					
-, is just a string, it does not map to a real folders layout  				- Content-Type header for each resource can be any string  				- Query strings always ignored  				- Timestamps are GMT  				- Secondary users have their own access credentials  				- Requests must be authenticated (Basic Authentication).If credentials are missing, trying to match ip_address field in the Primary or in the Secondary user profiles  				- Quota informations and your public ip are returned as Custom Headers on every request  				- Status codes: 200, 400, 500, text description always returned  				- Cross-site HTTP requests (CORS) supported  				- HTTP and HTTPS accepted  				
-POST   						Modify the Primary user profile, one or more of the following parameters are accepted:  						
- [t/f] Set to t allow anonymous creation of Secondary users (forced to disabled).Primary user must enable them.</p>
-
