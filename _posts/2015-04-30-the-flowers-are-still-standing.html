@@ -7,6 +7,3 @@ domain: jdpgrailsdev.github.io
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/jdpgrailsdev-github-ioblog20140415gradle_api_dependencies-html.png
 ---
 
-<p>Recently, I have been working on porting the RAML Maven plugin to a Gradle plugin and ran into a limitation with Gradle and its API jars.An interesting difference between Gradle and Maven is that Gradle does not want you to rely on its API jars from a Maven repository (unlike Maven, whose API jars are all stored in the central Maven repository).Instead, the Gradle team has built in some special dependency handlers that in effect treat the required Gradle (and Groovy dependencies, if need be) as provided dependencies:
-If you build a plugin and use it in another Gradle project, these dependencies do not appear to override and/or interfere with any dependencies of that project.Where this becomes an issues is with the test scope of the Gradle plugin project itself.I first noticed an issue when attempting to use the Groovy 2.</p>
-
