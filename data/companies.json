@@ -15,6 +15,36 @@
 		"tags": "API Deployment,API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
 	},
 	{
+		"id": "11780",
+		"name": "Algorithmia",
+		"summary": "Were building a community around stateoftheart algorithm development Users can create share and build on other algorithms and then instantly make them available as a web service",
+		"details": "Were building a community around stateoftheart algorithm development Users can create share and build on other algorithms and then instantly make them available as a web service",
+		"website": "https://algorithmia.com",
+		"twitter": "https://twitter.com/algorithmia",
+		"github": "",
+		"blog": "http://blog.algorithmia.com/",
+		"blogrss": "http://blog.algorithmia.com/rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/algorithmia-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://pbs.twimg.com/profile_images/378800000095223188/6a46b3143e60879a80c0151d3a253a96_normal.png",
+		"tags": "API Deployment,Code-Stack"
+	},
+	{
+		"id": "18598",
+		"name": "Apache Apollo",
+		"summary": "ActiveMQ Apollo is a faster more reliable easier to maintain messaging broker built from the foundations of the original ActiveMQ It accomplishes this using a radically different threading and message dispatching architecture Like ActiveMQ Apollo is a multiprotocol broker and supports STOMP AMQP MQTT Openwire SSL and WebSockets",
+		"details": "ActiveMQ Apollo is a faster more reliable easier to maintain messaging broker built from the foundations of the original ActiveMQ It accomplishes this using a radically different threading and message dispatching architecture Like ActiveMQ Apollo is a multiprotocol broker and supports STOMP AMQP MQTT Openwire SSL and WebSockets",
+		"website": "http://activemq.apache.org/apollo/",
+		"twitter": "",
+		"github": "https://github.com/apache/activemq-apollo",
+		"blog": "http://activemq.apache.org/apollo/blog/index.html",
+		"blogrss": "http://activemq.apache.org/apollo/blog/index.rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-apollo-logo.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": "Apache,API Deployment,Real-Time"
+	},
+	{
 		"id": "18651",
 		"name": "Apache Wink",
 		"summary": "Apache Wink is a simple yet solid framework for building RESTful Web services It is comprised of a Server module and a Client module for developing and consuming RESTful Web services The Wink Client module is a Java based framework that provides functionality for communicating with RESTful Web services The framework is built on top of the JDK HttpURLConnection and adds essential features that faci",
@@ -28,6 +58,21 @@
 		"logo_width": "150",
 		"screenshot": null,
 		"tags": "API Deployment,API-Deployment,Framework,Java"
+	},
+	{
+		"id": "2748",
+		"name": "API Factory",
+		"summary": "Developers want a simple API to access your data service or network We make it easy for enterprises governments providers amp carriers to offer a simple API API Factory is built to make your APIs powerful Build them quickly extensively and for everything you need",
+		"details": "Developers want a simple API to access your data service or network We make it easy for enterprises governments providers amp carriers to offer a simple API API Factory is built to make your APIs powerful Build them quickly extensively and for everything you need",
+		"website": "http://www.apifactory.com/",
+		"twitter": "https://twitter.com/APIFactory",
+		"github": "",
+		"blog": "http://www.apifactory.com/blog/blog-tile-two-column/",
+		"blogrss": "http://www.apifactory.com/feed/",
+		"logo": "",
+		"logo_width": "150",
+		"screenshot": "http://pbs.twimg.com/profile_images/1637823693/apifactory3_normal.png",
+		"tags": "API Deployment"
 	},
 	{
 		"id": "125",
@@ -58,6 +103,21 @@
 		"logo_width": "175",
 		"screenshot": "http://pbs.twimg.com/profile_images/378800000508262189/6f72b788786c25b956aac477099a23ed_normal.png",
 		"tags": "API Deployment,API Discovery,API Gateway,API Management,API-Deployment,Apigee,Authentication,BaaS,Security,Utility"
+	},
+	{
+		"id": "18593",
+		"name": "Apigility",
+		"summary": "Separating presentation logic from data provides the flexibility to support multiple client form factors and futureproofs apps to allow behindthescenes change without breaking user interfaces With Apigility you can take the code that powers your business and then APIenable it",
+		"details": "Separating presentation logic from data provides the flexibility to support multiple client form factors and futureproofs apps to allow behindthescenes change without breaking user interfaces With Apigility you can take the code that powers your business and then APIenable it",
+		"website": "https://apigility.org/",
+		"twitter": "https://twitter.com/Apigility",
+		"github": "https://github.com/zfcampus",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigility-logo.png",
+		"logo_width": "150",
+		"screenshot": "https://avatars.githubusercontent.com/u/5454933?v=3",
+		"tags": "API Deployment,HAL,Hypermedia"
 	},
 	{
 		"id": "11783",
@@ -105,6 +165,21 @@
 		"tags": "API Deployment,API Gateway,API Management,API-Deployment,Enterprise,Vordel"
 	},
 	{
+		"id": "18685",
+		"name": "BackboneREST",
+		"summary": "By using BackboneREST on the server and BackboneORMs JSON rendering DSL you can save time in defining JSON APIs",
+		"details": "By using BackboneREST on the server and BackboneORMs JSON rendering DSL you can save time in defining JSON APIs",
+		"website": "https://www.npmjs.com/package/backbone-rest",
+		"twitter": "",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/backbone-rest.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": "API Deployment"
+	},
+	{
 		"id": "6694",
 		"name": "BlockSpring",
 		"summary": "Blockspring creates APIs for your Python Ruby and R scripts so you can call them via HTTP No server setup required Paste in a script double click on variables to make them parameters in your API and click publish No need to think about deploying code or spinning up servers  it just works",
@@ -135,6 +210,21 @@
 		"tags": "API Deployment,API Gateway,API Management,API-Deployment,Layer7"
 	},
 	{
+		"id": "11383",
+		"name": "CKAN",
+		"summary": "CKAN is a powerful data management system that makes data accessible ndash by providing tools to streamline publishing sharing finding and using data CKAN is aimed at data publishers national and regional governments companies and organizations wanting to make their data open and available",
+		"details": "CKAN is a powerful data management system that makes data accessible ndash by providing tools to streamline publishing sharing finding and using data CKAN is aimed at data publishers national and regional governments companies and organizations wanting to make their data open and available",
+		"website": "http://ckan.org/",
+		"twitter": "",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": "API Deployment,City Open Tools,Data"
+	},
+	{
 		"id": "2261",
 		"name": "Cosmic",
 		"summary": "A high level framework for crafting web APIs Create consume manage and distribute web APIs with less code How do you structure URLs Which status code do you return How do you parse complex query parameters Cosmic takes full responsibility for the HTTP layer letting you focus on whats important",
@@ -148,6 +238,51 @@
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/2696102?",
 		"tags": "API Deployment,API-Deployment,Python"
+	},
+	{
+		"id": "11784",
+		"name": "deployd",
+		"summary": "An open source platform Design build and scale APIs for web and mobile apps in minutes instead of days 1 No boilerplate With one command your API is up and running Its an empty canvas waiting for you to add Resources No boilerplate code necessary 2 Resources  Deployd APIs are built of plugandplay resources such as Collection which can easily be added and defined through the deployd dashboard 3 Das",
+		"details": "An open source platform Design build and scale APIs for web and mobile apps in minutes instead of days 1 No boilerplate With one command your API is up and running Its an empty canvas waiting for you to add Resources No boilerplate code necessary 2 Resources  Deployd APIs are built of plugandplay resources such as Collection which can easily be added and defined through the deployd dashboard 3 Dashboard  Add and manage your APIs resources through an intuitive webbased dashboard 4 1step deploy  When its time to deploy easily deploy it yourself anywhere that can host a Nodejs app and MongoDB",
+		"website": "http://deployd.com/",
+		"twitter": "https://twitter.com/deploydapp",
+		"github": "https://github.com/deployd",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/deployd-logo.jpeg",
+		"logo_width": "200",
+		"screenshot": "https://avatars.githubusercontent.com/u/1043054?v=3",
+		"tags": "API Deployment,API Design,API Management"
+	},
+	{
+		"id": "18601",
+		"name": "Django REST",
+		"summary": "Django REST framework is a powerful and flexible toolkit that makes it easy to build Web APIs",
+		"details": "Django REST framework is a powerful and flexible toolkit that makes it easy to build Web APIs",
+		"website": "http://www.django-rest-framework.org",
+		"twitter": "",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/django-rest-framework.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": "API Deployment,Framework,Hypermedia"
+	},
+	{
+		"id": "18744",
+		"name": "Dockpit",
+		"summary": "Painlesss isolation for your microservice development process Dockpit makes it trivial to develop your microservice in isolation It mocks the APIs you depend on and puts data stores message queus and service registries in predictable states",
+		"details": "Painlesss isolation for your microservice development process Dockpit makes it trivial to develop your microservice in isolation It mocks the APIs you depend on and puts data stores message queus and service registries in predictable states",
+		"website": "https://dockpit.io/",
+		"twitter": "",
+		"github": "https://github.com/dockpit",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dockpit-icon.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": "API Deployment,Microservices,Open source"
 	},
 	{
 		"id": "6565",
@@ -178,6 +313,21 @@
 		"logo_width": "150",
 		"screenshot": "https://gravatar.com/avatar/1aecf795625bbc7251068cfbc39800ab?d=https%3A%2F%2Fidenticons.github.com%2F61ac5f52105a6cfd090389f295c1a7f9.png&r=x",
 		"tags": "Analytics,API Deployment,API-Deployment,API-NL,Index,Search"
+	},
+	{
+		"id": "18603",
+		"name": "Espresso Logic",
+		"summary": "Espresso Logic provides the fastest way to create RESTful APIs to multiple backend data sources ndash with nbspboth read and write capabilities You create an enterpriseclass API complete with logic using reactive programming and finegrain security",
+		"details": "Espresso Logic provides the fastest way to create RESTful APIs to multiple backend data sources ndash with nbspboth read and write capabilities You create an enterpriseclass API complete with logic using reactive programming and finegrain security",
+		"website": "http://www.espressologic.com/",
+		"twitter": "https://twitter.com/sqlrest",
+		"github": "https://github.com/EspressoLogicCafe",
+		"blog": "http://www.espressologic.com/blog/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/esspresso-logic-logic.png",
+		"logo_width": "150",
+		"screenshot": "https://avatars.githubusercontent.com/u/7976761?v=3",
+		"tags": "API Deployment,Database"
 	},
 	{
 		"id": "9064",
@@ -300,6 +450,21 @@
 		"tags": "API Deployment,API Gateway,API-Deployment,BaaS,Enterprise,Intel"
 	},
 	{
+		"id": "2212",
+		"name": "Kimono Labs",
+		"summary": "Kimono is a way to turn websites into structured APIs from your browser in seconds You donrsquot need to write any code or install any software to extract data with Kimono The easiest way to use Kimono is to add our bookmarklet to your browserrsquos bookmark bar Then go to the website you want to get data from and click the bookmarklet Select the data you want and Kimono does the rest",
+		"details": "Kimono is a way to turn websites into structured APIs from your browser in seconds You donrsquot need to write any code or install any software to extract data with Kimono The easiest way to use Kimono is to add our bookmarklet to your browserrsquos bookmark bar Then go to the website you want to get data from and click the bookmarklet Select the data you want and Kimono does the rest",
+		"website": "https://www.kimonolabs.com/",
+		"twitter": "https://twitter.com/kimonolabs",
+		"github": "",
+		"blog": "http://blog.kimonolabs.com/",
+		"blogrss": "http://blog.kimonolabs.com/feed/",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kimono-labs-logo.png",
+		"logo_width": "140",
+		"screenshot": "http://pbs.twimg.com/profile_images/436682081913954305/4fPP_eD4_normal.png",
+		"tags": "API Deployment,API-Scraping-Deployment,Scraping,Spreadsheets"
+	},
+	{
 		"id": "2953",
 		"name": "Managed Methods",
 		"summary": "Managed Methods Inc develops and sells solutions for the governance of cloud services and SOA environments The company focuses on providing tools that enable visibility and control of Web services in the production environment It offers CloudGate a hosted cloud services management solution that delivers security monitoring and governance that gives control of Webbased services deployed in public c",
@@ -345,6 +510,21 @@
 		"tags": "API Deployment,API-Deployment"
 	},
 	{
+		"id": "18734",
+		"name": "OpenRasta",
+		"summary": "OpenRasta is an opensource NET framework for building everything web from web sites to RESTful APIs Written from the groundup with testing in mind OpenRasta removes the faff from your code and lets you concentrate on writing clean beautiful code Proven in the real world OpenRasta is the perfect choice for building scalable highperformance reliable web services",
+		"details": "OpenRasta is an opensource NET framework for building everything web from web sites to RESTful APIs Written from the groundup with testing in mind OpenRasta removes the faff from your code and lets you concentrate on writing clean beautiful code Proven in the real world OpenRasta is the perfect choice for building scalable highperformance reliable web services",
+		"website": "http://openrasta.org/",
+		"twitter": "",
+		"github": "https://github.com/openrasta",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenRasta-Logo.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": ".NET,API Deployment,Framework"
+	},
+	{
 		"id": "2266",
 		"name": "Orchestrate",
 		"summary": "Orchestrate provides a simple RESTful API service that eliminates the need for developers to operate their own databases in production Powered by bestofbreed NoSQL databases it unifies fulltext search social graph activity feed keyvalue document and timeordered event queries in a single interface eliminating the operational and financial burden of deploying databases when both building new applica",
@@ -358,6 +538,51 @@
 		"logo_width": "160",
 		"screenshot": "http://pbs.twimg.com/profile_images/486978804967952384/7xqQpL4k_normal.png",
 		"tags": "Aggregation,API Deployment,API-Deployment,Data,Database-Stack"
+	},
+	{
+		"id": "18654",
+		"name": "RESTBase",
+		"summary": "RESTBase is a caching  storing API proxy Its configuration is based on Swagger specs and its primary storage backend is using Cassandra It powers restwikimediaorg the Wikimedia REST content API currently in beta production As a proxy RESTBase does not perform any significant content processing itself Instead it requests content transformations from backend services when needed and typically depend",
+		"details": "RESTBase is a caching  storing API proxy Its configuration is based on Swagger specs and its primary storage backend is using Cassandra It powers restwikimediaorg the Wikimedia REST content API currently in beta production As a proxy RESTBase does not perform any significant content processing itself Instead it requests content transformations from backend services when needed and typically depending on configuration stores it back for later retrieval For highvolume static end points most requests will be satisfied directly from storage Its storage backends expose a RESTful table storage API similar to Amazon DynamoDB and Google DataStore The primary implementation uses Apache Cassandra Notable features include automatically maintained secondary indexes and some lightweight transaction support A SQLite backend is under development RESTBase automatically emits statsd metrics about all storage and backend requests This provides a good baseline level of performance and error instrumentation in a microservice architecture",
+		"website": "http://www.mediawiki.org/wiki/RESTBase",
+		"twitter": "",
+		"github": "https://github.com/wikimedia/restbase",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/RESTBase-Logo.png",
+		"logo_width": "150",
+		"screenshot": null,
+		"tags": "API Deployment"
+	},
+	{
+		"id": "90",
+		"name": "Restlet",
+		"summary": "APISpark is an nbspcloud API platform that lets you create host manage and use web APIs Using the Restlet Framework at its core APISpark simplifies the web API experience the time to market and the overall cost to get started and to scale you APIs nbspRestlet is a web API platform vendor pioneer of RESTful web APIs APISpark serves our customers around the world providing software to build web APIs",
+		"details": "APISpark is an nbspcloud API platform that lets you create host manage and use web APIs Using the Restlet Framework at its core APISpark simplifies the web API experience the time to market and the overall cost to get started and to scale you APIs nbspRestlet is a web API platform vendor pioneer of RESTful web APIs APISpark serves our customers around the world providing software to build web APIs which includes APISpark the PaaS version of Restlet nbspAPISpark lets you build and deploy your web APIs which includes the creation hosting and managementall in one solution",
+		"website": "https://apispark.com/",
+		"twitter": "https://twitter.com/apispark",
+		"github": "https://github.com/apispark",
+		"blog": "http://blog.restlet.com/",
+		"blogrss": "http://blog.restlet.com/feed/",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apispark-logo",
+		"logo_width": "275",
+		"screenshot": "http://pbs.twimg.com/profile_images/445594352937492480/pX9A1h2E_normal.png",
+		"tags": "API Deployment,API Design,API Management,Spreadsheets"
+	},
+	{
+		"id": "18608",
+		"name": "Sandbox",
+		"summary": "Quick and easy mock RESTful API and SOAP webservices Generate from API definitions instant deploy collaborative build and debugging tools for integration Remove testing roadblocks Close the gap that exists with incomplete or capacity constrained test environments Eliminate fees for accessing thirdparty systems Give QAs access to the exact test environment they need without delays Streamline test e",
+		"details": "Quick and easy mock RESTful API and SOAP webservices Generate from API definitions instant deploy collaborative build and debugging tools for integration Remove testing roadblocks Close the gap that exists with incomplete or capacity constrained test environments Eliminate fees for accessing thirdparty systems Give QAs access to the exact test environment they need without delays Streamline test environment provisioning time and costs",
+		"website": "https://getsandbox.com/",
+		"twitter": "https://twitter.com/_getsandbox",
+		"github": "",
+		"blog": "http://blog.getsandbox.com/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/get-sandbox-logo.png",
+		"logo_width": "250",
+		"screenshot": "http://pbs.twimg.com/profile_images/542093524523429888/93FERF3P_normal.png",
+		"tags": "API Deployment,API Design,API Mocking"
 	},
 	{
 		"id": "11520",
