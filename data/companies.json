@@ -345,21 +345,6 @@
 		"tags": "API Deployment,API-Deployment"
 	},
 	{
-		"id": "1813",
-		"name": "Oracle SOA",
-		"summary": "Secures serviceoriented architecture SOA deployments onpremise across domain boundaries or in the cloud enabling organizations to securely and rapidly adopt cloud mobile and SOA services Provides a lightweight API gateway for securing and managing APIs Connects mobile devices to existing enterprise systems Significantly lowers integration costs decreases total cost of ownership and reduces deploym",
-		"details": "Secures serviceoriented architecture SOA deployments onpremise across domain boundaries or in the cloud enabling organizations to securely and rapidly adopt cloud mobile and SOA services Provides a lightweight API gateway for securing and managing APIs Connects mobile devices to existing enterprise systems Significantly lowers integration costs decreases total cost of ownership and reduces deployment risks Offers rich integration with many identity and access management platforms Helps streamline regulatory compliance through authentication authorization and audit capabilities",
-		"website": "http://www.oracle.com/us/products/middleware/identity-management/api-gateway/overview/index.html",
-		"twitter": "https://twitter.com/OracleSOA",
-		"github": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oracle-logo.jpg",
-		"logo_width": "150",
-		"screenshot": "http://pbs.twimg.com/profile_images/1100980352/O_FM_SOASuite_square_normal.gif",
-		"tags": "API Deployment,API Gateway,API Management,API-Deployment"
-	},
-	{
 		"id": "2266",
 		"name": "Orchestrate",
 		"summary": "Orchestrate provides a simple RESTful API service that eliminates the need for developers to operate their own databases in production Powered by bestofbreed NoSQL databases it unifies fulltext search social graph activity feed keyvalue document and timeordered event queries in a single interface eliminating the operational and financial burden of deploying databases when both building new applica",
