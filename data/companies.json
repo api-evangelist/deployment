@@ -12,13 +12,13 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akana-logo-formerly-soa.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/2391157407/bwtig2jh4t7zs1d9dk4b_normal.jpeg",
-		"tags": "API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
+		"tags": "API Deployment,API Gateway,API Management,API-Deployment,Enterprise,SOA Software"
 	},
 	{
 		"id": "18651",
 		"name": "Apache Wink",
-		"summary": false,
-		"details": "",
+		"summary": "Apache Wink is a simple yet solid framework for building RESTful Web services It is comprised of a Server module and a Client module for developing and consuming RESTful Web services The Wink Client module is a Java based framework that provides functionality for communicating with RESTful Web services The framework is built on top of the JDK HttpURLConnection and adds essential features that faci",
+		"details": "Apache Wink is a simple yet solid framework for building RESTful Web services It is comprised of a Server module and a Client module for developing and consuming RESTful Web services The Wink Client module is a Java based framework that provides functionality for communicating with RESTful Web services The framework is built on top of the JDK HttpURLConnection and adds essential features that facilitate the development of such client applications",
 		"website": "https://wink.apache.org/",
 		"twitter": "",
 		"github": "https://github.com/apache/wink",
@@ -27,7 +27,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Apache_Wink_Logo.png",
 		"logo_width": "150",
 		"screenshot": null,
-		"tags": "API-Deployment,Framework,Java"
+		"tags": "API Deployment,API-Deployment,Framework,Java"
 	},
 	{
 		"id": "125",
@@ -42,7 +42,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-axle-logo-3.png",
 		"logo_width": "225",
 		"screenshot": "http://pbs.twimg.com/profile_images/418035356328411137/_32cySI2_normal.png",
-		"tags": "API Management,API-Deployment"
+		"tags": "API Deployment,API Management,API-Deployment"
 	},
 	{
 		"id": "3",
@@ -57,7 +57,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif",
 		"logo_width": "175",
 		"screenshot": "http://pbs.twimg.com/profile_images/378800000508262189/6f72b788786c25b956aac477099a23ed_normal.png",
-		"tags": "API Discovery,API Gateway,API Management,API-Deployment,Apigee,Authentication,BaaS,Security,Utility"
+		"tags": "API Deployment,API Discovery,API Gateway,API Management,API-Deployment,Apigee,Authentication,BaaS,Security,Utility"
 	},
 	{
 		"id": "11783",
@@ -72,7 +72,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitite-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/552271330045751296/sPP6dvE6_normal.png",
-		"tags": "API-Deployment"
+		"tags": "API Deployment,API-Deployment"
 	},
 	{
 		"id": "59",
@@ -87,7 +87,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/appcelerator-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/2179402304/appc-fb_normal.png",
-		"tags": "API-Deployment,BaaS"
+		"tags": "API Deployment,API-Deployment,BaaS"
 	},
 	{
 		"id": "21",
@@ -102,7 +102,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Axway_Logo_4_Color.jpg",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/73298320/axway_hemi2_normal.PNG",
-		"tags": "API Gateway,API Management,API-Deployment,Enterprise,Vordel"
+		"tags": "API Deployment,API Gateway,API Management,API-Deployment,Enterprise,Vordel"
 	},
 	{
 		"id": "6694",
@@ -117,7 +117,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blockspring-logo.png",
 		"logo_width": "150",
 		"screenshot": null,
-		"tags": "API-Deployment,Containers,Spreadsheet-Stack,Spreadsheets"
+		"tags": "API Deployment,API-Deployment,Containers,Spreadsheet-Stack,Spreadsheets"
 	},
 	{
 		"id": "8",
@@ -132,7 +132,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/layer7-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/2179232824/twitter-icon_normal.png",
-		"tags": "API Gateway,API Management,API-Deployment,Layer7"
+		"tags": "API Deployment,API Gateway,API Management,API-Deployment,Layer7"
 	},
 	{
 		"id": "2261",
@@ -147,7 +147,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cosmic-logo.png",
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/2696102?",
-		"tags": "API-Deployment,Python"
+		"tags": "API Deployment,API-Deployment,Python"
 	},
 	{
 		"id": "6565",
@@ -162,7 +162,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png",
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/2593688?v=3",
-		"tags": "API-Deployment,Hosting,Hosting-Stack,Platform-Stack"
+		"tags": "API Deployment,API-Deployment,Hosting,Hosting-Stack,Platform-Stack"
 	},
 	{
 		"id": "1910",
@@ -177,7 +177,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1910_logo.jpg",
 		"logo_width": "150",
 		"screenshot": "https://gravatar.com/avatar/1aecf795625bbc7251068cfbc39800ab?d=https%3A%2F%2Fidenticons.github.com%2F61ac5f52105a6cfd090389f295c1a7f9.png&r=x",
-		"tags": "Analytics,API-Deployment,API-NL,Index,Search"
+		"tags": "Analytics,API Deployment,API-Deployment,API-NL,Index,Search"
 	},
 	{
 		"id": "9064",
@@ -192,7 +192,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flowstacks-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/451392170285469696/q-vy9bYD_normal.png",
-		"tags": "API-Deployment"
+		"tags": "API Deployment,API-Deployment"
 	},
 	{
 		"id": "593",
@@ -207,7 +207,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/fluid-info-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/1730812494/fi_48_normal.png",
-		"tags": "API-Deployment,Freshbooks"
+		"tags": "API Deployment,API-Deployment,Freshbooks"
 	},
 	{
 		"id": "2650",
@@ -222,7 +222,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flynn-logo.png",
 		"logo_width": "150",
 		"screenshot": null,
-		"tags": "API-Deployment"
+		"tags": "API Deployment,API-Deployment"
 	},
 	{
 		"id": "137",
@@ -237,7 +237,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg",
 		"logo_width": "170",
 		"screenshot": null,
-		"tags": "Advertising,Advertising-Stack,Analytics-Stack,API-Deployment,Database,Document-Stack,Geo-Stack,Geo-Stack-Location,Geo-Stack-Mapping,Images-Stack,Machine-Learning-Stack,Mapping,Network-Stack,Orange-Report-Transportation,PaaS,Payment-API,Payments,Photo-Stack,Platform-Stack,Real-Time,Search,Social,Spreadsheets,Task-Stack,Transit,Translation-Stack,Utility-Stack,Website-Stack"
+		"tags": "Advertising,Advertising-Stack,Analytics-Stack,API Deployment,API-Deployment,Database,Document-Stack,Geo-Stack,Geo-Stack-Location,Geo-Stack-Mapping,Images-Stack,Machine-Learning-Stack,Mapping,Network-Stack,Orange-Report-Transportation,PaaS,Payment-API,Payments,Photo-Stack,Platform-Stack,Real-Time,Search,Social,Spreadsheets,Task-Stack,Transit,Translation-Stack,Utility-Stack,Website-Stack"
 	},
 	{
 		"id": "11758",
@@ -267,7 +267,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1728_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/473741216320729088/xuc8kDu__normal.png",
-		"tags": "Analytics,API-Deployment,API-Scraping-Deployment,API-United-Kingdom,Data,Scraping,Scraping-Stack"
+		"tags": "Analytics,API Deployment,API-Deployment,API-Scraping-Deployment,API-United-Kingdom,Data,Scraping,Scraping-Stack"
 	},
 	{
 		"id": "2945",
@@ -282,7 +282,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/instant-api-logo.png",
 		"logo_width": "75",
 		"screenshot": "http://pbs.twimg.com/profile_images/451370620018622465/-CuFIXNo_normal.png",
-		"tags": "API-Deployment"
+		"tags": "API Deployment,API-Deployment"
 	},
 	{
 		"id": "22",
@@ -297,22 +297,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intel-logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/458704019897061377/GPLhINBv_normal.png",
-		"tags": "API Gateway,API-Deployment,BaaS,Enterprise,Intel"
-	},
-	{
-		"id": "2212",
-		"name": "Kimono Labs",
-		"summary": "Kimono is a way to turn websites into structured APIs from your browser in seconds You donrsquot need to write any code or install any software to extract data with Kimono The easiest way to use Kimono is to add our bookmarklet to your browserrsquos bookmark bar Then go to the website you want to get data from and click the bookmarklet Select the data you want and Kimono does the rest",
-		"details": "Kimono is a way to turn websites into structured APIs from your browser in seconds You donrsquot need to write any code or install any software to extract data with Kimono The easiest way to use Kimono is to add our bookmarklet to your browserrsquos bookmark bar Then go to the website you want to get data from and click the bookmarklet Select the data you want and Kimono does the rest",
-		"website": "https://www.kimonolabs.com/",
-		"twitter": "https://twitter.com/kimonolabs",
-		"github": "",
-		"blog": "http://blog.kimonolabs.com/",
-		"blogrss": "http://blog.kimonolabs.com/feed/",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kimono-labs-logo.png",
-		"logo_width": "140",
-		"screenshot": "http://pbs.twimg.com/profile_images/436682081913954305/4fPP_eD4_normal.png",
-		"tags": "API-Deployment,API-Scraping-Deployment,Scraping,Spreadsheets"
+		"tags": "API Deployment,API Gateway,API-Deployment,BaaS,Enterprise,Intel"
 	},
 	{
 		"id": "2953",
@@ -327,7 +312,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png",
 		"logo_width": "225",
 		"screenshot": null,
-		"tags": "API-Deployment,API-Discovery"
+		"tags": "API Deployment,API-Deployment,API-Discovery"
 	},
 	{
 		"id": "2245",
@@ -342,7 +327,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mulesoft-logo.jpeg",
 		"logo_width": "225",
 		"screenshot": "http://pbs.twimg.com/profile_images/458742003216289792/Y8k6mF5C_normal.png",
-		"tags": "API Design,API Management,API-Deployment"
+		"tags": "API Deployment,API Design,API Management,API-Deployment"
 	},
 	{
 		"id": "11781",
@@ -372,7 +357,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oracle-logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/1100980352/O_FM_SOASuite_square_normal.gif",
-		"tags": "API Gateway,API Management,API-Deployment"
+		"tags": "API Deployment,API Gateway,API Management,API-Deployment"
 	},
 	{
 		"id": "2266",
@@ -387,7 +372,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Orchestrate_small-logo-600x124.png",
 		"logo_width": "160",
 		"screenshot": "http://pbs.twimg.com/profile_images/486978804967952384/7xqQpL4k_normal.png",
-		"tags": "Aggregation,API-Deployment,Data,Database-Stack"
+		"tags": "Aggregation,API Deployment,API-Deployment,Data,Database-Stack"
 	},
 	{
 		"id": "11520",
@@ -402,7 +387,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-stack.png",
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/605728?v=3",
-		"tags": "API-Deployment"
+		"tags": "API Deployment,API-Deployment"
 	},
 	{
 		"id": "6697",
@@ -417,7 +402,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sheetlabs-logo.png",
 		"logo_width": "150",
 		"screenshot": null,
-		"tags": "API-Deployment,Spreadsheets"
+		"tags": "API Deployment,API-Deployment,Spreadsheets"
 	},
 	{
 		"id": "1361",
@@ -432,7 +417,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/slashdb-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/378800000628714453/d4f600aa9e22c683304945f318b3558b_normal.png",
-		"tags": "API Management,API-Deployment"
+		"tags": "API Deployment,API Management,API-Deployment"
 	},
 	{
 		"id": "2959",
@@ -447,7 +432,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/strongloop-logo.png",
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/3020012?v=3",
-		"tags": "API Management,API-Deployment"
+		"tags": "API Deployment,API Management,API-Deployment"
 	},
 	{
 		"id": "1688",
@@ -462,7 +447,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/swift-iq-logo.jpg",
 		"logo_width": "200",
 		"screenshot": "https://avatars.githubusercontent.com/u/6190204?",
-		"tags": "Adaptive Intelligence,API Management,API-Deployment,BaaS,Chicago,E-commerce"
+		"tags": "Adaptive Intelligence,API Deployment,API Management,API-Deployment,BaaS,Chicago,E-commerce"
 	},
 	{
 		"id": "11502",
