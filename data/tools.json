@@ -958,5 +958,21 @@
 		"forks": 0,
 		"followers": 0,
 		"watchers": 0
+	},
+	{
+		"tool_id": "787",
+		"name": "pit-api-blueprint",
+		"user": "dockpit",
+		"details": "A Dockpit template for mocking Rest HTTP APIs using API Blueprint",
+		"post_date": "2015-05-14 12:52:56",
+		"url": "https://github.com/dockpit/pit-api-blueprint/",
+		"glog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "0",
+		"watchers": "0"
 	}
 ]
