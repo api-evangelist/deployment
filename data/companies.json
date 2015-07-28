@@ -135,21 +135,6 @@
 		"tags": null
 	},
 	{
-		"id": "11783",
-		"name": "Apitite",
-		"summary": false,
-		"details": "",
-		"website": "https://www.apitite.net/",
-		"twitter": "https://twitter.com/ApititeAPI",
-		"github": "",
-		"blog": "http://blog.apitite.net/",
-		"blogrss": "http://blog.apitite.net/feeds/posts/default?alt=rss",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitite-logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitite-logo.png",
-		"tags": null
-	},
-	{
 		"id": "21",
 		"name": "Axway",
 		"summary": "Axway (Euronext: AXW.PA), acquired API Gateway vendor, Vordel, to complement its existing MFT and B2B Gateway products. Axwayu2019s suite of products enables enterprise to govern the flow of data within and across the edge of the enterprise, unlocking the tremendous value this can bring to business interactions. Axway API Management offers the enterprise-grade API management architecture with the ",
