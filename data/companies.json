@@ -598,5 +598,20 @@
 		"logo_width": "225",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wavemaker-logo.png",
 		"tags": null
+	},
+	{
+		"id": "18868",
+		"name": "Zatar",
+		"summary": "Zatar is a product of Zebra Technologies, a global leader respected for innovation and reliability. Zebra provides products and services that enable real-time visibility into organization's assets. Zebra solutions support Enterprise Asset Intelligence and the Zatar enterprise IoT platform is a perfect example! Zatar provides a standards-based approach to connectivity and control of devices along w",
+		"details": "Zatar is a product of Zebra Technologies, a global leader respected for innovation and reliability. Zebra provides products and services that enable real-time visibility into organization's assets. Zebra solutions support Enterprise Asset Intelligence and the Zatar enterprise IoT platform is a perfect example! Zatar provides a standards-based approach to connectivity and control of devices along with open APIs to create apps, onboard devices and enable collaboration. ",
+		"website": "http://www.zatar.com/",
+		"twitter": "https://twitter.com/Zatar_IoT",
+		"github": "https://github.com/zatar-iot",
+		"blog": "http://www.zatar.com/about",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/zatar.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/zatar.png",
+		"tags": null
 	}
 ]
