@@ -47,8 +47,8 @@
 	{
 		"id": "18598",
 		"name": "Apache Apollo",
-		"summary": false,
-		"details": "",
+		"summary": "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
+		"details": "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
 		"website": "http://activemq.apache.org/apollo/",
 		"twitter": "",
 		"github": "https://github.com/apache/activemq-apollo",
@@ -62,8 +62,8 @@
 	{
 		"id": "18651",
 		"name": "Apache Wink",
-		"summary": false,
-		"details": "",
+		"summary": "Apache Wink is a simple yet solid framework for building RESTful Web services. It is comprised of a Server module and a Client module for developing and consuming RESTful Web services. The Wink Client module is a Java based framework that provides functionality for communicating with RESTful Web services. The framework is built on top of the JDK HttpURLConnection and adds essential features that f",
+		"details": "Apache Wink is a simple yet solid framework for building RESTful Web services. It is comprised of a Server module and a Client module for developing and consuming RESTful Web services. The Wink Client module is a Java based framework that provides functionality for communicating with RESTful Web services. The framework is built on top of the JDK HttpURLConnection and adds essential features that facilitate the development of such client applications.",
 		"website": "https://wink.apache.org/",
 		"twitter": "",
 		"github": "https://github.com/apache/wink",
@@ -77,8 +77,8 @@
 	{
 		"id": "2748",
 		"name": "API Factory",
-		"summary": false,
-		"details": "",
+		"summary": "Developers want a simple API to access your data, service or network. We make it easy for enterprises, governments, providers & carriers to offer a simple API. API Factory is built to make your APIs powerful. Build them quickly, extensively and for everything you need.",
+		"details": "Developers want a simple API to access your data, service or network. We make it easy for enterprises, governments, providers & carriers to offer a simple API. API Factory is built to make your APIs powerful. Build them quickly, extensively and for everything you need.",
 		"website": "http://www.apifactory.com/",
 		"twitter": "https://twitter.com/APIFactory",
 		"github": "",
@@ -92,8 +92,8 @@
 	{
 		"id": "125",
 		"name": "ApiAxle",
-		"summary": false,
-		"details": "",
+		"summary": "ApiAxle is a proxy that sits on your network, in front of your API(s) and manages things that you shouldn't have to, like rate limiting, authentication and caching. It's fast, open and easy to configure.  ApiAxle is different to the cloud based services such as Mashery in that itu2019s intended to be installed within your LAN and be managed by you. This means you own your users, you own your data ",
+		"details": "ApiAxle is a proxy that sits on your network, in front of your API(s) and manages things that you shouldn't have to, like rate limiting, authentication and caching. It's fast, open and easy to configure.  ApiAxle is different to the cloud based services such as Mashery in that itu2019s intended to be installed within your LAN and be managed by you. This means you own your users, you own your data and you can more easily manage costs. ApiAxle is open-source. This means you can modify it as much as you like and contribute changes back. Others will do the same and gradually the system will become all the better for it.",
 		"website": "http://apiaxle.com/",
 		"twitter": "https://twitter.com/apiaxle",
 		"github": "https://github.com/apiaxle",
