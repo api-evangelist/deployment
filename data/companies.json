@@ -17,8 +17,8 @@
 	{
 		"id": "11780",
 		"name": "Algorithmia",
-		"summary": false,
-		"details": "",
+		"summary": "We're building a community around state-of-the-art algorithm development. Users can create, share, and build on other algorithms and then instantly make them available as a web service.n",
+		"details": "We're building a community around state-of-the-art algorithm development. Users can create, share, and build on other algorithms and then instantly make them available as a web service.n",
 		"website": "https://algorithmia.com",
 		"twitter": "https://twitter.com/algorithmia",
 		"github": "",
