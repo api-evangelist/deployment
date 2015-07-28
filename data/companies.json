@@ -377,23 +377,8 @@
 	{
 		"id": "11781",
 		"name": "OpenLegacy",
-		"summary": false,
-		"details": "",
-		"website": "http://openlegacy.com/",
-		"twitter": "https://twitter.com/openlegacy",
-		"github": "https://github.com/openlegacy",
-		"blog": "http://openlegacy.com/blog/",
-		"blogrss": "http://openlegacy.com/feed/",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png",
-		"tags": null
-	},
-	{
-		"id": "11781",
-		"name": "OpenLegacy",
-		"summary": false,
-		"details": "",
+		"summary": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacyu2019s comprehensive, end-to-end integration platform unlocks the application services and information in mainframes",
+		"details": "OpenLegacy has pioneered a disruptive approach to legacy modernization and application integration by focusing on business needs instead of on replacing existing solutions. The company believes in building on the value of legacy systems rather than rushing to replace them. OpenLegacyu2019s comprehensive, end-to-end integration platform unlocks the application services and information in mainframes, AS/400 and databases, automatically transforming them into mobile, web and cloud applications.",
 		"website": "http://openlegacy.com/",
 		"twitter": "https://twitter.com/openlegacy",
 		"github": "https://github.com/openlegacy",
@@ -549,9 +534,9 @@
 		"github": "https://github.com/StackHut",
 		"blog": "",
 		"blogrss": "http://blog.stackhut.com/rss/",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stackhut-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stackhut-logo.png",
 		"tags": null
 	},
 	{
