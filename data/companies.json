@@ -75,21 +75,6 @@
 		"tags": null
 	},
 	{
-		"id": "2748",
-		"name": "API Factory",
-		"summary": "Developers want a simple API to access your data, service or network. We make it easy for enterprises, governments, providers & carriers to offer a simple API. API Factory is built to make your APIs powerful. Build them quickly, extensively and for everything you need.",
-		"details": "Developers want a simple API to access your data, service or network. We make it easy for enterprises, governments, providers & carriers to offer a simple API. API Factory is built to make your APIs powerful. Build them quickly, extensively and for everything you need.",
-		"website": "http://www.apifactory.com/",
-		"twitter": "https://twitter.com/APIFactory",
-		"github": "",
-		"blog": "http://www.apifactory.com/blog/blog-tile-two-column/",
-		"blogrss": "http://www.apifactory.com/feed/",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
-		"tags": null
-	},
-	{
 		"id": "125",
 		"name": "ApiAxle",
 		"summary": "ApiAxle is a proxy that sits on your network, in front of your API(s) and manages things that you shouldn't have to, like rate limiting, authentication and caching. It's fast, open and easy to configure.  ApiAxle is different to the cloud based services such as Mashery in that itu2019s intended to be installed within your LAN and be managed by you. This means you own your users, you own your data ",
@@ -107,16 +92,16 @@
 	{
 		"id": "3",
 		"name": "Apigee",
-		"summary": "Apigee delivers an intelligent API platform to accelerate the pace of digital business.  We help companies u2013 from disruptive start-ups to the Fortune 100 u2013 use their enterprise data and services to create connected digital experiences for customers, partners and employees. This is digital business.",
-		"details": "Apigee delivers an intelligent API platform to accelerate the pace of digital business.  We help companies u2013 from disruptive start-ups to the Fortune 100 u2013 use their enterprise data and services to create connected digital experiences for customers, partners and employees. This is digital business.",
+		"summary": "Apigee delivers an intelligent API platform to accelerate the pace of digital business.  We help companies - from disruptive start-ups to the Fortune 100 u2013 use their enterprise data and services to create connected digital experiences for customers, partners and employees. This is digital business.",
+		"details": "Apigee delivers an intelligent API platform to accelerate the pace of digital business.  We help companies - from disruptive start-ups to the Fortune 100 u2013 use their enterprise data and services to create connected digital experiences for customers, partners and employees. This is digital business.",
 		"website": "https://apigee.com",
 		"twitter": "https://twitter.com/Apigee",
 		"github": "https://github.com/apigee",
 		"blog": "https://blog.apigee.com/front",
 		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/serviceproviders/apigee-tag-cloud.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/serviceproviders/apigee-tag-cloud.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif",
+		"logo_width": "175",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif",
 		"tags": null
 	},
 	{
