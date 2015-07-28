@@ -150,6 +150,21 @@
 		"tags": null
 	},
 	{
+		"id": "18867",
+		"name": "BinaryOps.io",
+		"summary": "We want to help you get to market faster by providing the services you need to support your projects. With BinaryOps, you can leverage our API engine to kick-start development on your own application. Sign-up today to get your project started and see for yourself how easy it can be to build a rich, consistent and well documented API.",
+		"details": "We want to help you get to market faster by providing the services you need to support your projects. With BinaryOps, you can leverage our API engine to kick-start development on your own application. Sign-up today to get your project started and see for yourself how easy it can be to build a rich, consistent and well documented API.",
+		"website": "http://www.binaryops.io/",
+		"twitter": "https://twitter.com/BinaryOps",
+		"github": "",
+		"blog": "http://www.binaryops.io/blog/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/binaryops-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/binaryops-logo.png",
+		"tags": null
+	},
+	{
 		"id": "11383",
 		"name": "CKAN",
 		"summary": "CKAN is a powerful data management system that makes data accessible u2013 by providing tools to streamline publishing, sharing, finding and using data. CKAN is aimed at data publishers (national and regional governments, companies and organizations) wanting to make their data open and available.",
