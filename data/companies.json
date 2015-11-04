@@ -54,9 +54,9 @@
 		"github": "https://github.com/amazonwebservices",
 		"blog": "http://aws.amazon.com/blogs/aws/",
 		"blogrss": "http://feeds.feedburner.com/AmazonWebServicesBlog",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-logo.jpg",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-logo.jpg",
 		"tags": null
 	},
 	{
@@ -210,6 +210,21 @@
 		"tags": null
 	},
 	{
+		"id": "xy116lGqwww5juRW116mvQ74H3zJaarqtueNAyL1LlQHbpzpSJhugfcffHE23cxYurk7h1AHaLvhiU5sYjsIxKlDhQ117117",
+		"name": "Castor",
+		"summary": "Easily convert spreadsheets into accessible URL endpoints.",
+		"details": "Easily convert spreadsheets into accessible URL endpoints.",
+		"website": "https://www.apicastor.com/",
+		"twitter": "https://twitter.com/apicastor",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apicastor-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apicastor-logo.png",
+		"tags": null
+	},
+	{
 		"id": "nDWj1dj0na1S0P1NmQHYKD0XRJF116kIYkg4UqRgE1AFwNNBQ6Cb1UVBksN11232KoWIWLEDFJwxLe123OuR6WYrXU8Q117117",
 		"name": "CKAN",
 		"summary": "CKAN is a powerful data management system that makes data accessible u2013 by providing tools to streamline publishing, sharing, finding and using data. CKAN is aimed at data publishers (national and regional governments, companies and organizations) wanting to make their data open and available.",
@@ -222,6 +237,21 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png",
+		"tags": null
+	},
+	{
+		"id": "116Cja8Tu6D1165HNzbVVVhBXLgZSF8odweypyq1231168onzfWheD123n16u7m69wvt0rjw812374taQIFARLVlwBVdXAWPDg117117",
+		"name": "CloudRail",
+		"summary": "CloudRail is the standard interface for the intelligent and interoperable Internet of tomorrow. It is a universal API that works with any system and is able to automatically adapt to new services due to an innovative learning method. With CloudRail the Internet becomes one huge ecosystem where everything works together immediately out of the box. Software developers only have to use a single inter",
+		"details": "CloudRail is the standard interface for the intelligent and interoperable Internet of tomorrow. It is a universal API that works with any system and is able to automatically adapt to new services due to an innovative learning method. With CloudRail the Internet becomes one huge ecosystem where everything works together immediately out of the box. Software developers only have to use a single interface to access all services and thus can speed up the development process rapidly. Service providers can finally create perfectly integrated solutions and realize benefits from a huge developer ecosystem.",
+		"website": "https://wp2test.cloudrail.com/",
+		"twitter": "https://twitter.com/CloudRail",
+		"github": "",
+		"blog": "http://cloudrail.com/blog/",
+		"blogrss": "http://cloudrail.com/feed/",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CloudRail_Logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CloudRail_Logo.png",
 		"tags": null
 	},
 	{
@@ -450,6 +480,21 @@
 		"tags": null
 	},
 	{
+		"id": "VlYc0XaXqPduT998iZg116KFGd5kT0kdl3g116TOHXc4iaLmgleUeQcZmeYk2YrZFXkkI0dM95uQSAs412HNJsybEg117117",
+		"name": "Microsoft Azure",
+		"summary": "Simple and frictionless access for developers is key to the success of any API program. Minimizing the time it takes for a new developer to complete a transaction with your API is crucial. API Management generates great documentation and provides an interactive console that rapidly increases developer success.",
+		"details": "Simple and frictionless access for developers is key to the success of any API program. Minimizing the time it takes for a new developer to complete a transaction with your API is crucial. API Management generates great documentation and provides an interactive console that rapidly increases developer success.",
+		"website": "http://azure.microsoft.com/en-us/services/api-management/",
+		"twitter": "https://twitter.com/azure",
+		"github": "",
+		"blog": "http://azure.microsoft.com/blog/",
+		"blogrss": "http://azure.microsoft.com/blog/feed/",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-azure-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-azure-logo.png",
+		"tags": null
+	},
+	{
 		"id": "3gCdNXgaVpdmCYMv443x4XIyCQRwVW9skh5qrvi2545d123Pwa2tGCm9oAgQXPzB806kTB0EgzRlWM9qQgqhtmpw117117",
 		"name": "NGINX",
 		"summary": "With the explosion of APIs within applications, itu2019s critical to ensure they are protected, tracked, and monetized. NGINX Plus is a trusted platform to manage and secure HTTP-based API traffic. Leveraged by leading API management platforms, NGINX Plus allows you to deliver API-based services with speed, reliability, scalability, and security.",
@@ -462,6 +507,21 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2674_logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2674_logo.jpg",
+		"tags": null
+	},
+	{
+		"id": "PeTCv4FUeZNg123VcioFOt6LYaZrsgE2JWurjGcvF2EfYBE1235SrQsceg1233hr1238I4XO5wqchBX3Yg2MMnTEXKRZHQ117117",
+		"name": "open bucket",
+		"summary": "A simple API to store & retrieve JSON objects.",
+		"details": "A simple API to store & retrieve JSON objects.",
+		"website": "http://openbucket.io/",
+		"twitter": "",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bucket-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bucket-logo.png",
 		"tags": null
 	},
 	{
