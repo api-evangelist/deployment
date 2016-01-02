@@ -34,7 +34,7 @@ feature_image_width: 45
 
 # Project
 project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-deployment-2.jpg
-project_summary: Research project to keep track various ways of deploying APIs. I am working to include information about how APIs are deployed, from hand-coded with frameworks, all the way to using API gateways or cloud services. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research repo.
+project_summary: Research project to keep track various ways of deploying APIs, ranging from hand-coded with frameworks, all the way to using API gateways or cloud services. I have even included API deployment from spreadsheets, and publishing of APIs from scraped content. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research repo.
 
 # Navigation
 navigation:
