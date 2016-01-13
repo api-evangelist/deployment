@@ -212,8 +212,8 @@
 	{
 		"id": "xy116lGqwww5juRW116mvQ74H3zJaarqtueNAyL1LlQHbpzpSJhugfcffHE23cxYurk7h1AHaLvhiU5sYjsIxKlDhQ117117",
 		"name": "Castor",
-		"summary": "Easily convert spreadsheets into accessible URL endpoints.",
-		"details": "Easily convert spreadsheets into accessible URL endpoints.",
+		"summary": "Easily convert spreadsheets into accessible URL endpoints. Friction-less data passing. Monitor access to gain insight. With revenue generation coming soon.",
+		"details": "Easily convert spreadsheets into accessible URL endpoints. Friction-less data passing. Monitor access to gain insight. With revenue generation coming soon.",
 		"website": "https://www.apicastor.com/",
 		"twitter": "https://twitter.com/apicastor",
 		"github": "",
@@ -399,9 +399,9 @@
 		"github": "https://github.com/google",
 		"blog": "",
 		"blogrss": "http://feeds.feedburner.com/GoogleAdsDeveloperBlog",
-		"logo": "http://deployment.googleapps.com/_/rsrc/1326052805286/Home/user-resources/google-icons-and-logos/google_logo_3D_online_medium.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg",
 		"logo_width": "150",
-		"screenshot": "http://deployment.googleapps.com/_/rsrc/1326052805286/Home/user-resources/google-icons-and-logos/google_logo_3D_online_medium.png",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg",
 		"tags": null
 	},
 	{
@@ -447,6 +447,21 @@
 		"logo": "https://avatars.githubusercontent.com/u/14246155?v=3",
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/14246155?v=3",
+		"tags": null
+	},
+	{
+		"id": "eXsJop116U5123IsBJjKJS6ILKt116MkocOGMq5QzEuiRWQhJCzbdeAH1jP116NlPql123S7NieT9cFGrS5SuoCWJP0BjJEQ117117",
+		"name": "Jexia",
+		"summary": "Jexia is a fully backend and build entirely using our own technology. Its fast, intuitive, RESTful and can be used with any language that supports http(s) requests. Or you can download our native SDKs.",
+		"details": "Jexia is a fully backend and build entirely using our own technology. Its fast, intuitive, RESTful and can be used with any language that supports http(s) requests. Or you can download our native SDKs.",
+		"website": "http://www.jexia.com/",
+		"twitter": "https://twitter.com/jexiacom",
+		"github": "https://github.com/jexia-inc",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/jexia-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/jexia-logo.png",
 		"tags": null
 	},
 	{
@@ -594,9 +609,9 @@
 		"github": "https://github.com/restlet",
 		"blog": "http://restlet.com/blog",
 		"blogrss": "http://restlet.com/blog/feed/",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apispark-logo",
-		"logo_width": "275",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apispark-logo",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Logo-Restlet-Horizontal-800x225.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Logo-Restlet-Horizontal-800x225.png",
 		"tags": null
 	},
 	{
