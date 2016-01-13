@@ -5,7 +5,7 @@
 		"name": "Framework",
 		"about": "Crafting and API using an existing API framework in a particular programming language, providing the HTTP scaffolding needed.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ladder.png",
 		"image_width": "75",
 		"sort_order": "0"
@@ -16,7 +16,7 @@
 		"name": "Proxy",
 		"about": "API proxy are common place for taking an existing API interface, running it through an intermediary which allows for translations, transformations and other added services on top of API.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy.png",
 		"image_width": "125",
 		"sort_order": "0"
@@ -27,7 +27,7 @@
 		"name": "Connector",
 		"about": "Contrary to an API proxy, there are API solutions that are "proxyless", while just allowing an API to connect or plugin to the advanced API resources",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-connector",
 		"image_width": "125",
 		"sort_order": "0"
@@ -38,7 +38,7 @@
 		"name": "Hosting",
 		"about": "Hosting is all about where you are going to park your API. Usual deployments are on-premise within your company or data center, in a public cloud like Amazon Web Services or a hybrid of the two.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hosting",
 		"image_width": "125",
 		"sort_order": "0"
@@ -49,7 +49,7 @@
 		"name": "CSV to API",
 		"about": "Deploying an API from comma separated files, providing a simple, delimited, structured data store as a file rather than database.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-csv.png",
 		"image_width": "100",
 		"sort_order": "0"
@@ -60,7 +60,7 @@
 		"name": "Database to API",
 		"about": "Connecting to a database and generating a CRUD, or create, read, update and delete API on an existing data source.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-database.png",
 		"image_width": "75",
 		"sort_order": "0"
@@ -71,7 +71,7 @@
 		"name": "Gateway",
 		"about": "API gateways provide a solution for tapping into internal systems and connecting with external platforms, to expose APIs.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy-left.png",
 		"image_width": "125",
 		"sort_order": "0"
@@ -82,7 +82,7 @@
 		"name": "Scraping",
 		"about": "Harvesting or scraping of data from an existing website, content or data source, when an existing data source is unavailable, and then publishing as an API.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scraper.jpg",
 		"image_width": "100",
 		"sort_order": "0"
@@ -93,7 +93,7 @@
 		"name": "Container",
 		"about": "The new virtualization movement, lead by Docker is providing new ways to package up APIs, and deploy as small, modular, virtualized containers.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-shipping-container.png",
 		"image_width": "100",
 		"sort_order": "0"
@@ -104,7 +104,7 @@
 		"name": "Github",
 		"about": "Provides a simple way to publish documentation, code libraries, TOS, and other common building blocks in support of API operations.",
 		"category_id": "76",
-		"category": "Deployment",
+		"category": "General Considerations",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg",
 		"image_width": "100",
 		"sort_order": "0"
