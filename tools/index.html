@@ -6,7 +6,7 @@ title: '{{ site.title }} Tooling'
 <p>{{ site.tools_desc }}</p>
 <table width="100%" border="0">
   {% for tool in site.data.tools %}
-    {% if tool.tags contains 'DNS' %}
+    {% if tool.tags contains 'Deployment' %}
     <tr>
       <td align="center" valign="middle" width="160">
         <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="150" align="left" style="padding: 15px;" /></a>
