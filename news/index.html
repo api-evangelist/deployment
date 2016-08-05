@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
+title: '{{ site.title }} News'
 ---
 
-<h3>Curated API DNS News</h3>
+<h3>{{ site.title }} News</h3>
 <p>{{ site.curated_desc }}</p>
 <ul style="padding: 0px 50px 0px 50px;">
 {% for curated in site.data.curated %}
