@@ -1,34 +1,69 @@
 ---
 layout: page
-title: '{{ site.title }} Tooling'
+title: 'API Deployment Tooling'
 ---
-<h1>{{ site.title }} Tooling</h1>
-<p>{{ site.tools_desc }}</p>
-<table width="100%" border="0">
-  {% for tool in site.data.tools %}
-    {% if tool.tags contains 'Deployment' %}
+<h3>API Deployment Tooling</h3>
+<p>These are the open source tools I am tracking on as part my API deployment research, that can be applied during the API deployment portion of the cycle.</p>
+<center>
+<table width="90%" border="0" align="center" cellpadding="5">
     <tr>
-      <td align="center" valign="middle" width="160">
-        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="150" align="left" style="padding: 15px;" /></a>
+      <td align="center" valign="middle" height="100" width="25%">
+        <p><a href="framework/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-framework.png" width="130" /></a></p>
       </td>
-      <td align="left" width="75%">
-        <a href="{{ tool.url }}" style="color: #000;">
-          <strong>{{ tool.name }}</strong>
-        </a>
-        <p>{{ tool.details }}</p>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="database/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-database-new.png" width="100" /></a></p>
       </td>
-      <td width="75" align="center" valign="middle">
-          <a href="{{ tool.url }}" target="_blank" title="Website">
-            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="50" />
-          </a>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="microservices/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-microservice.png" width="120" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="containers/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-shipping-container.png" width="100" /></a></p>
       </td>
     </tr>
     <tr>
-      <td colspan="3">
-        <hr>
+      <td align="center" valign="top">
+        <p><a href="framework/"><strong>Frameworks</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="database/"><strong>Database</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="microservices/"><strong>Microservices</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="containers/"><strong>Containers</strong></a></p>
       </td>
     </tr>
-    {% endif %}
-  {% endfor %}
+    <tr>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="serverless/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-serverless.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="real-time/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-real-time.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="wordpress/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-wordpress.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="general/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-general-gear.png" width="100" /></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="serverless/"><strong>Serverless</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="real-time/"><strong>Real Time</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="wordpress/"><strong>WordPress</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="general/"><strong>General</strong></a></p>
+      </td>
+    </tr>
 </table>
-<p>If there is an "open source tool" that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>.</p>
+</center>
+<br />
+<p>If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/deployment/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API deployment research.</p>
+<br />
