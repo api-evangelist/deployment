@@ -325,7 +325,7 @@ a:focus {
 
 .pagination {
   overflow: hidden; /* clearfix */
-  margin-top: 20px;
+  margin-top: 40px;
   font-weight: bold;
   color: #ccc;
   text-align: center;
