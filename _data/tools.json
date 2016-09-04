@@ -23,7 +23,7 @@
 		"tool_id": "u123BBoCF0QdcFlAsSFAr116116G1TyFctTcf2PW4g123aakQ1T83CcTpd27a116oha36KeIat127V123ozVEprRUe1H08ou123w117117",
 		"name": "Arrest-MySQL",
 		"user": "gilbitron",
-		"details": "A \\\plug-n-play\\\ RESTful API for your MySQL database.",
+		"details": "A plug-n-play RESTful API for your MySQL database.",
 		"post_date": "2016-08-04 18:16:18",
 		"url": "https://github.com/gilbitron/Arrest-MySQL",
 		"blog_url": "",
@@ -825,6 +825,26 @@
 		]
 	},
 	{
+		"tool_id": "wBct3Am0eVhE5AIEyjPl8UwtCED5rnioxoKmenRJL116xvRoXN1HrhB3aJ2w4D116H6rnPW7123xgvrVCd123sJpg3kovg117117",
+		"name": "iot-rest-api-server",
+		"user": "01org",
+		"details": "iot-rest-api-server",
+		"post_date": "2016-08-20 16:20:27",
+		"url": "https://api.github.com/repos/01org/iot-rest-api-server",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "11",
+		"followers": "13",
+		"watchers": "13",
+		"tags": [
+			"GitHub",
+			"Deployment"
+		]
+	},
+	{
 		"tool_id": "yubDVwPVR6te5B4UrsqJ7dDyOtefCKn4e0kJ9r1Fp3J123JO5n9Lo1hpczxuuM11ruBezu14pQT4UwmsTNU1dd3g117117",
 		"name": "JSON-Server",
 		"user": "typicode",
@@ -893,7 +913,7 @@
 		"tool_id": "5Rt6ZoUTwGbUban1iiX1tKu2pV41232quWiq116123fGkcWq88hHmLWR1Jn5V3j1h9SnOnzERDxCYUtIaf123egRJ123qVGg117117",
 		"name": "lambadaframework",
 		"user": "lambadaframework",
-		"details": "Build serverless REST API\\\s with JAVA. It implements the JAX-RS API and deploys your application easily to AWS Lambda and API Gateway",
+		"details": "Build serverless REST APIs with JAVA. It implements the JAX-RS API and deploys your application easily to AWS Lambda and API Gateway",
 		"post_date": "2016-08-04 18:07:55",
 		"url": "https://github.com/lambadaframework/lambadaframework",
 		"blog_url": "",
