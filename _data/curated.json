@@ -1,18 +1,170 @@
 [
 	{
+		"curated_id": "CpcxwjwRASWdCP0Ngu116Nbocc9dY3ANLhshyT7PkdYvgmj5GM7en4ouVTN5QKvN2SplyamQSd4fqV7QRVa3llDg117117",
+		"item_date": "2016-09-10 00:00:00",
+		"title": "Materia  Build advanced mobile and web applications",
+		"url": "https://getmateria.com/",
+		"domain": "getmateria.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XG5cb4GS0LYbS5teap165kkJh3hRA2OTew1AJMmoPuA5TLVoGWLs8imzj0Fybt3Ch8JAMcoj3sak8ZraG2WG116g117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "ASPNET Core APIs in the Fast Lane With Swagger and Autorest",
+		"url": "https://dzone.com/articles/aspnet-core-apis-in-the-fast-lane-with-swagger-and",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PdoDfqXmcd1OT1Q6oC123drH116XF1rYVbq2VGOkcXVOUjSXEWfuTLVUIKu3BdhICPJH116tkF5k2cxAh12331AlwjZbIA117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "Reference API Gateway Models in CloudFormation",
+		"url": "https://cloudonaut.io/reference-api-gateway-models-in-cloudformation/",
+		"domain": "cloudonaut.io",
+		"image": ""
+	},
+	{
+		"curated_id": "kLlldv6SvrQOQItj6ZmmIULYYSY26wy7VMSs48GIboCrh2QO36TfxjpHsqaQKrC7Xe3MwJ3lfqDnJV2arAddLQ117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Creating a Simple Java REST Service Using HTTPRPC",
+		"url": "https://dzone.com/articles/creating-a-simple-java-rest-service-usingnbsphttp",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qkcoEDcz3WYUPEkbEgQdOpyThoJU4IwBnkLVQoRJrQkSuW00h0mgiJ7mLYCDxcvUEDDhI2kKmBi9VoeHlAbf9Q117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Announcing the NGINX Plus on AWS Cloud Quick Start",
+		"url": "https://dzone.com/articles/announcing-the-nginx-plus-on-aws-cloud-quick-start",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8f3OvNp5K0L2JtPO9zYtahmGMA6gHSy116FnyI59VDn116lTv84XIpqVS6kBBzMhN1Kvm116gdeVmrHTJL123YPwQvNhVQ117117",
+		"item_date": "2016-09-03 00:00:00",
+		"title": "Setting Up NGINX",
+		"url": "https://dzone.com/articles/setting-up-nginx",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hURhruFD116nJrGtKhcHdCQtShqzGehZtFrLQyc3NjK3dLeV116xM4xc123kOv8RZsTOCpTbA116NgiwEHCqNgpoXolxOQ117117",
+		"item_date": "2016-08-30 17:35:00",
+		"title": "Tutorial Using Entity Framework Core as an InMemory Database for ASPNET Core",
+		"url": "https://stormpath.com/blog/tutorial-entity-framework-core-in-memory-database-asp-net-core",
+		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bc8StiAbVuJMb1e9PnD5XuhfD9xIgbATttn123j116cZc9K8dmUw7ZAazX1iAs9ZRWmZ0116Q9ZkQhRUxNO0qekVDcHQ117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Setting Up NGINX",
+		"url": "https://www.nginx.com/blog/setting-up-nginx/",
+		"domain": "www.nginx.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Fic5fFdCfCBh123Htc5sBgtJc5kLQeG8iByWhGEB0WNtoghTUQB64WvVxZgWYl2lk7JIIPw7LlrgfWDpvY3PxJDg117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "What Ops Needs to Know about APIs and Compression",
+		"url": "https://devcentral.f5.com/articles/what-ops-needs-to-know-about-apis-and-compression-21477",
+		"domain": "devcentral.f5.com",
+		"image": ""
+	},
+	{
+		"curated_id": "l0oiIbOlvckc9Mo8ukJY3Ajo4UD2Ox52lB4oEyX4o80pB90vzZo116ZzlPhKdZXYKDEVV5sKhLv5123du0sLgAEXrQ117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Whats new in the HTTP module of Angular 2",
+		"url": "http://restlet.com/blog/2016/08/29/whats-new-in-the-http-module-of-angular-2/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vdLDE2f1O7HlGbXWMR66lt123j5jyUHx4itpd116x1ZAcY3uKjapq5jK4sKPAJTJWT75wma1235Dm0rHpeUFuk3e71jQ117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Test and deploy to Google App Engine with the new Maven and Gradle plugins",
+		"url": "http://cloudplatform.googleblog.com/2016/08/test-and-deploy-to-Google-App-Engine-with-the-new-Maven-and-Gradle-plugins.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "N1GHDjdw5PUhPC3Rp116HbtDRvKVSPzT0DFs2pWlLNODoY4JnFeYqSODnUFyAmzdU7S7HNnvOGfhgl2sHbfuAuNQ117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Data as a Service REST APIs Transforming the Cloud era",
+		"url": "https://apilama.com/2016/08/29/data-as-a-service-rest-apis-transforming-the-cloud-era/",
+		"domain": "apilama.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xWwaXu2oNLP35kVz97mdBOJB7dWM4UOrTcTtO3UX47oYtug9123ZxJKhTBlLXGopBLBrm4HU3GYS2nPbdLqMvgdg117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Using Apache Sling adaptTo API",
+		"url": "https://dzone.com/articles/using-apache-sling-adaptto-api",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qLaC11644116WujhcD5nT9f4LoBUe10mDVVEAMM0rippPDYHWXZ24osQ1Ij0kD08kbZYT4CWuvfl5aCPplmfWigAYg117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Article Creating RESTful Services with T4 Based on Model and Interfaces",
+		"url": "https://www.infoq.com/articles/T4-Rest-Code-Generation",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ZWpx2kHdHAME735ospLrqckCXgsPeIbqbNZhhN87fH6R7JYX1fv123j15jbCneZVD9nWIoMvl6UGAq2yNsYNa10Q117117",
+		"item_date": "2016-08-15 00:00:00",
+		"title": "AWS Launches Application Load Balancer",
+		"url": "https://www.infoq.com/news/2016/08/AWS-application-load-balancer",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "F5R3ANSgmCbnORVncTEavB582kTyiom116A123ik0yo2rVgsZCax70IvGSkgFhF1163sFPVUD5y116AeskKCjdPH8kf116uA117117",
+		"item_date": "2016-08-14 00:00:00",
+		"title": "Create a Serverless RESTful API With the Serverless Framework",
+		"url": "https://blog.codeship.com/a-serverless-rest-api-in-minutes/",
+		"domain": "blog.codeship.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VsidwTEdo6b116M0KBLlYXHFRNFtRRuSEDvP8IPBozcIVZx0MoJbvY4G43Km7NeCxabsnhmVVzfaCCEjcdBKSYkg117117",
+		"item_date": "2016-08-14 00:00:00",
+		"title": "Using Amazon EC2 Tags to Deploy Servers with Puppet",
+		"url": "https://dzone.com/articles/using-amazon-ec2-tags-to-deploy-servers-with-puppe",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "N8KTtA7fcIJ33PIHhldP660EESijWyXluJrBSCD74Qyu3T1lN1238ipJX116yHH116E3T1165HL85Utprsbw2upSp0xBXQ117117",
+		"item_date": "2016-08-11 00:00:00",
+		"title": "New  AWS Application Load Balancer",
+		"url": "https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "AO6oDNDiyDQCekBdYyPSzzNLXYb8BZG2e279Mi39pA0dVBfPD4Yn6V8lVs7Rfp0ZctOKYw2aQNkreAcQ7Wzv5g117117",
+		"item_date": "2016-08-05 00:00:00",
+		"title": "Create a Serverless RESTful API on AWS",
+		"url": "https://dzone.com/articles/create-a-serverless-restful-api-on-aws",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "8aOeFPn0W8P6fMEL123elWAQKlqgHEMEg1QKwA4KSPAyKStErz123cnobobsA1Gq12htOigjxVKqAzaXyjKdV1oOog117117",
 		"item_date": "2016-08-04 00:00:00",
 		"title": "API Updates Shine in Apache Spark 20 Release",
-		"url": "http://feedproxy.google.com/~r/ProgrammableWeb/~3/rM5FQSvTbGU/04",
-		"domain": "feedproxy.google.com",
+		"url": "http://www.programmableweb.com/news/api-updates-shine-apache-spark-2.0-release/brief/2016/08/04",
+		"domain": "www.programmableweb.com",
 		"image": ""
 	},
 	{
 		"curated_id": "MGL5ZiTdDHZYNVYL7W3J9gTdtN212zSna40sUJXVFjTUQu9eaC4xKKECtRqLhG9d3sE1OB5K0paeTOVO123HXJ116A117117",
 		"item_date": "2016-08-04 00:00:00",
 		"title": "Automate deployments and traffic splitting with the App Engine Admin API",
-		"url": "http://feedproxy.google.com/~r/ClPlBl/~3/fU0-r-HdGnE/automate-deployments-and-traffic-splitting-with-the-App-Engine-Admin-API.html",
-		"domain": "feedproxy.google.com",
+		"url": "http://cloudplatform.googleblog.com/2016/08/automate-deployments-and-traffic-splitting-with-the-App-Engine-Admin-API.html",
+		"domain": "cloudplatform.googleblog.com",
 		"image": ""
 	},
 	{
@@ -5003,7 +5155,7 @@
 		"curated_id": "kr6rYdwVPqNCqY7y3Rymm0382OJr123u4tsYyxZVi1166MsI3oIvx4RNW38FB0tEyu05fwZTtna116Ry564ZdOhbenqA117117",
 		"item_date": "2013-04-22 00:00:00",
 		"title": "How to Make Your Developers Mobile Innovators Psst Its in the API Presentation Layer",
-		"url": "http://www.apiacademy.co/blogs/index.php/how-to-make-your-developers-mobile-innovators/",
+		"url": "http://www.apiacademy.co/blogs/how-to-make-your-developers-mobile-innovators/",
 		"domain": "www.apiacademy.co",
 		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/7832_www_layer7tech_com.png"
 	},
