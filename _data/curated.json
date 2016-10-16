@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "oWbrrRogZdp3jFc4d8bKv65DnPJZ116f2uTXVQGo9mLijgLxytBYPE6i98vd4TJOlPHjvhRZMfr4W95qPrQmmX3w117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "5 Reasons to Switch to Software Load Balancing",
+		"url": "https://www.nginx.com/blog/5-reasons-switch-software-load-balancing-webinar/",
+		"domain": "www.nginx.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uySmHgeiMjJ1165t7lwD2RmzVenyIWSTujm4ru5mgYDR123pM123rXW123b8yfFy3Gwpjm4123p4qP6TeDXzsI4wJuWTb9Mw117117",
+		"item_date": "2016-10-14 00:00:00",
+		"title": "Installing NGINX and HTTP2 in Your Local Development Environment",
+		"url": "https://dzone.com/articles/installing-nginx-and-http2-in-your-local-developme",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "w5A6f39iiW6oeyZqWo2NYSqALunDoXLRLQRMRn6bwUCIayrqJ6ThSSVqgCehYYtMLW1234VUGN5xwX5PFBMMsUmw117117",
+		"item_date": "2016-10-11 15:53:28",
+		"title": "Building RESTful APIs with Lumen and OAuth2",
+		"url": "https://medium.com/omarelgabrys-blog/building-restful-apis-with-lumen-and-oauth2-8ba279c6a31#.dp8aixvcf",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
 		"curated_id": "UJQoXbIAKOpgUBJNXX4xKLHSiQctuGoXA7SeuFTrBhRoNoc116UoPIdukXh116ctOQcFLaJhInBKPt330klwFbIQZw117117",
 		"item_date": "2016-10-07 00:00:00",
 		"title": "Rapidly Create Your Alexa Skill Backend with AWS CloudFormation",
