@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "xw3w116RSxzq2V2nY5DM3yHz1JcO8ouXlXNtdBLogm3FT64XHGOCJ123lrW2SwxcYJANe83jeJP75Dcp8tSihb44jQ117117",
+		"item_date": "2016-10-18 00:00:00",
+		"title": "Amazon Aurora Update  Call Lambda Functions From Stored Procedures Load Data From S3",
+		"url": "https://aws.amazon.com/blogs/aws/amazon-aurora-update-call-lambda-functions-from-stored-procedures-load-data-from-s3/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "nENlVpA7tmu4uH123LwfQD4JkkSxwVVeNXcUke0WyOd123QpH6EuriUbgqhkf4QXmF9765aVdSy2j116qj123ThXzwWlNA117117",
+		"item_date": "2016-10-20 00:00:00",
+		"title": "Presentation Publish Secure and Monitor APIs with Cloud Foundry Route Services",
+		"url": "https://www.infoq.com/presentations/api-cloud-foundry-route",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tW806116Iqdqv59zLkxVXAgSZCpDtZyghYzw8I2P2nDliZQLoIQR1123dtEPPrZzlgRu116Xhlt41bpb4CrDxVjNO2Yg117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "NGINX Plus as a Cloud Load Balancer for OpenStack",
+		"url": "https://dzone.com/articles/nginx-plus-as-a-cloud-load-balancer-for-openstack",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "3LyAQBceNqzYgX4H0ZIYt1KUbGZEPCe123qzo7AFQgOvNQr116gbtAoTSQZUnGEk3es1166Q3C57yl6eAcWs7AGAgJJw117117",
 		"item_date": "2016-10-10 00:00:00",
 		"title": "Build a JSON API Microservice With Spring Boot and Elide",
