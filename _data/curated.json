@@ -1,5 +1,53 @@
 [
 	{
+		"curated_id": "sE5z56PxrteyJd2mp123fkoHU2odMM2PuFjSllKRikTxDmyXxErrBsOdWwJ8xilQhaZhyjPRIPu9WVXOImd14KQQ117117",
+		"item_date": "2016-11-01 00:00:00",
+		"title": "Warewolf Review",
+		"url": "https://warewolf.io/ESB-blog/warewolf-review/",
+		"domain": "warewolf.io",
+		"image": ""
+	},
+	{
+		"curated_id": "8aCpp5BfpbW0PMqmJblH20MWvPUvpxGdL49yJhS464Do3GAE7yEPz6199q8hbJBGpNRHnhQvsrcO8V07Quqdng117117",
+		"item_date": "2016-11-03 00:00:00",
+		"title": "Lambda Architecture with Apache Spark",
+		"url": "https://dzone.com/articles/lambda-architecture-with-apache-spark?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MAy2CIG5Lh7fUJFPr2rAwWMPmU6116DB511672lnDDQ47yrOPskWhrKX3t116h6cnKQKZvWynrHPORcf2wXBe7nN1164WQ117117",
+		"item_date": "2016-11-03 00:00:00",
+		"title": "Dexter  Chaney Introduces Spectrum Integration Hub",
+		"url": "http://www.pressreleasepoint.com/dexter-chaney-introduces-spectrum-integration-hub",
+		"domain": "www.pressreleasepoint.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QDK9HK1c116qRk1231MDGkppqiafRaOFOTDkR06q1lWgEM123wifYwxo3Ob4IZ3QyUOJEEpkZm2CB7sTdCN2UZcgST5A117117",
+		"item_date": "2016-11-05 00:00:00",
+		"title": "How to Handle the Continuous Delivery of Microservices",
+		"url": "http://nordicapis.com/how-to-handle-the-continuous-delivery-of-microservices/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "257Bmu123hPuOGFUtZxFxL8aGu1d7AN6vMtg5TOkMSUDNfvir5KO8gF81iPxE3OwHoGRMgA0zlIrvsYCf5qbiAtw117117",
+		"item_date": "2016-11-05 17:02:35",
+		"title": "The Cosmic Stack  Medium",
+		"url": "https://medium.com/m/global-identity",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YL1230oUrrxPVnzBDZCJQfWsi6U0HObp05eujHfrhl123oGQ2XKBMhEg2Xn9RZr368GlqnYKgAIzxirZUXsZKA9qKg117117",
+		"item_date": "2016-11-04 00:00:00",
+		"title": "Download API Architecture  The Big Picture for Building APIs",
+		"url": "http://propdimenfonc.soclog.se/p/2016/11/",
+		"domain": "propdimenfonc.soclog.se",
+		"image": ""
+	},
+	{
 		"curated_id": "xw3w116RSxzq2V2nY5DM3yHz1JcO8ouXlXNtdBLogm3FT64XHGOCJ123lrW2SwxcYJANe83jeJP75Dcp8tSihb44jQ117117",
 		"item_date": "2016-10-18 00:00:00",
 		"title": "Amazon Aurora Update  Call Lambda Functions From Stored Procedures Load Data From S3",
