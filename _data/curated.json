@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "bfhA6Ra6Z36ppAL1237OMoWJ4fSUtUVodoZE4y116jDbS6eSqiGFqw123DqOJxeJFgFOD95ybIQSzBuJZFRbqMVzPiWA117117",
+		"item_date": "2016-10-31 00:00:00",
+		"title": "Run Backendless Pro in AWS",
+		"url": "https://backendless.com/run-backendless-pro-in-aws/",
+		"domain": "backendless.com",
+		"image": ""
+	},
+	{
 		"curated_id": "sE5z56PxrteyJd2mp123fkoHU2odMM2PuFjSllKRikTxDmyXxErrBsOdWwJ8xilQhaZhyjPRIPu9WVXOImd14KQQ117117",
 		"item_date": "2016-11-01 00:00:00",
 		"title": "Warewolf Review",
@@ -11,7 +19,7 @@
 		"curated_id": "8aCpp5BfpbW0PMqmJblH20MWvPUvpxGdL49yJhS464Do3GAE7yEPz6199q8hbJBGpNRHnhQvsrcO8V07Quqdng117117",
 		"item_date": "2016-11-03 00:00:00",
 		"title": "Lambda Architecture with Apache Spark",
-		"url": "https://dzone.com/articles/lambda-architecture-with-apache-spark?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/lambda-architecture-with-apache-spark",
 		"domain": "dzone.com",
 		"image": ""
 	},
