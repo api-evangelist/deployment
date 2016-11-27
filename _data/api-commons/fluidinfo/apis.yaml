@@ -1,0 +1,26 @@
+name: Fluidinfo
+description: "Fluidinfo are the makers of FluidDB, an online \u201Ccloud\u201D database.
+  Using a flexible underlying representation of information and a new model of control,
+  FluidDB allows users and applications to work with information more naturally. That
+  includes dynamically organizing, sharing, combining and augmenting information,
+  and searching in ways that have previously not been possible. It also allows users
+  to choose exactly which information to share with whom, with separate controls for
+  reading and writing. FluidDB lets data be social."
+image: ""
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/fluidinfo/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://blogs.fluidinfo.com/
+- type: x-website
+  url: http://fluidinfo.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
