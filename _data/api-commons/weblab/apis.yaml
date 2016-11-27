@@ -1,0 +1,23 @@
+name: weblab
+description: Microservices at your fingertips. no provisioning or deployments required.
+  give your IoT device compute super powers. Run code in response to events. Your
+  microservice up in less than 7 seconds. Use our awesome CLI to spin a service in
+  seconds. You can also integrate with your favourite CI/CD solution for automated
+  deployments. Run your code with just an HTTPS call. As simple as that. Your mobile
+  or IoT device gets compute superpowers.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weblab-io-logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/weblab/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: https://weblab.io/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
