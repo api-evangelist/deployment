@@ -1,0 +1,27 @@
+name: Elasticsearch
+description: "Elasticsearch is on a mission to organize data and make it easily accessible.
+  The company delivers the world\u2019s the most advanced open source search and analytics
+  engine available and make real-time data exploration available to anyone. By having
+  a laser focus on achieving the best user experience imaginable, Elasticsearch has
+  become one of the most popular and rapidly growing open source solutions in the
+  market. Today, Elasticsearch is used by thousands of enterprises in virtually every
+  industry. We take good care of our customers and users, providing production support,
+  development support and training worldwide."
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1910_logo.jpg
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/elasticsearch/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://www.elasticsearch.org/blog/
+- type: x-website
+  url: http://www.elasticsearch.org/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
