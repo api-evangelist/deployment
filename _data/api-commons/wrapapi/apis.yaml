@@ -1,0 +1,20 @@
+name: WrapAPI
+description: Build an API on top of any website. Turn any website...into a parameterized
+  APIBuild, share, and use APIs made from webpages. Use WrapAPI to scrape sites, build
+  better UIs, and automate online tasks.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wrapapi-logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/wrapapi/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: https://wrapapi.com
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
