@@ -1,0 +1,151 @@
+name: Deployment
+description: A toolkit where I gather all the news, analysis, companies and technology
+  when it comes to deploying APIs.
+image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-deploy.jpg
+created: "2016-11-27"
+modified: "2016-11-27"
+url: http://deployment.apievangelist.com/apis.json
+specificationVersion: "0.14"
+apis: []
+tags:
+- Deployment
+- Deployment
+include:
+- name: 3scale
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/3scale/apis.yaml
+- name: Akana
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/akana/apis.yaml
+- name: Algorithmia
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/algorithmia/apis.yaml
+- name: Amazon Web Services
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/amazon-web-services/apis.yaml
+- name: Apache Karaf
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apache-karaf/apis.yaml
+- name: Apache Knox
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apache-knox/apis.yaml
+- name: Apache Solr
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apache-solr/apis.yaml
+- name: Apache Wink
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apache-wink/apis.yaml
+- name: API Platform
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/api-platform/apis.yaml
+- name: API Plug
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/api-plug/apis.yaml
+- name: ApiAxle
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apiaxle/apis.yaml
+- name: Apigee
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apigee/apis.yaml
+- name: Apigility
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apigility/apis.yaml
+- name: Apimint
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apimint/apis.yaml
+- name: Axway
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/axway/apis.yaml
+- name: BinaryOps.io
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/binaryopsio/apis.yaml
+- name: BrightWork
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/brightwork/apis.yaml
+- name: CA Technologies
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/ca-technologies/apis.yaml
+- name: CKAN
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/ckan/apis.yaml
+- name: CloudRail
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/cloudrail/apis.yaml
+- name: Cosmic
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/cosmic/apis.yaml
+- name: deployd
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/deployd/apis.yaml
+- name: Diffbot
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/diffbot/apis.yaml
+- name: Django REST
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/django-rest/apis.yaml
+- name: Dockpit
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/dockpit/apis.yaml
+- name: DreamFactory
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/dreamfactory/apis.yaml
+- name: Elasticsearch
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/elasticsearch/apis.yaml
+- name: Fieldbook
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/fieldbook/apis.yaml
+- name: Fluidinfo
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/fluidinfo/apis.yaml
+- name: Google
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/google/apis.yaml
+- name: Hook.io
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/hookio/apis.yaml
+- name: Hyper
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/hyper/apis.yaml
+- name: import.io
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/importio/apis.yaml
+- name: Instant API
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/instant-api/apis.yaml
+- name: iRESTful
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/irestful/apis.yaml
+- name: Jexia
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/jexia/apis.yaml
+- name: JustAPIs
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/justapis/apis.yaml
+- name: Magicstack.io
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/magicstackio/apis.yaml
+- name: Magnetic
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/magnetic/apis.yaml
+- name: Materia
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/materia/apis.yaml
+- name: Micro
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/micro/apis.yaml
+- name: Microsoft Azure
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/microsoft-azure/apis.yaml
+- name: nanoscale.io
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/nanoscaleio/apis.yaml
+- name: nginx web server
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/nginx-web-server/apis.yaml
+- name: Nodal
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/nodal/apis.yaml
+- name: OpenLegacy
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/openlegacy/apis.yaml
+- name: OpenRasta
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/openrasta/apis.yaml
+- name: OpsGen
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/opsgen/apis.yaml
+- name: Orchestrate
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/orchestrate/apis.yaml
+- name: ParseHub
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/parsehub/apis.yaml
+- name: RESTBase
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/restbase/apis.yaml
+- name: Restlet
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/restlet/apis.yaml
+- name: RESTX
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/restx/apis.yaml
+- name: ScraperWiki
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/scraperwiki/apis.yaml
+- name: Seneca JS
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/seneca-js/apis.yaml
+- name: Service Stack
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/service-stack/apis.yaml
+- name: Sheetlabs
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/sheetlabs/apis.yaml
+- name: SlashDB
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/slashdb/apis.yaml
+- name: Socrata
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/socrata/apis.yaml
+- name: StackHut
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/stackhut/apis.yaml
+- name: StrongLoop
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/strongloop/apis.yaml
+- name: SwiftIQ
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/swiftiq/apis.yaml
+- name: TIBCO Software
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/tibco-software/apis.yaml
+- name: Tyk
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/tyk/apis.yaml
+- name: WaveMaker, Inc.
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/wavemaker-inc/apis.yaml
+- name: weblab
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/weblab/apis.yaml
+- name: Webtask
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/webtask/apis.yaml
+- name: WrapAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/wrapapi/apis.yaml
+- name: Zatar @ Zebra
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/zatar--zebra/apis.yaml
