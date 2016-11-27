@@ -1,0 +1,23 @@
+name: Magnetic
+description: 'We started Magnetic.io because we were fed up with the way online systems
+  are built in the typical enterprise. Enterprises are held hostage by long and slow
+  development projects that result in high risk, big-bang releases. This kills innovation
+  and stifles change. It is our mission to change this: Magnetic.io is dedicated to
+  developing solutions that enable and stimulate innovation and change, while reducing
+  risk and cost.'
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/magnetic-io.jpg
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/magnetic/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://magnetic.io/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
