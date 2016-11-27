@@ -1,0 +1,19 @@
+name: Nodal
+description: |
+  Nodal is a web server for Node.js, optimized for building API services quickly and efficiently. Boasting its own opinionated, explicit, idiomatic and highly-extensible framework, Nodal takes care of all of the hard decisions for you and your team. This allows you to focus on creating an effective product in a short timespan while minimizing technical debt. Nodal projects are ready to deploy to Heroku right out of the box, so you can have your website live in no time.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nodal-logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/nodal/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.nodaljs.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
