@@ -1,0 +1,22 @@
+name: BinaryOps.io
+description: We want to help you get to market faster by providing the services you
+  need to support your projects. With BinaryOps, you can leverage our API engine to
+  kick-start development on your own application. Sign-up today to get your project
+  started and see for yourself how easy it can be to build a rich, consistent and
+  well documented API.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/binaryops-logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/binaryopsio/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.binaryops.io/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
