@@ -1,0 +1,26 @@
+name: OpenLegacy
+description: "OpenLegacy has pioneered a disruptive approach to legacy modernization
+  and application integration by focusing on business needs instead of on replacing
+  existing solutions. The company believes in building on the value of legacy systems
+  rather than rushing to replace them. OpenLegacy\u2019s comprehensive, end-to-end
+  integration platform unlocks the application services and information in mainframes,
+  AS/400 and databases, automatically transforming them into mobile, web and cloud
+  applications."
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/openlegacy/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://openlegacy.com/
+- type: x-portal
+  url: http://openlegacy.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
