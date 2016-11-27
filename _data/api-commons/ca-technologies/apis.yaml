@@ -1,0 +1,25 @@
+name: CA Technologies
+description: The industry-leading family of API gateways from CA Technologies offers
+  unmatched flexibility, performance and security. Building on the foundation of its
+  industry-leading SOA application gateway technology for exposing, securing and managing
+  backend applications, network systems or infrastructure via APIs, CA Technologies
+  has added critical mobile, cloud and REST composition features. With this additional
+  functionality, CA API Gateways represent the best available solution for enterprises
+  looking to open data and services to partners, developers, mobile apps, cloud services
+  and smart devices.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ca_logo.jpg
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/ca-technologies/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.ca.com
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
