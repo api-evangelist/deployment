@@ -1,0 +1,24 @@
+name: StackHut
+description: "StackHut turns code into live APIs, powered by containers. Take any
+  code - eg. Python, JS, native - describe your config, and run stackhut deploy. Voil\xE0,
+  it's live in the cloud. Your functions and classes are automatically turned into
+  APIs, accessible through a POST request. Powered by Linux containers, it can now
+  scale to meet any demand."
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stackhut-logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/stackhut/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: https://stackhut.com
+- type: x-website
+  url: http://stackhut.com
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
