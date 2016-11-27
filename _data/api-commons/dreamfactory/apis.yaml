@@ -1,0 +1,50 @@
+name: DreamFactory
+description: DreamFactory Software is a private, venture-backed company based in Campbell,
+  California, with an additional development center in Atlanta, Georgia. We were founded
+  in 2005 and funded in 2006 by New Enterprise Associates. Today, DreamFactory publishes
+  the DreamFactory Services Platform, an open source REST API platform for mobile
+  application developers.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/dreamfactory/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-angularjs
+  url: https://github.com/dreamfactorysoftware/angular-dreamfactory
+- type: x-blog
+  url: http://blog.dreamfactory.com/
+- type: x-blog-rss-feed
+  url: http://blog.dreamfactory.com/rss.xml
+- type: x-email
+  url: support@dreamfactory.com
+- type: x-facebook
+  url: https://www.facebook.com/dfsoftwareinc
+- type: x-faq
+  url: https://www.dreamfactory.com/developers/faq
+- type: x-forum
+  url: http://community.dreamfactory.com/
+- type: x-github
+  url: https://github.com/dreamfactorysoftware
+- type: x-interactive-documentation
+  url: https://www.dreamfactory.com/developers/live_API
+- type: x-paid-support-plans
+  url: https://www.dreamfactory.com/pricing/support
+- type: x-selfservice-registration
+  url: https://www.dreamfactory.com/user/register
+- type: x-ticket-system
+  url: GitHub Ticket
+- type: x-twitter
+  url: https://twitter.com/dfsoftwareinc
+- type: x-website
+  url: http://www.dreamfactory.com/
+- type: x-webinars
+  url: http://www.dreamfactory.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
