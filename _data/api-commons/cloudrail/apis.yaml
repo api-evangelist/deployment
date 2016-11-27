@@ -1,0 +1,27 @@
+name: CloudRail
+description: CloudRail is the standard interface for the intelligent and interoperable
+  Internet of tomorrow. It is a universal API that works with any system and is able
+  to automatically adapt to new services due to an innovative learning method. With
+  CloudRail the Internet becomes one huge ecosystem where everything works together
+  immediately out of the box. Software developers only have to use a single interface
+  to access all services and thus can speed up the development process rapidly. Service
+  providers can finally create perfectly integrated solutions and realize benefits
+  from a huge developer ecosystem.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CloudRail_Logo.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/cloudrail/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://cloudrail.com/blog/
+- type: x-website
+  url: https://cloudrail.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
