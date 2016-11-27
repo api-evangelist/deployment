@@ -1,0 +1,35 @@
+name: Orchestrate
+description: Orchestrate provides a simple RESTful API service that eliminates the
+  need for developers to operate their own databases in production. Powered by best-of-breed
+  NoSQL databases, it unifies full-text search, social graph, activity feed, key/value
+  document and time-ordered event queries in a single interface, eliminating the operational
+  and financial burden of deploying databases when both building new applications
+  and adding new features to existing ones.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Orchestrate_small-logo-600x124.png
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/orchestrate/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://orchestrate.io/blog/
+- type: x-blog-rss-feed
+  url: http://feeds.feedburner.com/TheOrchestrateBlog?format=xml
+- type: x-github
+  url: https://github.com/orchestrate-io
+- type: x-twitter
+  url: https://twitter.com/OrchestrateIO
+- type: x-website
+  url: http://orchestrate.io/
+- type: x-webinars
+  url: http://orchestrate.io/
+- type: x-portal
+  url: http://orchestrate.io/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
