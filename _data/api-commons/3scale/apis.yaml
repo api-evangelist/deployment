@@ -1,0 +1,38 @@
+name: 3scale
+description: 3scale APIcast lets you deploy on a cloud API gateway service in just
+  a few clicks, without modifications to backend code. APIcast is free to use and
+  supports up to 50,000 API transactions per day, making it the perfect solution for
+  low- or moderate-volume APIs. Enterprises can use APIcast for staging and quick
+  testing.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+tags:
+- Deployment
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/3scale/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://www.3scale.net/blog/
+- type: x-blog-rss-feed
+  url: http://www.3scale.net/feed/
+- type: x-github
+  url: https://github.com/3scale
+- type: x-dedicated-plans--pricing-page
+  url: https://www.3scale.net/pricing/
+- type: x-privacy-policy-page
+  url: https://www.3scale.net/privacy-policy/
+- type: x-support-overview-page
+  url: https://support.3scale.net
+- type: x-terms-of-service-page
+  url: https://www.3scale.net/terms-and-conditions/
+- type: x-twitter
+  url: https://twitter.com/3scale
+- type: x-website
+  url: http://www.3scale.net/api-management/apicast/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
