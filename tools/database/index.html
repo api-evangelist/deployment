@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 'API Definition Generators'
+title: 'API Deployment from Database'
 ---
-<h1>API Definition Generators</h1>
-<p>These are the open source API definition generators that I am tracking on as part of my research, and can be used as part of the API life cycle.</p>
+<h1>API Deployment from Database</h1>
+<p>These are the API deployment solutions from a database that I am tracking on as part of my research, and can be used as part of the API life cycle.</p>
 <table width="100%" border="0">
   {% for tool in site.data.tools %}
-    {% if tool.tags contains 'Generator' %}
+    {% if tool.tags contains 'Database' %}
     <tr>
       <td align="center" valign="middle" width="160">
         <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="150" align="left" style="padding: 15px;" /></a>
