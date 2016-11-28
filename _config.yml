@@ -123,14 +123,15 @@ footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empower
 footer_image_width: 60
 
 # curated
-curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API deployment--these are the links I am including in my research.
+curated_desc:
+curated_title: News I Have Curated
+curated_desc: AAs I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API deployment--these are the links I am including in my research.
+curated_footer: If there is something you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.
 
-# organizations
-org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API deployment. These are the organizations I'm currently including in my API deployment research.
-
-# tools
-tools_desc: These are the open source API deployment tooling that I am tracking on as part of my research, and can be used to help in the API deployment process.
-
+# Blog
+blog_title: Blog Posts on API Deployment
+blog_desc: These are posts from the API Evangelist blog that are focused on API deplooyment, allowing for a filtered look at my analysis on the topic. I rely on these posts, along with the curated, organizations, APIs, and tools to help paint me a picture of what is going on.
+blog_footer: If there is an API deployment related story you'd like me to know about, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding as part of my research.
 
 # organizations
 org_title: Some Organizations To Watch
