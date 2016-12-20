@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "G6R9aBlVaob7vpmUtWXC0fHV3ECkjcHN48R1BG9j19qqyRYxG116ug4rjMlePGpVJ72DOBa0G829Pt6g116lUySipw117117",
+		"item_date": "2016-12-19 00:00:00",
+		"title": "Automated node management stateful apps and HIPAA compliance come to Google Container Engine",
+		"url": "http://feedproxy.google.com/~r/ClPlBl/~3/4dfE82p3mrA/Automated-node-management-stateful-apps-and-HIPPA-compliance-come-to-Google-Container-Engine.html",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QP5S12116Wnlv7zDEMyw6c9guu9rrpIpaJ1163Ppl3tFn6UuFKfVpgj5dPi9qAOON0I9fdJuIU80gO123M116ZzlJ123i2DQ117117",
+		"item_date": "2016-12-19 00:00:00",
+		"title": "Retrieve Items From DynamoDB Using Lambda and API Gateway",
+		"url": "https://dzone.com/articles/retrieve-items-from-dynamodb-using-lambda-and-api?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "XUGbxhHghLg116H123bIwXzXZ17ywrMvb7n9cb116JI1iZ9AktKdNT3m1161NLTldmIGJH6uEmoBW4W3MbCd08t1gnLjiw117117",
 		"item_date": "2016-12-16 00:00:00",
 		"title": "Building scalable private services with Internal Load Balancing",
