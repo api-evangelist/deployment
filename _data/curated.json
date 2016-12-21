@@ -11,8 +11,16 @@
 		"curated_id": "QP5S12116Wnlv7zDEMyw6c9guu9rrpIpaJ1163Ppl3tFn6UuFKfVpgj5dPi9qAOON0I9fdJuIU80gO123M116ZzlJ123i2DQ117117",
 		"item_date": "2016-12-19 00:00:00",
 		"title": "Retrieve Items From DynamoDB Using Lambda and API Gateway",
-		"url": "https://dzone.com/articles/retrieve-items-from-dynamodb-using-lambda-and-api?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/retrieve-items-from-dynamodb-using-lambda-and-api",
 		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wc9ctFy0zAahk44i4hNhOU5lGOug4Akyz123pJ6TfYY5rOdjxDQgKoxXi2RoomJFTkRZptxfNB3GgR57DJ41lRWg117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "Queueing With DreamFactory Scripting",
+		"url": "http://blog.dreamfactory.com/queueing-with-dreamfactory-scripting",
+		"domain": "blog.dreamfactory.com",
 		"image": ""
 	},
 	{
@@ -37,6 +45,30 @@
 		"title": "Cloud Foundry Foundation Announces Open Service Broker API Project",
 		"url": "http://www.programmableweb.com/news/cloud-foundry-foundation-announces-open-service-broker-api-project/brief/2016/12/15",
 		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zuS5Cqv116WJ4air7PzdiagSKeASBfjVUnkHF8ST3O116QyGBkJ6Wx73c186wFh0jmrZ8iuWRjW0PRBa6GQz66Pp8w117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Using Kubernetes for Deployments",
+		"url": "https://blog.codeship.com/using-kubernetes-for-deployments/",
+		"domain": "blog.codeship.com",
+		"image": ""
+	},
+	{
+		"curated_id": "quIqha116g9mEo9ap123eKCpM2T8DF07f6UfzKsy123MASZusX4qNzrQgbXHZ5u3J74T8md116G1IF2idgqxAHH9LiyVLA117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Open Service Broker API and Platform Evolution",
+		"url": "https://blog.openshift.com/open-service-broker-api-platform-evolution/",
+		"domain": "blog.openshift.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lQst2123YeR3J8hTr41eiGNEIcwJDt1dcjwADb0zBWL5123uMP1C4kmLbV4c1238MakJpMWsjc62ZORcvBzZSRXo123yEQ117117",
+		"item_date": "2016-12-14 08:33:04",
+		"title": "Amazon API Gateway Integration with AWS Marketplace",
+		"url": "https://aws.amazon.com/de/about-aws/whats-new/2016/12/amazon-api-gateway-integration-with-aws-marketplace/",
+		"domain": "aws.amazon.com",
 		"image": ""
 	},
 	{
