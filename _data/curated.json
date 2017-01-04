@@ -1,5 +1,37 @@
 [
 	{
+		"curated_id": "rg3fp6LP8UQtnPzjbWsUv1233raI895AjHIAgeq8cJR3n0MXLf68jTD2uc6gZhDRw1TVGM71S123k5VF3GZx0MawJw117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "Deploying Docker Apps to Kubernetes with Codeship",
+		"url": "https://blog.codeship.com/deploying-docker-apps-to-kubernetes-with-codeship/",
+		"domain": "blog.codeship.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mztNgSgTW116fGXsbQPIY116gGdI9q5VdF7cAoj42Cv858y9EHM2htmk4IGJS0DLMaW5uzQNE4Xc2pMhj4hCEls7tg117117",
+		"item_date": "2016-12-30 00:00:00",
+		"title": "Moving to NGINX Plus Highlights from Our Blog",
+		"url": "https://www.nginx.com/blog/moving-to-nginx-plus-highlights-from-our-blog/",
+		"domain": "www.nginx.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Bu081236lciuX83116E4P116tduE2iSzmZH31FkuBRZcbPzaqfDTlryfGHFFSA66WqXNck5IHRfDuYoolV12Ooq5VT3w117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "Creating a Simple Android REST Client Using HTTPRPC",
+		"url": "https://dzone.com/articles/creating-a-simple-android-rest-client-using-http-r",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fW7ljDB7ZqLe3ByTQBE2NgntXLWlp8J7mH89hOeTEglbW8XkzHNA1YuJey116UzmDsI5Nwp8AbG6GsQ3sN2XvnZA117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "REST With Lambdas and Wicket 8",
+		"url": "https://dzone.com/articles/rest-with-lamdas-and-wicket-8",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "G6R9aBlVaob7vpmUtWXC0fHV3ECkjcHN48R1BG9j19qqyRYxG116ug4rjMlePGpVJ72DOBa0G829Pt6g116lUySipw117117",
 		"item_date": "2016-12-19 00:00:00",
 		"title": "Automated node management stateful apps and HIPAA compliance come to Google Container Engine",
