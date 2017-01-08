@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "uetpzQfUr5fDgx8fVrPMnX8Tolu17U4EIoUOJT1O1epC5pPuY3wljulx116HPDBYeKfj0CPk4s0gw116PAosRzg0VQ117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "Building Your API for Longevity Part 1 SpecDriven Development",
+		"url": "https://www.nginx.com/blog/building-api-for-longevity-spec-driven-development/",
+		"domain": "www.nginx.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NuhkJOMb91mWhcfzOrco51zhLRg8AP2HsIOUjVu1gdxHSEs09pnP8KxScfqE4Qsn116ZNENGCLJTzm2Zr5VazaEg117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "5 Tips for Building an API in ASPNET Core",
+		"url": "https://stormpath.com/blog/5-api-tips-dotnet-core",
+		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
 		"curated_id": "rg3fp6LP8UQtnPzjbWsUv1233raI895AjHIAgeq8cJR3n0MXLf68jTD2uc6gZhDRw1TVGM71S123k5VF3GZx0MawJw117117",
 		"item_date": "2016-12-29 00:00:00",
 		"title": "Deploying Docker Apps to Kubernetes with Codeship",
