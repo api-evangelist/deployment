@@ -8,6 +8,14 @@
 		"image": ""
 	},
 	{
+		"curated_id": "5yocV3wDVY4TQ5Ul7Fg3CYAB6kVLQC5cftEFjZbMRqxXQANTLoWtileEVJoZ116YFp5uvL2fM1kEQ6V4k8nD2Sqg117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Firebase Remote Config loading strategies",
+		"url": "https://firebase.googleblog.com/2017/01/firebase-remote-config-loading.html",
+		"domain": "firebase.googleblog.com",
+		"image": ""
+	},
+	{
 		"curated_id": "123aKY7euHso6qb1234VGO3fmp6tZnbZBJwvo0OBxKosYArjEoSKthnD1239Y31168f123UKyk8UiTcr9bo8E9NcauMsYibQ117117",
 		"item_date": "2017-01-20 00:00:00",
 		"title": "How we run Kubernetes in Kubernetes aka Kubeception",
