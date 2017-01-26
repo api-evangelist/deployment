@@ -16,6 +16,14 @@
 		"image": ""
 	},
 	{
+		"curated_id": "AQqpZr7BNFpJd0DZ9kb1UT8wBGMCgHqab1GRUQ3JjzScdFdj1237fRpagMNW6MqXbJirBiPJvlkGi9spmgfOwBBg117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Use SQL to develop your REST API",
+		"url": "https://www.codeproject.com/Articles/1165907/Use-SQL-to-develop-your-REST-API",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
 		"curated_id": "123aKY7euHso6qb1234VGO3fmp6tZnbZBJwvo0OBxKosYArjEoSKthnD1239Y31168f123UKyk8UiTcr9bo8E9NcauMsYibQ117117",
 		"item_date": "2017-01-20 00:00:00",
 		"title": "How we run Kubernetes in Kubernetes aka Kubeception",
