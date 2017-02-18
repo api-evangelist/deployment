@@ -16,8 +16,8 @@ tags:
 - Deployment
 - Cloud
 - Amazon Web Services
-created: "2017-02-17"
-modified: "2017-02-17"
+created: "2017-02-18"
+modified: "2017-02-18"
 url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-ec2-systems-manager/apis.yaml
 specificationVersion: "0.14"
 apis: []
