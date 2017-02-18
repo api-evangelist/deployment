@@ -18,6 +18,12 @@ apis: []
 x-common:
 - type: x-blog
   url: https://blog.apigee.com/front
+- type: x-blog-rss-feed
+  url: http://apigee.com/about/blog/blog.xml
+- type: x-github
+  url: https://github.com/apigee
+- type: x-twitter
+  url: https://twitter.com/Apigee
 - type: x-website
   url: http://docs.apigee.com/api-baas
 include: []
