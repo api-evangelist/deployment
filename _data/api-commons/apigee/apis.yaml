@@ -3,7 +3,7 @@ description: Edge Developer Services includes a backend-as-a-service (BaaS) solu
   that provides developers with access to a flexible data store and enables you to
   quickly integrate valuable features into your app, including social graphs, user
   management, data storage, push notifications, performance monitoring, and more.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-logo.png
 tags:
 - Portal
 - Management
