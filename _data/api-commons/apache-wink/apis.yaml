@@ -7,11 +7,12 @@ description: Apache Wink is a simple yet solid framework for building RESTful We
   the development of such client applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Apache_Wink_Logo.png
 tags:
+- Open Source
 - Java
 - Framework
 - Deployment
-created: "2017-02-17"
-modified: "2017-02-17"
+created: "2017-02-18"
+modified: "2017-02-18"
 url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apache-wink/apis.yaml
 specificationVersion: "0.14"
 apis: []
