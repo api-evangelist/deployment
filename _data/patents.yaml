@@ -1,0 +1,833 @@
+- patent_id: kWL123nTe116DBrWHS8aRr8vaTiypgVR5nMfNm8f0rsrNVc117
+  name: Method and apparatus for maintaining data integrity across distributed computer
+    systems
+  summary: ""
+  abstract: A method and apparatus are generally disclosed for maintaining data integrity
+    across distributed computer systems. In one embodiment, the method of the invention
+    includes the step of transmitting an object from a server application to a client
+    application. The method also includes the step of transmitting an object state
+    from the server application to the client application. The method further includes
+    the steps of synchronizing the object and object state between the server application
+    and the client application, and updating the object by invoking a server application
+    method after the step of synchronizing. An apparatus and article of manufacture
+    for carrying out the steps of the method are also disclosed.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07003587&OS=07003587&RS=07003587
+  owner: Computer Associates Think, Inc.
+  publication_number: 07003587
+  publication_date: "2006-02-21"
+  application_number: 09559237
+  application_date: "2000-04-26"
+  number: 07003587
+  tags:
+  - Deployment
+- patent_id: m93h7SaJEVw6CEslQqqcVOEnTh5kh123JX5ycxDC1xkTg117
+  name: Autonomic control of a distributed computing system in accordance with a hierarchical
+    model
+  summary: ""
+  abstract: 'A distributed computing system conforms to a multi-level, hierarchical
+    organizational model. One or more control nodes provide for the efficient and
+    automated allocation and management of computing functions and resources within
+    the distributed computing system in accordance with the organization model. The
+    model includes four distinct levels: fabric, domains, tiers and nodes that provide
+    for the logical abstraction and containment of the physical components as well
+    as system and service application software of the enterprise. A user, such as
+    a system administrator, interacts with the control nodes to logically define the
+    hierarchical organization of distributed computing system. The control node includes
+    an automation subsystem having one or more rule engines that provide autonomic
+    control of the application nodes in accordance with a set of one or more rules.'
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07680799&OS=07680799&RS=07680799
+  owner: Computer Associates Think, Inc.
+  publication_number: 07680799
+  publication_date: "2010-03-16"
+  application_number: "11074291"
+  application_date: "2005-03-07"
+  number: 07680799
+  tags:
+  - Deployment
+- patent_id: 7FbrSyHpj2ijuNhlR1iZJlslNqfkczae5bJBl3df1m0117
+  name: Deployment of configuration information
+  summary: ""
+  abstract: A system and methods providing the automated configuration management
+    and configuration information communication/deployment for a business process
+    server computing application operating in a distributed computing environment
+    is provided. In an illustrative implementation, a configuration management and
+    configuration information communication/deployment tool operating in a distributed
+    computing environment allows cooperating parties cooperating to operate a business
+    process server computing application to more easily and efficiently update the
+    configuration information of one or components of the business process server
+    computing application responsive to changes in business practice changes between
+    the cooperating parties. In the contemplated implementation, packages are requested
+    by the cooperating parties using the configuration tool. The packages contain
+    information indicative of desired business practice changes and the information
+    required to reconfigure the business application to accommodate such changes.
+    The tool allows for closed loop and real-time testing of the configuration changes.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07797403&OS=07797403&RS=07797403
+  owner: Microsoft Corporation
+  publication_number: 07797403
+  publication_date: "2010-09-14"
+  application_number: "10193891"
+  application_date: "2002-07-12"
+  number: 07797403
+  tags:
+  - Deployment
+- patent_id: 3123bKgItSumT01SDsMJvgUGApzZ4nN8LDaAwotlWcHFY117
+  name: Method and system for managing information technology data
+  summary: ""
+  abstract: A database system for storing information technology (IT) management operational
+    data and a method and apparatus for managing IT data are provided. The database
+    utilizes an integrated database schema. IT operational data is stored into the
+    database using the integrated database schema and the database is accessed by
+    plural applications and/or products using the integrated database schema.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08037106&OS=08037106&RS=08037106
+  owner: Computer Associates Think, Inc.
+  publication_number: 08037106
+  publication_date: "2011-10-11"
+  application_number: "11366146"
+  application_date: "2006-03-02"
+  number: 08037106
+  tags:
+  - Deployment
+- patent_id: AnjOpjAypY1cWCKbTE2HmnfRoFCD11685UN5DSnWm123oFA117
+  name: Publish/subscribe mechanism for web services
+  summary: ""
+  abstract: A method for managing events in a web service environment is provided.
+    A request for a subscription to desired events in an event class in an associated
+    catalog namespace of a catalog repository is received from a subscribing application.
+    The subscription request includes an event filter to select the desired events
+    from a plurality of events described by the event class. An event which is received
+    from a web evens source and described by the event class is processed through
+    the event filter. If the received event matches the event filter, the received
+    event is forwarded to the subscribing application through an event listener associated
+    with the subscribing application.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07958515&OS=07958515&RS=07958515
+  owner: Computer Associates Think, Inc.
+  publication_number: 07958515
+  publication_date: "2011-06-07"
+  application_number: "11063374"
+  application_date: "2005-02-22"
+  number: 07958515
+  tags:
+  - Real Time
+  - Deployment
+- patent_id: XuIArxdRZbvqmnW3Qzji4zVd2v8IG7wzur1pHlP2e7U117
+  name: Managing a deployment of a computing architecture
+  summary: ""
+  abstract: Embodiments are provided to deploy a number of computing devices based
+    in part on a deployment file, but the embodiments are not so limited. In an embodiment,
+    a dispatch application can be used to deploy a number of computing devices, wherein
+    the deployment includes a number deployment parameters and functions associated
+    with a configuration of the number of computing devices. The dispatch application
+    can be used to deploy a number of computing devices, including virtual devices,
+    logical devices, and other devices and systems. Other embodiments are available.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08010777&OS=08010777&RS=08010777
+  owner: Microsoft Corporation
+  publication_number: 08010777
+  publication_date: "2011-08-30"
+  application_number: "11824673"
+  application_date: "2007-07-02"
+  number: 08010777
+  tags:
+  - Deployment
+- patent_id: 12c3YiZ4VSqZuEDCr7JObnVGT116QgBEf0jq1fjAywTYI117
+  name: High-level language for specifying configurations of cloud-based deployments
+  summary: ""
+  abstract: A high-level object-oriented specification language allows configurable
+    components of a cloud-based deployment to be modeled by a class definition that
+    includes a group of configurable class parameters. The object-oriented specification
+    language supports extension of an existing base class definition to create new
+    class definitions, and supports inheritance of class parameters from the existing
+    base class definition by the new class definitions. A cloud-based deployment can
+    be customized based on class definitions used in configuring one or more generic
+    deployments, such as by modifying class parameter values of the class definitions,
+    varying interrelationships between the classes, and supplementing existing class
+    parameters with new class parameters. The high-level object-oriented specification
+    language supports class definitions that model hardware and virtual resources
+    as well as software roles and service roles served by software applications and
+    services in a cloud-based deployment. Syntax for specifying dependency and connectivity
+    between classes is also provided.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08261295&OS=08261295&RS=08261295
+  owner: Google Inc.
+  publication_number: 08261295
+  publication_date: "2012-09-04"
+  application_number: "13247830"
+  application_date: "2011-09-28"
+  number: 08261295
+  tags:
+  - Deployment
+- patent_id: SJCqH6jviEOP2116Ppx1eE9P2MaU2rd7taBUTt56eIf8w117
+  name: Meta-architecture for multi-tiered enterprise software application and system
+  summary: ""
+  abstract: A method for dynamic manipulation of a multi-tiered enterprise software
+    application comprises providing a meta-architecture in a presentation tier of
+    a multi-tiered enterprise software application. The meta-architecture comprises
+    at least screen content associated with the software application. The meta-architecture
+    is capable of tying at least two tiers of the multi-tiered enterprise software
+    application together, and allowing the dynamic manipulation of the multi-tiered
+    enterprise software application without at least one of reprogramming the multi-tiered
+    enterprise software application and recompiling source code for the multi-tiered
+    enterprise software application. The method concludes by storing the meta-architecture
+    in a database repository.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08185915&OS=08185915&RS=08185915
+  owner: Computer Associates Think, Inc.
+  publication_number: 08185915
+  publication_date: "2012-05-22"
+  application_number: "11837184"
+  application_date: "2007-08-10"
+  number: 08185915
+  tags:
+  - Deployment
+- patent_id: j4116Z5O8eQzGnBMxpc5aPxyaReoFjWx1dj1Vp4FLx2OU117
+  name: Automated deployment and configuration of applications in an autonomically
+    controlled distributed computing system
+  summary: ""
+  abstract: A distributed computing system conforms to a multi-level, hierarchical
+    organizational model. One or more control nodes provide for the efficient and
+    automated allocation and management of computing functions and resources within
+    the distributed computing system in accordance with the organization model. A
+    user interacts with the control nodes to logically define the hierarchical organization
+    of distributed computing system. The control node includes an automation subsystem
+    having one or more rule engines that provide autonomic control of the application
+    nodes in accordance with a set of one or more rules. An application governor uses
+    a set of software image objects to configure an application on an application
+    node. Each of the application software image objects share a common interface
+    and are therefore interchangeable.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08140624&OS=08140624&RS=08140624
+  owner: Computer Associates Think, Inc.
+  publication_number: 08140624
+  publication_date: "2012-03-20"
+  application_number: "11607820"
+  application_date: "2006-12-01"
+  number: 08140624
+  tags:
+  - Deployment
+- patent_id: 8YgGs6dUclHv9ODXVikckOnXU5mM3TyIT5diiBYrHGo117
+  name: Metadata driven API development
+  summary: ""
+  abstract: The described method and system synchronizes source code with byproducts
+    or artifacts of an application creation process. In one embodiment, a generation
+    tool may be used to produce source code header files based on a design specification,
+    where the source code header files are compiled with a current version of source
+    code. Compilation errors may direct a developer to modify either the specification
+    or the source code to eliminate the errors. The described method and system may
+    be integrated into a development platform that is adapted to direct the user to
+    perform particular revisions or updates to bring the source code in line with
+    the artifacts.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08117589&OS=08117589&RS=08117589
+  owner: Microsoft Corporation
+  publication_number: 08117589
+  publication_date: "2012-02-14"
+  application_number: "12146462"
+  application_date: "2008-06-26"
+  number: 08117589
+  tags:
+  - Deployment
+- patent_id: pXavtzzmpaQXqjnMhSoGDxnvcajEjeKjZ42123pBHFCdM117
+  name: Enforceable launch configurations
+  summary: ""
+  abstract: Users intending to launch instances or otherwise access virtual resources
+    in a multi-tenant environment can specify a launch configuration. For each type
+    of instance or each type of user, at least one launch configuration is created
+    that includes parameters and values to be used in instantiating an instance of
+    that type, the values being optimized for the current environment and type of
+    instance. Launch configurations can be optimized for different types of users,
+    such as to account for security credentials and access levels. Such an approach
+    enables users to launch instances by contacting the resource provider directly
+    without need for a proxy, which can function as a choke point under heavy load.
+    The use of an appropriate launch configuration can be enforced for any type of
+    user at any level, such as at the sub-net level, by modifying a request that does
+    not specify an appropriate launch configuration.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08560699&OS=08560699&RS=08560699
+  owner: Amazon Technologies, Inc.
+  publication_number: 08560699
+  publication_date: "2013-10-15"
+  application_number: "12979863"
+  application_date: "2010-12-28"
+  number: 08560699
+  tags:
+  - Deployment
+- patent_id: 5wq2Y8YI3glFMwLyOVPbPCl2H0QxC0n012323xAUpxgR0117
+  name: Managing computing deployment in presence of variable workload
+  summary: ""
+  abstract: Automated or autonomic techniques for managing deployment of one or more
+    resources in a computing environment based on varying workload levels. The automated
+    techniques may comprise predicting a future workload level based on data associated
+    with the computing environment. Then, an estimation is performed to determine
+    whether a current resource deployment is insufficient, sufficient, or overly sufficient
+    to satisfy the future workload level. Then, one or more actions are caused to
+    be taken when the current resource deployment is estimated to be insufficient
+    or overly sufficient to satisfy the future workload level. Actions may comprise
+    resource provisioning, resource tuning and/or admission control.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08386995&OS=08386995&RS=08386995
+  owner: Google Inc.
+  publication_number: 08386995
+  publication_date: "2013-02-26"
+  application_number: "11763726"
+  application_date: "2007-06-15"
+  number: 08386995
+  tags:
+  - Deployment
+- patent_id: CKCyg123HQsufd4g1W3Cj16NYVIbBaFJWlX284Dw3e5KM117
+  name: Device authentication within deployable computing environment
+  summary: ""
+  abstract: A deployable computing environment may facilitate interaction and data
+    sharing between users and devices. Users, devices, and relationships between the
+    users and devices may be represented within the deployable computing environment.
+    A relationship between a user and a device may specify that the device is owned
+    by the user and that the device is authorized to perform operations within the
+    deployable computing environment on behalf of the user. Secure authentication
+    of devices and users for interaction within the deployable computing environment
+    is achieved by authenticating tickets corresponding to the user, the device, and
+    the relationship. A device identification ticket and a user identification ticket
+    are used to authenticate the device and user for interaction within the deployable
+    computing environment. A device claim ticket allows the device to perform delegated
+    operations (e.g., data synchronization, peer connectivity, etc.) on behalf of
+    the user without the user's credentials (e.g., user identification ticket).
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08412930&OS=08412930&RS=08412930
+  owner: Microsoft Corporation
+  publication_number: 08412930
+  publication_date: "2013-04-02"
+  application_number: "12248137"
+  application_date: "2008-10-09"
+  number: 08412930
+  tags:
+  - Deployment
+- patent_id: maxk4D7gNTtPz1no5BIm8jJKSgiF5JJ116UcGj6pf782k117
+  name: Metadata driven automatic deployment of distributed server systems
+  summary: ""
+  abstract: Automatic and reliable deployment of system topology to computing devices
+    within an enhanced communication system is provided. Specific roles and features
+    associated with individual devices such as servers are defined in a centrally
+    managed topology document, which is replicated to devices to be configured along
+    with one or more modules for performing local configuration. Upon deployment,
+    the module(s) determine a local device configuration, a desired configuration
+    for the device, and update the device's configuration installing and activating
+    roles and features assigned to the device by the topology document. Feedback regarding
+    the results of the configuration is provided to a central management store such
+    that administration can monitor status of devices within the system. Modifications
+    to the assigned roles and prerequisites for supporting those roles are made dynamically
+    through the same mechanism as system topology changes.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08396949&OS=08396949&RS=08396949
+  owner: Microsoft Corporation
+  publication_number: 08396949
+  publication_date: "2013-03-12"
+  application_number: "12792888"
+  application_date: "2010-06-03"
+  number: 08396949
+  tags:
+  - Deployment
+- patent_id: OdnvhLEqhrAtXYxlHdnsS4ZFwzurB73MRuf7JWZEooc117
+  name: Selecting updates for deployment to a programmable execution service application
+  summary: ""
+  abstract: "A test environment is created for use in selecting updates for deployment
+    to a programmable execution service (\u201CPES\u201D) application. The test environment
+    is created in one embodiment by replicating a production network and one or more
+    production virtual machine instances executing the PES application. Once the test
+    environment has been created, the test environment is utilized to test and select
+    updates for deployment to the PES application. The updates may be selected by
+    deploying the updates to the test environment and using the test environment to
+    determine whether the deployed updates are compatible with the PES application,
+    permit the PES application to continue to operate performantly, and/or permit
+    the PES application to meet one or more business performance metrics. Once the
+    updates have been selected, the updates may be applied to production virtual machine
+    instances executing the PES application."
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08839222&OS=08839222&RS=08839222
+  owner: Amazon Technologies, Inc.
+  publication_number: 08839222
+  publication_date: "2014-09-16"
+  application_number: "13238893"
+  application_date: "2011-09-21"
+  number: 08839222
+  tags:
+  - Deployment
+- patent_id: 0iKFdZLXQ116W81123Rxphkkj5prRJlEP2Zeqz9PCM4kd8o117
+  name: Continuous deployment system for software development
+  summary: ""
+  abstract: Examples of a continuous deployment system are provided that manage and
+    track releases of software code, where some or all of the steps between check-in
+    and deployment to production can be automated. Such systems can reduce the amount
+    of developer effort needed to deploy a package, as developers may not have to
+    be responsible for scheduling package builds, clicking deployment buttons, or
+    manually running tests. The system can take care of all or some of that work.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08677315&OS=08677315&RS=08677315
+  owner: Amazon Technologies, Inc.
+  publication_number: 08677315
+  publication_date: "2014-03-18"
+  application_number: "13245539"
+  application_date: "2011-09-26"
+  number: 08677315
+  tags:
+  - Deployment
+- patent_id: YDyFp3ZAam0nVGnUEzHc116x1KzD877MP87116gJlVC116sG4117
+  name: Web API server program, web API publication method
+  summary: ""
+  abstract: There is provided a technique with which a function that an OSGi bundle
+    is equipped with may be published via a web API with ease. A web API server program
+    according to the present invention receives as an HTTP request a class name and
+    method name of an OSGi bundle (OSGi service) registered with an OSGi framework,
+    calls and executes an OSGi bundle (OSGi service) that matches them, and returns
+    a result thereof as an HTTP response (see FIG. ).
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08701129&OS=08701129&RS=08701129
+  owner: Hitachi Solutions, Ltd.
+  publication_number: 08701129
+  publication_date: "2014-04-15"
+  application_number: "13635150"
+  application_date: "2011-08-09"
+  number: 08701129
+  tags:
+  - Deployment
+- patent_id: cDRCGJgtsGi4X6G4OS4fPUU123PSdvLwfcYitZWDxjb1230117
+  name: Tag-based deployment to overlapping host sets
+  summary: ""
+  abstract: Methods and systems for deploying software packages are provided. In an
+    example, a deployment service allows users to deploy software packages to target
+    sets of computing devices where the target sets may overlap. The deployment service
+    prevents software packages from being deployed to target sets that would conflict
+    with a software package deployed to at least some of the target set as a result
+    of the target set overlapping with another set.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09110756&OS=09110756&RS=09110756
+  owner: Amazon Technologies, Inc.
+  publication_number: 09110756
+  publication_date: "2015-08-18"
+  application_number: "13705003"
+  application_date: "2012-12-04"
+  number: 09110756
+  tags:
+  - Deployment
+- patent_id: 3R86JVpBHaQ8CuJ123uqgaVuIl6NzY8wcNeJai8KpVuC4117
+  name: Tag-based resource configuration control
+  summary: ""
+  abstract: In a system that provides network-based infrastructure services, customer
+    resources are tagged in accordance with policies provided by the customers. Resources
+    may be automatically tagged upon creation based on the provided policies. In addition,
+    existing resources may be analyzed and automatically tagged to indicate characteristics
+    of the resources that may be of interest to the customer. The customers may also
+    specify configuration policies in terms of resource tags, and the system may be
+    configured to apply and/or enforce the configuration policies.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09112777&OS=09112777&RS=09112777
+  owner: AMAZON TECHNOLOGIES, INC.
+  publication_number: 09112777
+  publication_date: "2015-08-18"
+  application_number: "13633555"
+  application_date: "2012-10-02"
+  number: 09112777
+  tags:
+  - Deployment
+- patent_id: a123x3yJTIipZljZSIOzEjyEvCLIz80ZacayBm116w0ppXE117
+  name: Scalable services deployment
+  summary: ""
+  abstract: "Embodiments provide an abstraction on top of virtual machine allocation
+    APIs to expose scalable services. The services are higher level components that
+    expose a particular set of functionalities. A deployment manager handles matching
+    and managing virtual machine allocations in order to meet the customer demands
+    for the managed services. A deployment service exposes a \u201Cservice\u201D as
+    a unit of resource allocation in a distributed computing environment or cloud
+    computing service. Client components interact with the deployment service to request
+    new service instances to meet customer demand."
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09189285&OS=09189285&RS=09189285
+  owner: MICROSOFT TECHNOLOGY LICENSING, LLC
+  publication_number: 09189285
+  publication_date: "2015-11-17"
+  application_number: "13716066"
+  application_date: "2012-12-14"
+  number: 09189285
+  tags:
+  - Deployment
+- patent_id: ZeFaQ3YG1yO0st80KE1233Sk86Z4hqpDHxRw6IbHeWrwM117
+  name: Provisioning dedicated network resources with API services
+  summary: ""
+  abstract: Embodiments are disclosed that provision a cloud-based service together
+    with a dedicated network connection to provision a cloud-based service element.
+    In response to the request both the cloud-based service element and a dedicated
+    network connection are provisioned. Provisioning the cloud-based service element
+    together with the dedicated network connection enables the cloud-based service
+    element to utilize the dedicated network connection.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09197709&OS=09197709&RS=09197709
+  owner: LEVEL 3 COMMUNICATIONS, LLC
+  publication_number: 09197709
+  publication_date: "2015-11-24"
+  application_number: "14039363"
+  application_date: "2013-09-27"
+  number: 09197709
+  tags:
+  - Network
+  - Deployment
+- patent_id: rggyIx564Pqtiahyk8k5ho59f0vx9qOAWkp8OFPRPmY117
+  name: Tag-based deployment
+  summary: ""
+  abstract: Methods and systems for deploying upgrades are provided. In an example,
+    a release package containing upgrade for software application, operating system,
+    firmware and the like may be tagged with one or more package tags. Each of the
+    package tags may be associated with a tag category comprising one or more tag
+    values which may form a tag hierarchy. In an example, a target host for a upgrade
+    release may be tagged with one or more host tags similar to the package tags.
+    In an embodiment, a release package may be selected from a plurality of release
+    packages to be deployed to a host by matching the package tags associated with
+    the release package to the host tags associated with the host. The package tags,
+    host tags and associated tag categories may be arbitrarily defined and/or extended.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09489188&OS=09489188&RS=09489188
+  owner: Amazon Technologies, Inc.
+  publication_number: 09489188
+  publication_date: "2016-11-08"
+  application_number: "13677200"
+  application_date: "2012-11-14"
+  number: 09489188
+  tags:
+  - Deployment
+- patent_id: mPl4b6DZ9281U23i4BRURWbRl5UTwN1eJ3skB116SXFsY117
+  name: Continuous deployment system for software development
+  summary: ""
+  abstract: Examples of a continuous deployment system are provided that manage and
+    track releases of software code, where some or all of the steps between check-in
+    and deployment to production can be automated. Such systems can reduce the amount
+    of developer effort needed to deploy a package, as developers may not have to
+    be responsible for scheduling package builds, clicking deployment buttons, or
+    manually running tests. The system can take care of all or some of that work.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09454351&OS=09454351&RS=09454351
+  owner: Amazon Technologies, Inc.
+  publication_number: 09454351
+  publication_date: "2016-09-27"
+  application_number: "14196875"
+  application_date: "2014-03-04"
+  number: 09454351
+  tags:
+  - Deployment
+- patent_id: FewwMoXvkYVpKkB3STL9H2RYtKSNJ3CBGGKFSb7Dh3M117
+  name: Approaches for deployment approval
+  summary: ""
+  abstract: A deployment approval system receives, from a deployment tool, a deployment
+    request for performing a deployment to a particular resource. The deployment approval
+    system can identify at least one rule for approving or rejecting the deployment
+    request based on one or more criteria. The deployment approval system can determine
+    whether the deployment request satisfies the one or more criteria in the at least
+    one rule to approve or reject the request. If the deployment request is approved,
+    the deployment approval system sends an approval to the deployment tool to perform
+    the deployment. The deployment tool can then perform the deployment and, once
+    the deployment is complete, the deployment approval system can receive a confirmation
+    of the deployment. The deployment approval system can then store data describing
+    the deployment in an audit repository.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09438599&OS=09438599&RS=09438599
+  owner: Amazon Technologies, Inc.
+  publication_number: 09438599
+  publication_date: "2016-09-06"
+  application_number: "14231109"
+  application_date: "2014-03-31"
+  number: 09438599
+  tags:
+  - Deployment
+- patent_id: H0sqhECeI208D1n123Vbr01TW29rzFO4sSb123GIQ116wZ1PA117
+  name: Network device configuration deployment pipeline
+  summary: ""
+  abstract: The following description is directed to configuring network devices.
+    In one example, a deployed configuration for a network device can be collected.
+    The deployed configuration can be representative of a state of the network device
+    at the time of collection. A difference can be detected between the deployed configuration
+    and an authoritative configuration for the network device. In response to detecting
+    the difference, an update of the network device according to the authoritative
+    configuration for the network device can be scheduled.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09419856&OS=09419856&RS=09419856
+  owner: Amazon Technologies, Inc.
+  publication_number: 09419856
+  publication_date: "2016-08-16"
+  application_number: "14557165"
+  application_date: "2014-12-01"
+  number: 09419856
+  tags:
+  - Deployment
+- patent_id: S7ez1231NEhMAXXmGPF8uhCIanndU4AamftTJ8cL0Vsi4117
+  name: Middleware services framework for on-premises and cloud deployment
+  summary: ""
+  abstract: A framework and middleware services for developing, deploying and managing
+    composite applications is disclosed. The middleware services may be deployed on-premises
+    or in the cloud. The framework includes a rich collection of middleware services,
+    an application model to compose services into a composite application, a high-density
+    multi-tenant scalable container to host the composition logic, and unified lifecycle
+    management of the composite application and its constituent services.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09336060&OS=09336060&RS=09336060
+  owner: MICROSOFT TECHNOLOGY LICENSING, LLC
+  publication_number: 09336060
+  publication_date: "2016-05-10"
+  application_number: "13163620"
+  application_date: "2011-06-17"
+  number: 09336060
+  tags:
+  - Deployment
+- patent_id: UR1Gqbfuq1FH0N09kN116MYvC7PYPM7u9UF0Wpx32EjN0117
+  name: Automating deployment of service applications by exposing hosting environment
+    constraints
+  summary: ""
+  abstract: Methods, systems, and computer-readable media for automating deployment
+    of service applications by exposing environmental constraints in a service model
+    are provided. In general, the methods are performed in the context of a general
+    purpose platform configured as a server cloud to run various service applications
+    distributed thereon. Accordingly, the general purpose platform may be flexibly
+    configured to manage varying degrees of characteristics associated with each of
+    the various service applications. Typically, these characteristics are provided
+    in the service model that governs the environmental constraints under which each
+    component program of the service application operates. As such, hosting environments
+    are selected and adapted to satisfy the environmental constraints associated with
+    each component program. Adapting the hosting environments includes installing
+    parameters transformed from configuration settings of each component program via
+    map constructs, thereby refining the hosting environment to support operation
+    of the component program.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09300532&OS=09300532&RS=09300532
+  owner: Microsoft Technology Licensing, LLC
+  publication_number: 09300532
+  publication_date: "2016-03-29"
+  application_number: "12258156"
+  application_date: "2008-10-24"
+  number: 09300532
+  tags:
+  - Deployment
+- patent_id: FJKTI7yrO2l0ddXNbUxZajic0foVU123Objr38nECTMt4117
+  name: Deployable, consistent, and extensible computing environment platform
+  summary: ""
+  abstract: The diverse objects comprising a computing environment may be represented
+    together as a deployable object hierarchy, which may facilitate the deployment,
+    as well as the consistency, of a computing environment rendered by a plurality
+    of devices. The processes within the computing environment often operate on the
+    objects of the object hierarchy in a variety of ways, including simple operations
+    (creation, reading, updating, and deleting) and more sophisticated operations
+    (synchronizing, paginating, and caching), as well as with the object hierarchy
+    in general. A platform may be devised to facilitate the various operations of
+    the processes on the object hierarchy. The platform may be embodied, such as in
+    an application runtime, and deployed to a variety of platforms to facilitate an
+    equivalent execution of the processes on any type of device and consistent interactions
+    with the object hierarchy.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09298747&OS=09298747&RS=09298747
+  owner: Microsoft Technology Licensing, LLC
+  publication_number: 09298747
+  publication_date: "2016-03-29"
+  application_number: "12052556"
+  application_date: "2008-03-20"
+  number: 09298747
+  tags:
+  - Deployment
+- patent_id: hL9tIINRf79xSd32jGYX1AeqmhbP116nOGAmKd116XOIcn4117
+  name: Method and system for realizing rest interface of cloud cache in Nginx
+  summary: ""
+  abstract: 'The present invention provides a method for realizing a REST (Representational
+    State Transfer) interface of a cloud cache in an Nginx. The method includes: receiving
+    a Hyper Text Transport Protocol (HTTP) message transmitted from a client, and
+    parsing out key information and an operation type corresponding to the HTTP message
+    according to a preset configuration file; converting the key information and the
+    operation type into a parameter required by a cloud cache operation and a cloud
+    cache operation type, and transmitting the parameter to a cloud cache apparatus,
+    so that the cloud cache apparatus performs the cloud cache operation according
+    to the parameter and the cloud cache operation type; receiving a cloud cache operation
+    result returned by the cloud cache apparatus, processing the cloud cache operation
+    result, and returning the processed result to the client. The present invention
+    also provides a corresponding system. The present invention enables a larger cache
+    capacity and better saves CPU resources, thereby enabling a more powerful cache
+    function of the Nginx.'
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09332085&OS=09332085&RS=09332085
+  owner: ZTE Corporation
+  publication_number: 09332085
+  publication_date: "2016-05-03"
+  application_number: "14241689"
+  application_date: "2012-04-23"
+  number: 09332085
+  tags:
+  - Deployment
+- patent_id: xbPusqWUal5GoI18orFvMszwtvq9NaVtoTxWdIo3nsc117
+  name: API platform that includes server-executed client-based code
+  summary: ""
+  abstract: A technique for providing an API from a server to one of more endpoint
+    devices including receiving a request for data from a endpoint device, retrieving
+    one or more data resources from the data resources available within the server,
+    based upon the request, manipulating the data within the retrieved data resources
+    into a response optimized for the endpoint device, and transmitting the response
+    to the endpoint device.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09485305&OS=09485305&RS=09485305
+  owner: NETFLIX, Inc.
+  publication_number: 09485305
+  publication_date: "2016-11-01"
+  application_number: "13890782"
+  application_date: "2013-05-09"
+  number: 09485305
+  tags:
+  - Deployment
+- patent_id: QzxIPrhPsD4YLJueaUw9KS96H0zOmjnRSIfvq4dT8jM117
+  name: Generating virtualized application programming interface (API) implementation
+    from narrative API documentation
+  summary: ""
+  abstract: A virtualized Application Program Interface (API) implementation is generated
+    based upon narrative API documentation that includes sentences that describe the
+    API, by generating programming statements for the virtualized API implementation
+    based upon parsing the narrative API documentation, and generating the virtualized
+    API implementation based on upon the programming statements for the virtualized
+    API implementation. The parsing of the narrative documentation may use a natural
+    language parser and a domain-specific ontology for the API that may be obtained
+    or created for the API. The virtualized API implementation may be generated using
+    an API virtualizer.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09471283&OS=09471283&RS=09471283
+  owner: CA, Inc.
+  publication_number: 09471283
+  publication_date: "2016-10-18"
+  application_number: "14302140"
+  application_date: "2014-06-11"
+  number: 09471283
+  tags:
+  - Virtualization
+  - Deployment
+- patent_id: 1u5Mkhf0KpUHtPK3m6gGQubxur5i0llHFWa0FPOqDFc117
+  name: Self-service composed web APIs
+  summary: ""
+  abstract: Individual datasets are accessed using an application programming interface
+    (API). Multiple APIs may be combined into a composite API that allows a user to
+    access multiple datasets using a single query. The composite API may be designed
+    to provide a simpler way to consume information from multiple datasets in response
+    to a particular scenario or problem. The composite API may comprise multiple levels
+    of intermediate APIs that call on each other to access desired datasets. A user
+    may select the datasets that the composite API accesses and/or the composite API
+    may require certain specific datasets. The composite API may be offered for sale
+    or use by other users via a website, such as a data market.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09262183&OS=09262183&RS=09262183
+  owner: MICROSOFT TECHNOLOGY LICENSING, LLC
+  publication_number: 09262183
+  publication_date: "2016-02-16"
+  application_number: "13453772"
+  application_date: "2012-04-23"
+  number: 09262183
+  tags:
+  - Management
+  - Deployment
+- patent_id: C116gE0UoVSN1uZy123azTnjbVrKQPon39IHUyRGFs3fH5M117
+  name: Methods and systems for supporting a rendering API using a runtime environment
+  summary: ""
+  abstract: A computing device can comprise an I/O interface and a processing element
+    connected to the I/O interface and implementing a runtime environment. The processing
+    element can implement a program component that causes the processing element to
+    expose a rendering API not natively supported by the runtime environment, the
+    rendering API invocable by code comprised in a markup document accessed by the
+    processor over the I/O interface. The rendering API can be exposed by causing
+    the runtime environment to respond to and update a proxy object that mirrors properties,
+    methods, and behaviors defined by the rendering API.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09286142&OS=09286142&RS=09286142
+  owner: Adobe Systems Incorporated
+  publication_number: 09286142
+  publication_date: "2016-03-15"
+  application_number: "13081728"
+  application_date: "2011-04-07"
+  number: 09286142
+  tags:
+  - Deployment
+- patent_id: 4B2MZbg1MhIFwtIcOmOpxqafwVZkPcLy1F6fkDc6i6U117
+  name: Publishing of an application program interface
+  summary: ""
+  abstract: 'A method comprising creating and publishing (H, K) an application program
+    interface (API) enabling access to a dataset from a source data file; determining,
+    by an application, a type of change (E) that has occurred to the source data file;
+    and in dependence at least on a result of said determining, taking at least one
+    action (H, K) relating to permitting subscriber access to the dataset of the changed
+    source data file. The action may comprise permitting subscriber access to the
+    dataset from the changed source data file either: in place of the dataset from
+    the source data file (H), using the API; or by creating and publishing a new API
+    (K). The permitting access to the dataset may also depend on subscriber access
+    controls and/or publication controls under the control of a publishing entity.
+    Changes to datasets may be provided to the application by a file synchronization
+    system.'
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09384068&OS=09384068&RS=09384068
+  owner: Release Consulting Limited
+  publication_number: 09384068
+  publication_date: "2016-07-05"
+  application_number: "13646438"
+  application_date: "2012-10-05"
+  number: 09384068
+  tags:
+  - Deployment
+- patent_id: F123lLV7QaOpWZUJo123y8HdTFN3zKjx1nKKDoqEsCsWGvA117
+  name: Adapting legacy endpoints to modern APIs
+  summary: ""
+  abstract: Example methods and systems are directed to adapting legacy endpoints
+    to modern application protocol interfaces (APIs). A legacy endpoint may provide
+    a powerful and complex API. A modern application may desire access to the legacy
+    endpoint. One or more layers may be added between the modern application and the
+    legacy endpoint. Each layer may provide a different API. These layers of APIs
+    may transform the interface from a powerful and complex interface to a more limited
+    but simpler and easier to use interface. In some example embodiments, a proxy
+    layer, an adapter layer, a facade layer, and a service layer may be used.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09380103&OS=09380103&RS=09380103
+  owner: eBay Inc.
+  publication_number: 09380103
+  publication_date: "2016-06-28"
+  application_number: "14091713"
+  application_date: "2013-11-27"
+  number: 09380103
+  tags:
+  - Proxy
+  - Legacy
+  - Deployment
+- patent_id: tT123aZdf1qZMZgw9HNjL7UTo0QHCIWdGHo4qx7ZyP2Ks117
+  name: Master data management database asset as a web service
+  summary: ""
+  abstract: A method, system, apparatus, and article of manufacture is configured
+    to expose a database asset as a web service. A relational database management
+    system (RDBMS) that stores information is executed in a computer system. As part
+    of a process and framework, a series of business rules and process workflows are
+    maintained that manage data that resides in RDBMS tables. A rule is created that
+    contains an application programming interface definition with predefined input
+    and output for exposing the database asset as the web service. The rule is exposed
+    as the web service. The web service is used to invoke a database operation based
+    on the database asset, and to output a result.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09489437&OS=09489437&RS=09489437
+  owner: Teradata US, Inc.
+  publication_number: 09489437
+  publication_date: "2016-11-08"
+  application_number: "13250716"
+  application_date: "2011-09-30"
+  number: 09489437
+  tags:
+  - Deployment
+  - Database
+- patent_id: zdovhE6FUwmN9DA0PS8HWaqBxQ3QKYgt3TweYUS06mU117
+  name: Implementation of clustered in-memory database
+  summary: ""
+  abstract: An in-memory database system and method for administrating a distributed
+    in-memory database, comprising one or more nodes having modules configured to
+    store and distribute database partitions of collections partitioned by a partitioner
+    associated with a search conductor. Database collections are partitioned according
+    to a schema. Partitions, collections, and records, are updated and removed when
+    requested by a system interface, according to the schema. Supervisors determine
+    a node status based on a heartbeat signal received from each node. Users can send
+    queries through a system interface to search managers. Search managers apply a
+    field processing technique, forward the search query to search conductors, and
+    return a set of result records to the analytics agents. Analytics agents perform
+    analytics processing on a candidate results records from a search manager. The
+    search conductors comprising partitioners associated with a collection, search
+    and score the records in a partition, then return a set of candidate result records
+    after receiving a search query from a search manager.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09430547&OS=09430547&RS=09430547
+  owner: QBase, LLC
+  publication_number: 09430547
+  publication_date: "2016-08-30"
+  application_number: "14558254"
+  application_date: "2014-12-02"
+  number: 09430547
+  tags:
+  - Deployment
+  - Database
+- patent_id: S8lU1yvQK19kpewylP1qAs9EWZBkfk8WxfxmwPiLPRI117
+  name: Interfacing with a virtual database system
+  summary: ""
+  abstract: User interactions with a database storage system allow creation of virtual
+    databases based on point-in-time copies associated with a source database. Multiple
+    point-in-time copies are obtained for each source database. A point-in-time copy
+    retrieves data changed in the source database since the retrieval of a previous
+    point-in-time copy. A virtual database (VDB) is created by creating a set of files
+    in the data storage system and mounting the files on a database server allowing
+    the database server to access the files. User interactions allow the user to specify
+    the source database, a point in time associated with the source database and a
+    destination server to create the virtual database. User input can specify other
+    attributes associated with the virtual database including the file paths, database
+    parameters etc. The user can specify schedules of various actions, including making
+    and retention of point-in-time copies.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09361186&OS=09361186&RS=09361186
+  owner: Delphix Corporation
+  publication_number: 09361186
+  publication_date: "2016-06-07"
+  application_number: "14573761"
+  application_date: "2014-12-17"
+  number: 09361186
+  tags:
+  - Deployment
+  - Database
