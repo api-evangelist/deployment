@@ -1,285 +1,86 @@
 ---
 layout: page
-title: API Definition Orgs
+title: API Deployment
 ---
 
-{% assign apisjson_url = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/apis.yaml' %}
-<p><a href="{{ apisjson_url }}" target="_blank" title="The APIs.json for {{ site.title }}">
-    <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="50" align="right" />
-</a></p>
-<h1>Some Organizations To Watch</h1>
-<p>These are the companies, and organizations who are doing interesting things with design of APIs. If they have an API, I'm working to profile, and provide machine readable indexes of each one below.</p>
-
-<table cellpadding="3" cellspacing="2" width="90%" border="0" style="margin-top: 10px;">
 {% assign api = site.data.apis %}
-{% for include in api.include %}
 
-  {% assign removeurl = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/api-commons/' %}
-  {% assign thisurl = include.url | replace: removeurl %}
-  {% assign thisurl = thisurl | replace: '/apis.yaml' %}
+<h3>Cloud</h3>
+<p>These are a couple of valuable websites that can help guide you on your API design journey.</p>
+{% assign display_tag = "Cloud" %}
+{% include org-listing.html %}
 
-  {% for org in site.data.api-commons %}
+<h3>Database</h3>
+<p>These are the solutions that have emerged to help API providers with their API design efforts.</p>
+{% assign display_tag = "Database" %}
+{% include org-listing.html %}
 
-    {% assign index = org %}
+<h3>Data</h3>
+<p>These are the solutions that have emerged to help API providers with their API design efforts.</p>
+{% assign display_tag = "Data" %}
+{% include org-listing.html %}
 
-    {% if thisurl == index[0] %}
+<h3>Bigco</h3>
+<p>An API design studio you can download for Windows or Mac environments, and work locally.</p>
+{% assign display_tag = "Bigco" %}
+{% include org-listing.html %}
 
-      {% assign apisjson = index[1].apis %}
-      {% assign common_api_action_url = '' %}
+<h3>Gateway</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Gateway" %}
+{% include org-listing.html %}
 
-      {% assign blog_url = '' %}
-      {% assign blogrss_url = '' %}
-      {% assign portal_url = '' %}
-      {% assign gitub_url = '' %}
-      {% assign twitter_url = '' %}
-      {% assign website_url = '' %}
+<h3>Scraping</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Scraping" %}
+{% include org-listing.html %}
 
-      {% for common in apisjson.x-common %}
-        {% if common.type == 'x-website' %}
-          {% assign website_url = common.url %}
-        {% endif %}
-        {% if common.type == 'x-blog' %}
-          {% assign blog_url = common.url %}
-        {% endif %}
-        {% if common.type == 'x-blog-rss-feed' %}
-          {% assign blogrss_url = common.url %}
-        {% endif %}
-        {% if common.type == 'x-portal' %}
-          {% assign portal_url = common.url %}
-        {% endif %}
-        {% if common.type == 'x-github' %}
-          {% assign gitub_url = common.url %}
-        {% endif %}
-        {% if common.type == 'x-twitter' %}
-          {% assign twitter_url = common.url %}
-        {% endif %}
-        {% if common.type == 'x-api-actions' %}
-          {% assign common_api_action_url = common.url %}
-        {% endif %}
-      {% endfor %}
+<h3>Search</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Scraping" %}
+{% include org-listing.html %}
 
-      <tr>
-        <td>
+<h3>Framework</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Scraping" %}
+{% include org-listing.html %}
 
-          <table cellpading="10" cellspacing="10" width="100%" class="card" border="0">
-            <tr>
-              <td colspan="2" style="padding: 15px;">
-                {% if apisjson.image != null %}
-                  <a href="{{ website_url }}">
-                    <img src="{{ apisjson.image }}" align="left" style="padding: 10px;" width="125" />
-                  </a>
-                {% endif %}
-                <a href="{{ website_url }}" style="font-size: 22px;"><strong>{{ apisjson.name }}</strong></a><br />
-                {{ apisjson.description }}
-              </td>
-            </tr>
-            <tr>
-              <td align="center" colspan="3" style="margin-left: 25px; margin-right: 25px; padding-bottom; 10px;">
-                <ul style="list-style: none; display: inline; margin-bottom: 15px;">
-                  {% if website_url != '' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ website_url }}" target="_blank" title="Website">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="30" align="center" />
-                      </a>
-                    </li>
-                  {% endif %}
-                  {% if portal_url != '' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ portal_url }}" target="_blank" title="Portal">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal-developers.jpg" width="30" align="center" />
-                      </a>
-                    </li>
-                  {% endif %}
-                  {% if blog_url != '' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ blog_url }}" target="_blank" title="Blog">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="26" align="center" />
-                      </a>
-                    </li>
-                  {% endif %}
+<h3>Serverless</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Serverless" %}
+{% include org-listing.html %}
 
-                  {% if blogrss_url != '' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ blogrss_url }}" target="_blank" title="Blog RSS">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="26" align="center" />
-                      </a>
-                    </li>
-                  {% endif %}
+<h3>Microservices</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Microservices" %}
+{% include org-listing.html %}
 
-                  {% if twitter_url != '' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ twitter_url }}" target="_blank" title="Twitter">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="36" align="center" />
-                      </a>
-                    </li>
-                  {% endif %}
+<h3>Containers</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Containers" %}
+{% include org-listing.html %}
 
-                  {% if gitub_url != '' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ gitub_url }}" target="_blank" title="Github">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="45" align="center" />
-                      </a>
-                    </li>
-                  {% endif %}
+<h3>Spreadsheets</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Spreadsheets" %}
+{% include org-listing.html %}
 
-                  {% assign apisjson_url = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/api-commons/' | append: thisurl | append: '/apis.yaml' %}
-                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
-                      <a href="{{ apisjson_url }}" target="_blank" title="The APIs.json for {{ apisjson.name }}">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="45" align="center" />
-                      </a>
-                    </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td align="center" colspan="3" style="margin-left: 90px; margin-right: 90px;">
-                  {% assign api_action_url = '' %}
-                  {% assign numberofapis = apisjson.apis | size %}
-                  {% if numberofapis == 0 %}
+<h3>Open Source</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Open Source" %}
+{% include org-listing.html %}
 
-                  {% else %}
+<h3>Internet of Things</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Internet of Things" %}
+{% include org-listing.html %}
 
-                    <!--<p style="font-size: 18px; text-align: left; margin-left: 117px;"><strong>APIs:</strong></p>-->
-                      {% assign api_action_url = '' %}
-                      {% for api in apisjson.apis %}
+<h3>Webhooks</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Webhooks" %}
+{% include org-listing.html %}
 
-                      <table cellpadding="3" cellspacing="2" width="70%" border="0" style="margin-bottom: 25px;">
-
-                          {% assign api_action_spec = '' %}
-                          {% assign api_action_url = '' %}
-                          {% assign openapi_json_spec_url = '' %}
-                          {% assign openapi_yaml_spec_url = '' %}
-
-                          {% for property in api.properties %}
-
-                            {% assign thisname = apisjson.name | downcase %}
-                            {% assign thisname = thisname | append:'/' %}
-                            {% assign thisname = thisname | replace: ' ','-' %}
-
-                            {% if property.type == 'x-openapi-spec-json' %}
-
-                              {% assign openapi_json_spec_url = property.url %}
-                              {% assign pathname = openapi_json_spec_url | replace: site.url,'' %}
-                              {% assign pathname = pathname | replace: '/data/','' %}
-                              {% assign pathname = pathname | replace: thisname,'' %}
-                              {% assign pathname = pathname | replace: '/','' %}
-                              {% assign pathname = pathname | replace: '.json','' %}
-                              {% assign openapi_spec_json = file | map: pathname %}
-
-                            {% endif %}
-
-                            {% if property.type == 'x-openapi-spec' %}
-                              {% assign openapi_yaml_spec_url = property.url %}
-                            {% endif %}
-
-                          {% endfor %}
-
-                          <tr>
-                            <td align="left">
-                              {{ api.name }}
-                            </td>
-                            <td align="right">
-                                <!--<a href="{{ openapi_json_spec_url }}" target="_blank" title="OpenAPI Spec JSON">
-                                  <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
-                                </a>-->
-                                <a href="{{ openapi_yaml_spec_url }}" target="_blank" title="OpenAPI Spec Yaml">
-                                  <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-yaml.png" width="25" align="right" />
-                                </a>
-                            </td>
-                          </tr>
-                          <tr style="display: none;" id="methods-for-{{ pathname }}">
-                            <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
-
-                              <ul>
-                                {% for spec in openapi_spec_json %}
-
-                                  {% for path in spec.paths %}
-
-                                    {% assign method_json = path[1] %}
-
-                                    {% for method in method_json %}
-
-                                      {% assign verb = method[0] | upcase %}
-                                      {% assign summary = method[1].summary %}
-                                      <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
-
-                                    {% endfor %}
-
-                                  {% endfor %}
-
-                                {% endfor %}
-                              </ul>
-                            </td>
-                          </tr>
-                        </table>
-
-                        {% if api_action_url != '' %}
-                        <p style="font-size: 18px; text-align: left; margin-left: 117px; padding-top: 8px;"><strong>Actions:</strong></p>
-                        <table cellpadding="3" cellspacing="2" width="70%" border="0">
-                          {% assign pathname = api_action_url | replace: site.url,'' %}
-                          {% assign pathname = pathname | replace: '/data/','' %}
-                          {% assign pathname = pathname | replace: thisname,'' %}
-                          {% assign pathname = pathname | replace: '/','' %}
-                          {% assign pathname = pathname | replace: '.json','' %}
-                          {% assign api_action_spec = file | map: pathname %}
-                          <tr>
-                            <td colspan="2" align="left" style="margin-left: 75px; margin-right: 75px; margin-top: 15px;">
-                              <ul style="margin-left: 15px;">
-                                {% for actions in api_action_spec %}
-                                  {% for action in actions %}
-                                    {% assign action_label = action.Action %}
-                                    {% assign action_url = action.URL %}
-                                    <li style="font-size: 14px; list-style: none;">
-                                      <a href="{{ action_url }}">
-                                        <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="30" style="margin-right: 5px;" />
-                                        {{ action_label }}
-                                      </a>
-                                    </li>
-                                  {% endfor %}
-                                {% endfor %}
-                              </ul>
-                            </td>
-                            </tr>
-                          </table>
-                        {% endif %}
-                      {% endfor %}
-                    {% endif %}
-                  </td>
-                </tr>
-                {% if common_api_action_url != '' %}
-
-                  {% assign pathname = common_api_action_url | replace: site.url,'' %}
-                  {% assign pathname = pathname | replace: '/data/','' %}
-                  {% assign pathname = pathname | replace: thisname,'' %}
-                  {% assign pathname = pathname | replace: '/','' %}
-                  {% assign pathname = pathname | replace: '.json','' %}
-                  {% assign api_action_spec = file | map: pathname %}
-                  <tr>
-                    <td colspan="3" align="left" style="margin-left: 75px; margin-right: 75px; margin-top 15px;">
-                      <p style="font-size: 18px; margin-left: 117px; padding-top: 5px;"><strong>Actions:</strong></p>
-                      <ul style="margin-left: 125px;">
-                        {% for actions in api_action_spec %}
-                          {% for action in actions %}
-                            {% assign action_label = action.Action %}
-                            {% assign action_url = action.URL %}
-                            <li style="font-size: 14px; list-style: none;">
-                              <a href="{{ action_url }}">
-                                <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="30" style="margin-right: 5px;" />
-                                {{ action_label }}
-                              </a>
-                            </li>
-                          {% endfor %}
-                        {% endfor %}
-                      </ul>
-                    </td>
-                  </tr>
-              {% endif %}
-          </table>
-        </td>
-      </tr>
-
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-</table>
-<p>If there is an organization you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.</p>
+<h3>Real Time</h3>
+<p>These are some API service providers who just happen to have some nice API design features.</p>
+{% assign display_tag = "Real Time" %}
+{% include org-listing.html %}
