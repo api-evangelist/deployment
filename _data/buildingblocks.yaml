@@ -1,0 +1,310 @@
+- category_name: Data
+  building_blocks:
+  - building_block_id: p3lTbyDOViWFSoXpobOSQCftIvkNN5IJg9CYbe9hcc0117
+    building_block_category_id: 116Y88Bzlrz0pA1235PYJDBwrm123rIOA7L64woLEAUX2fREM117
+    name: Database
+    about: Connecting to a database and generating a CRUD, or create, read, update
+      and delete API on an existing data source.
+    category_id: "314"
+    category: Data
+    category_about: Leverage existing data sources for the deployment of APIs, either
+      through one time or regular dumps, all the way to life connections that keep
+      the API and data source in sync.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-database.png
+    image_width: "75"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: 7NuCN9GfZbF37I7aC1NIqfL123Eywbfpq0CnSLpaBN123H4117
+    building_block_category_id: 116Y88Bzlrz0pA1235PYJDBwrm123rIOA7L64woLEAUX2fREM117
+    name: Comma Separate File (CSV)
+    about: Deploying an API from comma separated files, providing a simple, delimited,
+      structured data store as a file rather than database.
+    category_id: "314"
+    category: Data
+    category_about: Leverage existing data sources for the deployment of APIs, either
+      through one time or regular dumps, all the way to life connections that keep
+      the API and data source in sync.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-csv.png
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: 9iMEG11613WuleObth1mcc3Es1ydAA8ykX6aifji1164Vdg117
+    building_block_category_id: 116Y88Bzlrz0pA1235PYJDBwrm123rIOA7L64woLEAUX2fREM117
+    name: Spreadsheet
+    about: The deployment of an API from a web-based, or uploaded spreadsheet, transforming
+      the column, and data into a web API.
+    category_id: "314"
+    category: Data
+    category_about: Leverage existing data sources for the deployment of APIs, either
+      through one time or regular dumps, all the way to life connections that keep
+      the API and data source in sync.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: V5CL7qnUgv069CtY4M7BKu1ZRL6KE9nGc0Qg1qkgzJk117
+    building_block_category_id: 116Y88Bzlrz0pA1235PYJDBwrm123rIOA7L64woLEAUX2fREM117
+    name: JavaScript Object Notation (JSON)
+    about: Deploying an API from JSON file, providing a simple, delimited, structured
+      data store as a file rather than database.
+    category_id: "314"
+    category: Data
+    category_about: Leverage existing data sources for the deployment of APIs, either
+      through one time or regular dumps, all the way to life connections that keep
+      the API and data source in sync.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "4"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Code
+  building_blocks:
+  - building_block_id: 123DP1161231gqVm3AMcsJ507b116vK3U7fYqlXQrPzuI80YY8o117
+    building_block_category_id: dP123JD6uCURTb2PbWSz123oaeKzpmqHdPsOrzzlXymQFTg117
+    name: Framework
+    about: Crafting and API using an existing API framework in a particular programming
+      language, providing the HTTP scaffolding needed.
+    category_id: "318"
+    category: Code
+    category_about: The code that is used to actually drive an API. All the server-side
+      code that makes an API work, connecting to datasources, providing frameworks,
+      and anything else needed to deploy an API.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ladder.png
+    image_width: "75"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: OULeE123NYUwOuZvEmzsbXIIkMnV2O5laUtvGPasnaM10117
+    building_block_category_id: dP123JD6uCURTb2PbWSz123oaeKzpmqHdPsOrzzlXymQFTg117
+    name: Github
+    about: Provides a simple way to publish documentation, code libraries, TOS, and
+      other common building blocks in support of API operations.
+    category_id: "318"
+    category: Code
+    category_about: The code that is used to actually drive an API. All the server-side
+      code that makes an API work, connecting to datasources, providing frameworks,
+      and anything else needed to deploy an API.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: mA5hQ3fy116oYf116dIVGsgFNhQ93TT2lseowTyQr2UwGVA117
+    building_block_category_id: dP123JD6uCURTb2PbWSz123oaeKzpmqHdPsOrzzlXymQFTg117
+    name: Serverless
+    about: Deployment of individual code, in a variety of languages, using cloud serverless
+      technology like AWS Lambda or Iron.io.
+    category_id: "318"
+    category: Code
+    category_about: The code that is used to actually drive an API. All the server-side
+      code that makes an API work, connecting to datasources, providing frameworks,
+      and anything else needed to deploy an API.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Backend
+  building_blocks:
+  - building_block_id: 15mQk9YwMIRUPP8GzyRtOokcxExkH5JJVPc116rUtatEo117
+    building_block_category_id: FsCXZhOvfEjKQMky3fQGd0mucsf6l1M5DPG4rhNid98117
+    name: On-Premise
+    about: The deployment of APIs is done on-premise within an organizational controlled
+      datacenter.
+    category_id: "315"
+    category: Backend
+    category_about: The behind the scenes architecture that is used to deploy an API,
+      either one time, or ongoing infrastructure elements that is used to deploy APIs.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: uqARt1GHFuZpPcvhFzKzoFF4wYOvqIm6lSom0D7GB3k117
+    building_block_category_id: FsCXZhOvfEjKQMky3fQGd0mucsf6l1M5DPG4rhNid98117
+    name: Cloud
+    about: Deployment of APis are done using cloud providers, where hosting is included
+      with other services.
+    category_id: "315"
+    category: Backend
+    category_about: The behind the scenes architecture that is used to deploy an API,
+      either one time, or ongoing infrastructure elements that is used to deploy APIs.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: a5DUyagtedahzqHY8GMl2iqzfHE9OPvu4txHO5NLuLU117
+    building_block_category_id: FsCXZhOvfEjKQMky3fQGd0mucsf6l1M5DPG4rhNid98117
+    name: Hosting
+    about: Hosting is all about where you are going to park your API. Usual deployments
+      are on-premise within your company or data center, in a public cloud like Amazon
+      Web Services or a hybrid of the two.
+    category_id: "315"
+    category: Backend
+    category_about: The behind the scenes architecture that is used to deploy an API,
+      either one time, or ongoing infrastructure elements that is used to deploy APIs.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hosting
+    image_width: "125"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Connection
+  building_blocks:
+  - building_block_id: Zu16zKtdkAKj2yUk2GGtYT8XlLqe3qxsSz9mRRlWH0g117
+    building_block_category_id: MHRTuqQ5gI1lHCe1cpg7j3sGKVd0w123ozRUFG9P123cw123s117
+    name: Gateway
+    about: API gateways provide a solution for tapping into internal systems and connecting
+      with external platforms, to expose APIs.
+    category_id: "316"
+    category: Connection
+    category_about: Technology solutions that allow for APIs to be deployed by connecting
+      to existing systems, web services, FTP locations, and other APIs, through a
+      variety of approaches.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy-left.png
+    image_width: "125"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: kHOdR2xW8ECGQ9fVDeqcCFb2Zv3aFhBVm3Pb123Pis5w0117
+    building_block_category_id: MHRTuqQ5gI1lHCe1cpg7j3sGKVd0w123ozRUFG9P123cw123s117
+    name: Proxy
+    about: API proxy are common place for taking an existing API interface, running
+      it through an intermediary which allows for translations, transformations and
+      other added services on top of API.
+    category_id: "316"
+    category: Connection
+    category_about: Technology solutions that allow for APIs to be deployed by connecting
+      to existing systems, web services, FTP locations, and other APIs, through a
+      variety of approaches.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy.png
+    image_width: "125"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: aOhtOdnccR9lYZn1Cq3YBRr4P9F116xRT2k8IS6wGILnc117
+    building_block_category_id: MHRTuqQ5gI1lHCe1cpg7j3sGKVd0w123ozRUFG9P123cw123s117
+    name: Connector
+    about: Contrary to an API proxy, there are API solutions that are proxyless, while
+      just allowing an API to connect or plugin to the advanced API resources
+    category_id: "316"
+    category: Connection
+    category_about: Technology solutions that allow for APIs to be deployed by connecting
+      to existing systems, web services, FTP locations, and other APIs, through a
+      variety of approaches.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-connector
+    image_width: "125"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Other
+  building_blocks:
+  - building_block_id: NhVVXDGYMgaBehEDwoZ5AIIoHVegkEhInE7VB6JJ3Xk117
+    building_block_category_id: FbyPQ6njSBh6nHZqtwoW4ke2GLZ5DPMkrv7SSOc1GJw117
+    name: Real Time
+    about: Providing a way to deploy APIs that are real time, either directly from
+      sources, or on top of existing APIs.
+    category_id: "317"
+    category: Other
+    category_about: Using content and data that is already on the web for deploying
+      APIs, something that usually involves scraping or harvesting of content and
+      data, then normalization before an API is deployed.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: RO9BwSVbdY7VjndbNbYkC0WzW82eQKSgwX6MSpn5upE117
+    building_block_category_id: FbyPQ6njSBh6nHZqtwoW4ke2GLZ5DPMkrv7SSOc1GJw117
+    name: Scraping
+    about: Harvesting or scraping of data from an existing website, content or data
+      source, when an existing data source is unavailable, and then publishing as
+      an API.
+    category_id: "317"
+    category: Other
+    category_about: Using content and data that is already on the web for deploying
+      APIs, something that usually involves scraping or harvesting of content and
+      data, then normalization before an API is deployed.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scraper.jpg
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
