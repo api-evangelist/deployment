@@ -2,17 +2,15 @@ name: Deployment
 description: A toolkit where I gather all the news, analysis, companies and technology
   when it comes to deploying APIs.
 image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-deploy.jpg
-created: "2016-11-27"
-modified: "2016-11-27"
-url: http://deployment.apievangelist.com/apis.json
+created: "2017-02-17"
+modified: "2017-02-17"
+url: http://deployment.apievangelist.com/apis.yaml
 specificationVersion: "0.14"
 apis: []
 tags:
 - Deployment
 - Deployment
 include:
-- name: 3scale
-  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/3scale/apis.yaml
 - name: Akana
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/akana/apis.yaml
 - name: Algorithmia
@@ -39,6 +37,24 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apigility/apis.yaml
 - name: Apimint
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apimint/apis.yaml
+- name: AWS API Gateway
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-api-gateway/apis.yaml
+- name: AWS Auto Scaling
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-auto-scaling/apis.yaml
+- name: AWS CloudFormation
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-cloudformation/apis.yaml
+- name: AWS EC2 Container Service
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-ec2-container-service/apis.yaml
+- name: AWS EC2 Systems Manager
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-ec2-systems-manager/apis.yaml
+- name: AWS Elastic Beanstalk
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-elastic-beanstalk/apis.yaml
+- name: AWS Lambda
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-lambda/apis.yaml
+- name: AWS Lightsale
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-lightsale/apis.yaml
+- name: AWS Storage Gateway Service
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/aws-storage-gateway-service/apis.yaml
 - name: Axway
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/axway/apis.yaml
 - name: BinaryOps.io
@@ -49,8 +65,6 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/ca-technologies/apis.yaml
 - name: CKAN
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/ckan/apis.yaml
-- name: CloudRail
-  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/cloudrail/apis.yaml
 - name: Cosmic
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/cosmic/apis.yaml
 - name: deployd
@@ -69,6 +83,8 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/fieldbook/apis.yaml
 - name: Fluidinfo
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/fluidinfo/apis.yaml
+- name: Goa
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/goa/apis.yaml
 - name: Google
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/google/apis.yaml
 - name: Hook.io
@@ -77,8 +93,6 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/hyper/apis.yaml
 - name: import.io
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/importio/apis.yaml
-- name: Instant API
-  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/instant-api/apis.yaml
 - name: iRESTful
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/irestful/apis.yaml
 - name: Jexia
@@ -131,6 +145,8 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/socrata/apis.yaml
 - name: StackHut
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/stackhut/apis.yaml
+- name: StreamdataIO
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/streamdataio/apis.yaml
 - name: StrongLoop
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/strongloop/apis.yaml
 - name: SwiftIQ
@@ -149,3 +165,5 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/wrapapi/apis.yaml
 - name: Zatar @ Zebra
   url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/zatar--zebra/apis.yaml
+- name: Zeit
+  url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/zeit/apis.yaml
