@@ -4,10 +4,11 @@ description: Karaf provides dual polymorphic container and application bootstrap
   deals with the rest.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-karaf-logo.png
 tags:
+- Open Source
 - Deployment
 - Containers
-created: "2017-02-17"
-modified: "2017-02-17"
+created: "2017-02-18"
+modified: "2017-02-18"
 url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/apache-karaf/apis.yaml
 specificationVersion: "0.14"
 apis: []
