@@ -6,12 +6,12 @@ description: Fluidinfo are the makers of FluidDB, an online u201ccloudu201d data
   and searching in ways that have previously not been possible. It also allows users
   to choose exactly which information to share with whom, with separate controls for
   reading and writing. FluidDB lets data be social.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/fluidinfo-logo.png
 tags:
 - Deployment
 - Database
-created: "2017-02-17"
-modified: "2017-02-17"
+created: "2017-02-18"
+modified: "2017-02-18"
 url: https://raw.githubusercontent.com/api-evangelist/deployment/gh-pages/_data/api-commons/fluidinfo/apis.yaml
 specificationVersion: "0.14"
 apis: []
