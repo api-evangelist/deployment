@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "en123nOEMnP1yuhXVU1eZHpxUGPdoNFGTMajLnxcLqllMuvdEfCORBEuaEgei0s5ljNnaq116SD20wgnuzgHeE2fYg117117",
+		"item_date": "2017-03-09 00:00:00",
+		"title": "Is GraphQL The End of REST Style APIs",
+		"url": "http://nordicapis.com/is-graphql-the-end-of-rest-style-apis/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tyHWSzoFRSpy123xtUqcsjRzlmSGnKq2vUvYqqhrj2v2eU116iRzbbPwK123iuJQbdaUsaC1GAncsIq123Le519z8SQ5FQ117117",
+		"item_date": "2017-03-08 12:57:46",
+		"title": "The Anatomy of a GraphQL Query",
+		"url": "https://medium.com/m/global-identity",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
 		"curated_id": "123fzWJSlNDbFpbEDP0wxq3rco123ST895ONWBlHcjMIC2nuzPaJDoXRfhDl3GLCUmxhLkmFVTfONgKqoisRa123GHPA117117",
 		"item_date": "2017-02-28 05:01:09",
 		"title": "Tweet Asynchronous REST Services with JAXRS and CompletableFuture middot httpstco3Awb0JHzn7 httpstcoiFDejqD9Ic",
