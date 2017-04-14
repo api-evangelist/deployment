@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "oNkrCok5z9dIYcQN2k6n116li6CSl3xZdyebn6CXxYLiu3D6bHYSuyaT116JiL1237Y0ErQYokXaCvLqy09hO4nI1kcw117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "Announcing LoopBacknext the Next Step to Make LoopBack Effortlessly Extensible",
+		"url": "https://strongloop.com/strongblog/announcing-loopback-next/",
+		"domain": "strongloop.com",
+		"image": ""
+	},
+	{
+		"curated_id": "LraVKmHby5NMdTaA6Z3aQ123AQxVavzm2X5G1ioCKqUmhp3123rjEjen1GaXWpbxpAZY2W5uHk7W0d123wdSKhf8g1aw117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "Automating project creation with Google Cloud Deployment Manager",
+		"url": "https://cloudplatform.googleblog.com/2017/04/automating-project-creation-with-Google-Cloud-Deployment-Manager.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
 		"curated_id": "aTCVnRyvo1234vekKqwSkD0JXN1ACDMmSVcecpMf123WhERJepZeJuJAOtW8ZdKkap23ICuaTu8quqyvZcO3QiN116Lw117117",
 		"item_date": "2017-04-04 07:54:32",
 		"title": "Introducing API Microgateway a programmable Open source gateway for your APIs",
