@@ -1,9 +1,49 @@
 [
 	{
+		"curated_id": "nK123TtCgCt116EFfWaA5UP4DOlKU7sIZ4ODaS7Q8j2unrWz00P6fmXr5EMWx2pvXrIoEli3WGuTeBT6nLVChq0lxg117117",
+		"item_date": "2017-05-12 15:24:53",
+		"title": "Thoughts on a Next Generation API Gateway",
+		"url": "http://blog.howarddierking.com/2017/05/04/thoughts-on-a-next-generation-api-gateway/",
+		"domain": "blog.howarddierking.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wT03bqbhoDZ11rnAhbbtmOTkeDl3Fg7GnG9Wxljj52eyoc7A6twOQfXI116zd1234itdIZ3K123pcrq5xceZ116tMm2sZA117117",
+		"item_date": "2017-05-12 08:09:11",
+		"title": "Tweet Announcing Ambassador an open source API Gateway for microservices built on Lyft Envoy",
+		"url": "https://twitter.com/datawireio/statuses/863048415911059456",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vjyNfQhEFw0fDfDy8kXsfsJ123LJ116hpmxkOrJaKOrEHdDnOOorwlTnxt3AZfjiIMIJpmZo79DDKOuvS8uXITNGoA117117",
+		"item_date": "2017-05-12 00:00:00",
+		"title": "Oracle launches API platform cloud service",
+		"url": "http://www.zdnet.com/article/oracle-launches-api-platform-cloud-service/",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FxwNmc4N1v7IlRbzR2820df123SNtV9XepiK123q1xAUBUQrfudcQjTGM8L1dV0q6L5jseIMfnyvvG5w9icl9ZdmTQ117117",
+		"item_date": "2017-05-11 00:00:00",
+		"title": "HowTo Convert SOAP APIs to REST APIs",
+		"url": "https://dzone.com/articles/how-to-convert-soap-apis-to-rest-apis?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "WkJWs4aHQX7i5vl116Lupm7b5QvXZeJxEUi0k6G6Nr7xLmPTbfIERyA1KdfuZiiptDtKYWdrIWmy3gzgMxWcrKAA117117",
 		"item_date": "2017-05-12 00:00:00",
 		"title": "API Gateway Standalone With TLS and OAuth Enabled for Securing an API",
 		"url": "https://dzone.com/articles/api-gateway-standalone-with-tls-and-oauth-enabled",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dQ123REQFwObBzxtqegkYr1Cm11zTTUA8RRIwEppq4TNLExH8PGggf25pyqWGWM66pnFMKSL4lQVTxOsEVDt116plQ117117",
+		"item_date": "2017-05-12 00:00:00",
+		"title": "Lightweight Embedded Java REST Server Without a Framework",
+		"url": "https://dzone.com/articles/lightweight-embedded-java-rest-server-without-a-fr",
 		"domain": "dzone.com",
 		"image": ""
 	},
