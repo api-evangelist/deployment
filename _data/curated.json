@@ -24,10 +24,42 @@
 		"image": ""
 	},
 	{
+		"curated_id": "9FSj5YDNjHFhxmQQtUa9M6lTPYl3b9CNnl2aj8V6jdFN4VX19yz2kmQIJtgpiqYLaGeWWE5c6aM0jvsTf1nw123A117117",
+		"item_date": "2017-05-09 00:00:00",
+		"title": "Serverless Works Best in API Architectures",
+		"url": "https://thenewstack.io/serverless-works-best-api-architectures/",
+		"domain": "thenewstack.io",
+		"image": ""
+	},
+	{
+		"curated_id": "hSunLqBZpdL2xAayyEnDw96WfuoZLFywnI77gUcC123njFSvOf116zU0tib116v1OuZ0QPRgJyGI116zgUSvWy2CFtXARw117117",
+		"item_date": "2017-05-09 00:00:00",
+		"title": "PHP Facade Support for Creating API Endpoints Entity",
+		"url": "https://developer.intuit.com/hub/blog/2017/05/09/php-facade-support-creating-api-endpoints-entity",
+		"domain": "developer.intuit.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rpvXHE116dlVjZwFQvHL9He123123lmVEDvQXI1yMvTx8P9SOVIgOI03Uc51XtewhaNmYzEFYyOHJsHP06lXVjM2Ppug117117",
+		"item_date": "2017-05-09 00:00:00",
+		"title": "Launching RESTHeart into Production",
+		"url": "https://www.compose.com/articles/launching-restheart-into-production/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
+		"curated_id": "GixlnXYI44DCX77MULIP9073iZRQdiB7OnWpj5kQAGF05RJuIGb51m5KCOGgNK2116123mxVM83I6V5WsA5MeAY7Nw117117",
+		"item_date": "2017-05-11 00:00:00",
+		"title": "Solr v2 API  Quick Look",
+		"url": "https://dzone.com/articles/solr-v2-api-quick-look-1",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "FxwNmc4N1v7IlRbzR2820df123SNtV9XepiK123q1xAUBUQrfudcQjTGM8L1dV0q6L5jseIMfnyvvG5w9icl9ZdmTQ117117",
 		"item_date": "2017-05-11 00:00:00",
 		"title": "HowTo Convert SOAP APIs to REST APIs",
-		"url": "https://dzone.com/articles/how-to-convert-soap-apis-to-rest-apis?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/how-to-convert-soap-apis-to-rest-apis",
 		"domain": "dzone.com",
 		"image": ""
 	},
