@@ -1,10 +1,10 @@
-title:        API Design
-url:          http://design.apievangelist.com
-raw_url: http://design.apievangelist.com/apis/
+title:        API Deployment
+url:          http://deployment.apievangelist.com
+raw_url: http://deployment.apievangelist.com/apis/
 
-tag: Design
+tag: Deployment
 
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-design.png
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-deployment.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -21,7 +21,7 @@ paginate: 25
 paginate_path: "/blog/page:num"
 
 github_user: api-evangelist
-github_repo: design
+github_repo: deployment
 github_branch: gh-pages
 
 # Footer
