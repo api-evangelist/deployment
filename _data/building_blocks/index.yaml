@@ -1,0 +1,1273 @@
+---
+- building_block_id: '562'
+  type: Design
+  category: Other
+  name: Parser
+  description: An API definition parser, available in multiple languages and open
+    up the programmatic generation of API definitions as localized object.
+  logo: 'null'
+  tags: Design
+- building_block_id: '574'
+  type: Design
+  category: Other
+  name: Validator
+  description: Tools for validating API calls, enabling developers to determine which
+    types of calls will be valid, using central API definition and schema.
+  logo: 'null'
+  tags: Design
+- building_block_id: '577'
+  type: Design
+  category: Other
+  name: Github Sync
+  description: The ability to store and sync API definitions with Github, providing
+    a central public or private repository for the definition of an API resource.
+  logo: 'null'
+  tags: Design
+- building_block_id: '578'
+  type: Design
+  category: Other
+  name: Command Line
+  description: Command line tooling for use as part of the API design process, allowing
+    developers to use single commands at the prompt.
+  logo: 'null'
+  tags: Design
+- building_block_id: '580'
+  type: Design
+  category: Other
+  name: Translator
+  description: " Tools for translating between various API definitions, allowing the
+    transformation from RAML to Swagger, and between each API definition format."
+  logo: 'null'
+  tags: Design
+- building_block_id: '1133'
+  type: Design
+  category: Requests
+  name: SSL
+  description: Transport Layer Security (TLS) and its predecessor, Secure Sockets
+    Layer (SSL), both of which are frequently referred to as 'SSL', are cryptographic
+    protocols designed to provide communications security over a computer network.
+    Always support TLS / SSL by default when it comes to API operations, if at all
+    possible.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1134'
+  type: Design
+  category: Requests
+  name: Host
+  description: Put sufficient thought into what the baseURL will be for making API
+    calls. Increasingly this element can also be dynamic, like other aspects of API
+    design.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1135'
+  type: Design
+  category: Requests
+  name: Resource
+  description: Consider how you craft your resources across all API operations. I
+    do not subscribe to specific philosophies around this, just trying to provide
+    a framework to think about this in.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1136'
+  type: Design
+  category: Requests
+  name: Action
+  description: Allow for standard actions to be taken across resource, but also reflect
+    how APIs will be experienced, providing meaningful action to be taken around any
+    API.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1137'
+  type: Design
+  category: Requests
+  name: Verbs
+  description: 'Learn about, and put all HTTP verbs to use when designing APIs.There
+    is more than just GET, and even more than just POST, PUT, and DELETE. '
+  logo: 'null'
+  tags: Design
+- building_block_id: '1138'
+  type: Design
+  category: Requests
+  name: Parameters
+  description: Standardize how parameters are crafted as part of API operations, using
+    intuitive and consistent approaches.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1139'
+  type: Design
+  category: Requests
+  name: Headers
+  description: Learn about, and use common headers for API requests. Study how the
+    APIs you consumer put headers to work.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1140'
+  type: Design
+  category: Requests
+  name: Body
+  description: Use the body of each request in a consistent way across API operations.
+    The body provides much more room for more structured data and content.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1141'
+  type: Design
+  category: Requests
+  name: Versioning
+  description: Establish, and stick to a common versioning strategy, and use throughout
+    API evolutions. Consider putting all versioning information within headers.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1142'
+  type: Design
+  category: Requests
+  name: Pagination
+  description: Learn about common ways to paginate, and establish a single way to
+    handle across API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1143'
+  type: Design
+  category: Requests
+  name: Filtering
+  description: Consider how filtering will happen across all APIs, and establish a
+    single way to filter API resources.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1144'
+  type: Design
+  category: Requests
+  name: Time Selection
+  description: Consider how time selection and series will be handled, and establish
+    a single way for working with time in API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1145'
+  type: Design
+  category: Requests
+  name: Sorting
+  description: Establish a single approach to how API responses can be sorted, and
+    use across all API resources.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1146'
+  type: Design
+  category: Requests
+  name: Field Selection
+  description: Consider providing a way that API consumers can select which fields
+    are included in API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1147'
+  type: Design
+  category: Requests
+  name: Granularity
+  description: Always be aware of the granularity of your API endpoints, and each
+    resource being exposed, keeping everything as small as possible.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1148'
+  type: Design
+  category: Requests
+  name: Relationship
+  description: Consider how relationships between resources will be handled, and establish
+    a single approach for doing across API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1150'
+  type: Design
+  category: Response
+  name: Status Codes
+  description: Learn about, and use HTTP status codes in a consistent way across all
+    API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1151'
+  type: Design
+  category: Response
+  name: Error Handling
+  description: Establish a single error handling strategy, and apply consistently
+    across all API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1152'
+  type: Design
+  category: Response
+  name: Rate Limits
+  description: Establish a single approach to rate limiting of API resources, and
+    apply consistently across all API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1153'
+  type: Design
+  category: Response
+  name: Caching
+  description: Learn about common approaches to caching, and make sure it is applied
+    through API operations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1154'
+  type: Design
+  category: Response
+  name: eTags
+  description: Learn about etags are used as part of caching and operations, and employ
+    them as part of your caching strategy, and usage of HTTP elements.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1155'
+  type: Design
+  category: Response
+  name: Request-Ids
+  description: Employ Request-Ids if possible providing added details for logging,
+    auditing, and reporting on API usage.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1156'
+  type: Design
+  category: Response
+  name: UTF-8
+  description: UTF-8 is a character encoding capable of encoding all possible characters,
+    or code points, in Unicode. The encoding is variable-length and uses 8-bit code
+    units. Make sure you use UTF-8 encoding for your API responses, supporting proper
+    encoding.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1157'
+  type: Design
+  category: Response
+  name: CORS
+  description: Enable CORS for your API endpoints, providing the most flexibility
+    possible in making API calls.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1158'
+  type: Design
+  category: Response
+  name: JSONP
+  description: Provide JSONP if you are unable to enable CORS, allowing for easier
+    integrations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1159'
+  type: Design
+  category: Media Types
+  name: application/json
+  description: Provide JSON media types for API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1160'
+  type: Design
+  category: Media Types
+  name: application/xml
+  description: Provide XML media types for API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1161'
+  type: Design
+  category: Media Types
+  name: application/csv
+  description: Provide CSV media types for API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1162'
+  type: Design
+  category: Media Types
+  name: text/html
+  description: Provide HTML media types for API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1163'
+  type: Design
+  category: Media Types
+  name: application/atom+xml
+  description: Provide ATOM media types for API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1164'
+  type: Design
+  category: Schema
+  name: JSON Schema
+  description: JSON Schema, describes your JSON data format. JSON Hyper-Schema, turns
+    your JSON data into hyper-text. Use JSON schema when possible to standardize and
+    validate your JSON structure.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1165'
+  type: Design
+  category: Open Standards
+  name: iCalendar
+  description: Use iCalendar when representing date / time formats in your API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1166'
+  type: Design
+  category: Open Standards
+  name: vCard
+  description: vCard is a file format standard for electronic business cards. vCards
+    are often attached to e-mail messages, but can be exchanged in other ways, such
+    as on the World Wide Web or instant messaging. They can contain name and address
+    information, telephone numbers, e-mail addresses, URLs, logos, photographs, and
+    audio clips. Use vCard when representing contact data in your API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1167'
+  type: Design
+  category: Open Standards
+  name: KML
+  description: When working with mapping data, represent it using KML when possible.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1168'
+  type: Design
+  category: Open Standards
+  name: geoRSS
+  description: Also consider geoRSS when representing you geographic data.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1169'
+  type: Design
+  category: Open Standards
+  name: m3u
+  description: When providing formatted data for media formats, consider using m3u.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1170'
+  type: Design
+  category: Open Standards
+  name: UUID
+  description: 'Use a universally unique identifier (UUID) when possible. '
+  logo: 'null'
+  tags: Design
+- building_block_id: '1171'
+  type: Design
+  category: Open Standards
+  name: ISO 8601 (Date / Time)
+  description: ISO 8601 Data elements and interchange formats ��� Information interchange
+    ��� Representation of dates and times is an international standard covering the
+    exchange of date and time-related data. The purpose of this standard is to provide
+    an unambiguous and well-defined method of representing dates and times, so as
+    to avoid misinterpretation of numeric representations of dates and times, particularly
+    when data are transferred between countries with different conventions for writing
+    numeric dates and times.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1172'
+  type: Design
+  category: Open Standards
+  name: ISO 4217 (Currency)
+  description: 'Use ISO 427 data elements and interchange formats for the representation
+    currency codes. ISO 4217 is a standard published by International Organization
+    for Standardization, which delineates currency designators, country codes (alpha
+    and numeric), and references to minor units in three tables: current currency
+    & funds code list, current funds codes, list of codes for historic denominations
+    of currencies & funds.'
+  logo: 'null'
+  tags: Design
+- building_block_id: '1173'
+  type: Design
+  category: Open Standards
+  name: ISO 3166 (Country)
+  description: Use ISO 3166 data elements and interchange formats for the representation
+    country codes. The purpose of ISO 3166 is to define internationally recognized
+    codes of letters and/or numbers that we can use when we refer to countries and
+    subdivisions. However, it does not define the names of countries .
+  logo: 'null'
+  tags: Design
+- building_block_id: '1174'
+  type: Design
+  category: Open Standards
+  name: RDFa
+  description: Consider using RDFa for adding rich meta data to HTML representations.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1175'
+  type: Design
+  category: Schema
+  name: Schema.org
+  description: Consider using Schema.org representations for common data elements.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1176'
+  type: Design
+  category: Design Process
+  name: Definitions
+  description: Usage of common API definition formats like Swagger, API Blueprint,
+    RAML, and others for describing and defining APIs.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1177'
+  type: Design
+  category: Design Process
+  name: Editor
+  description: An IDE for editing API definitions, as well as possible GUI interface
+    for editing all of API details through desktop or web tooling.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1178'
+  type: Design
+  category: Design Process
+  name: Forkable
+  description: Allow an API definition to be forked, and built upon using a common
+    API definition format.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1179'
+  type: Design
+  category: Design Process
+  name: Sharing
+  description: Allow for API definitions to be shared amongst team members through
+    links, chat, email, and other channels.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1180'
+  type: Design
+  category: Design Process
+  name: Collaboration
+  description: Enable the collaboration between users, both technical, as well as
+    business stakeholders.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1181'
+  type: Design
+  category: Design Process
+  name: Annotation
+  description: Provide tooling for annotating API definitions that the design it represents,
+    leaving notes and comments at all layers.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1182'
+  type: Design
+  category: Design Process
+  name: Translation
+  description: Allowing for the translation of API designs between common API definition
+    formats, allowing users to speak in any format.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1183'
+  type: Design
+  category: Design Process
+  name: Highlighting
+  description: Enable highlighting of specific aspects of an API design to differentiate
+    it from other areas, and establishing common patterns.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1185'
+  type: Design
+  category: Organization
+  name: Guide
+  description: Pull together a common API design guide for use across an organization
+    and sharing with the public to demonstrate a standard approach is being used.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1186'
+  type: Design
+  category: Organization
+  name: Notebook
+  description: A notebook for storing of API definitions into a single, potentially
+    shareable location that can be used by an individual or group throughout the API
+    lifecycle.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1187'
+  type: Design
+  category: Organization
+  name: Collections
+  description: A folder or collection of API definitions mean to represent a single
+    or multiple API descriptions and definitions, for use throughout API lifecycle.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1188'
+  type: Design
+  category: Organization
+  name: Dictionary
+  description: A common set of API values to help provide consistent naming and patterns
+    to be used at different layers of the API design process.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1189'
+  type: Design
+  category: Organization
+  name: Contact
+  description: A common approach to defining and providing relevant contact information
+    for each API resource crafted.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1385'
+  type: Design
+  category: Best Practices
+  name: Use the Internet
+  description: The web brings a lot of tools to the table, make sure and learn about
+    existing web technologies, and put them to use across the API design process.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1386'
+  type: Design
+  category: Best Practices
+  name: Simplicity
+  description: Consider simplicity at ever turn when designing APIs, providing the
+    small possible unit of value you possibly can--simplicity goes a long way.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1387'
+  type: Design
+  category: Best Practices
+  name: Consistency
+  description: Employ consistent approaches to all aspects of API design, providing
+    a familiar approach across all APIs published.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1388'
+  type: Design
+  category: Best Practices
+  name: Easy to Read
+  description: While APIs are for computers, they should be easy to read by humans,
+    making documentation more accessible.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1389'
+  type: Design
+  category: Best Practices
+  name: Easy to Learn
+  description: Keeping APIs simple, and consistent, will contribute to them being
+    easy to learn about for any potential API consumer.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1390'
+  type: Design
+  category: Best Practices
+  name: Hard to Misuse
+  description: When APIs do one thing, and does it well, you reduce the opportunity
+    for misuse, and people putting them to work in unintended ways.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1391'
+  type: Design
+  category: Best Practices
+  name: Audience Focused
+  description: APIs should be designed with a specific audience in mind, providing
+    a solution to a problem they are having.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1392'
+  type: Design
+  category: Best Practices
+  name: Experience Over Resource
+  description: Make APIs reflect how they will be used, and experienced, over where
+    the API came from and the resource it was derived from.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1393'
+  type: Design
+  category: Best Practices
+  name: Use Your Own APIs
+  description: Always use your own APIs, allowing you to understand the challenges
+    with integrating, as well as the pain of operations and outages.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1460'
+  type: Design
+  category: Internationalization
+  name: Accept-Language
+  description: Set the language the API should be speaking using��Accept-Language.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1898'
+  type: Design
+  category: Response
+  name: Schema
+  description: The JSON Schema, MSON, or other machine readable approach to defining
+    the underlying data model of the API response.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1899'
+  type: Design
+  category: Response
+  name: Compression
+  description: Gzip or other compression format for API responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '1900'
+  type: Design
+  category: Schema
+  name: Markdown Syntax for Object Notation (MSON)
+  description: 'A Markdown syntax compatible with describing JSON and JSON Schema.
+
+'
+  logo: 'null'
+  tags: Design
+- building_block_id: '1946'
+  type: Design
+  category: Open Standards
+  name: RFC 7807
+  description: This document defines a problem detail as a way to carry machine-readable
+    details of errors in a HTTP response to avoid the need to define new error response
+    formats for HTTP APIs.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2059'
+  type: Design
+  category: HTTP Status User Error
+  name: 429 Too Many Requests
+  description: The user has sent too many requests in a given amount of time. Intended
+    for use with rate-limiting schemes.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2060'
+  type: Design
+  category: HTTP Methods
+  name: PATCH
+  description: The PATCH method applies partial modifications to a resource.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2062'
+  type: Design
+  category: HTTP Status Redirection
+  name: 303 See Other
+  description: The response to the request can be found under another URI using a
+    GET method. When received in response to a POST (or PUT/DELETE), the client should
+    presume that the server has received the data and should issue a redirect with
+    a separate GET message.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2063'
+  type: Design
+  category: HTTP Status Server Error
+  name: 501 Not Implemented
+  description: "'The server either does not recognize the request method, or it lacks
+    the ability to fulfill the request. Usually this implies future availability (e.g.,
+    a new feature of a web-service API).'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2064'
+  type: Design
+  category: Other
+  name: Dereference Relationships
+  description: How to load a resource and its linked resources in one call
+  logo: 'null'
+  tags: Design
+- building_block_id: '2065'
+  type: Design
+  category: Other
+  name: API counts
+  description: How many endpoints/resources in an API?
+  logo: 'null'
+  tags: Design
+- building_block_id: '2073'
+  type: Design
+  category: Internationalization
+  name: Language
+  description: Which language(s) use when designing an API
+  logo: 'null'
+  tags: Design
+- building_block_id: '2077'
+  type: Design
+  category: Other
+  name: Governance
+  description: "'How to ensure API governance (advertise, consistency, ...)'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2081'
+  type: Design
+  category: Best Practices
+  name: Notifying API consumers
+  description: How to send events or notifications to API consumers
+  logo: 'null'
+  tags: Design
+- building_block_id: '2090'
+  type: Design
+  category: HTTP Status Success
+  name: 202 Accepted
+  description: The request has been accepted for processing, but the processing has
+    not been completed. The request might or might not be eventually acted upon, and
+    may be disallowed when processing occurs.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2112'
+  type: Design
+  category: Error handling
+  name: Error format
+  description: How to provide information about errors
+  logo: 'null'
+  tags: Design
+- building_block_id: '2137'
+  type: Design
+  category: HTTP Status User Error
+  name: 411 Length Required
+  description: "'The request did not specify the length of its content, which is required
+    by the requested resource.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2138'
+  type: Design
+  category: HTTP Status User Error
+  name: 408 Request Timeout
+  description: 'The server timed out waiting for the request. According to HTTP specifications:
+    The client did not produce a request within the time that the server was prepared
+    to wait. The client MAY repeat the request without modifications at any later
+    time.'
+  logo: 'null'
+  tags: Design
+- building_block_id: '2139'
+  type: Design
+  category: HTTP Status User Error
+  name: 406 Not Acceptable
+  description: The requested resource is capable of generating only content not acceptable
+    according to the Accept headers sent in the request.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2140'
+  type: Design
+  category: HTTP Status Redirection
+  name: 302 Found
+  description: Common way of performing URL redirection. An HTTP response with this
+    status code will additionally provide a URL in the location header field. The
+    user agent (e.g. a web browser) is invited by a response with this code to make
+    a second, otherwise identical, request to the new URL specified in the location
+    field.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2142'
+  type: Design
+  category: Best Practices
+  name: Case
+  description: "'Which case (lowercase, camelCase, ...) to use and when'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2143'
+  type: Design
+  category: HTTP Status Server Error
+  name: 500 Internal Server Error
+  description: "'A generic error message, given when an unexpected condition was encountered
+    and no more specific message is suitable.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2144'
+  type: Design
+  category: Resources
+  name: Update resource
+  description: How to update a resource
+  logo: 'null'
+  tags: Design
+- building_block_id: '2146'
+  type: Design
+  category: Resources
+  name: Track change
+  description: How to track change on resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2147'
+  type: Design
+  category: Resources
+  name: Batch Bulk
+  description: How to handle batch/bulk processing/creation/update/... (e.g. handle
+    multiple resources at conce)
+  logo: 'null'
+  tags: Design
+- building_block_id: '2148'
+  type: Design
+  category: Resources
+  name: Update resource partially
+  description: How to udate partially a resource
+  logo: 'null'
+  tags: Design
+- building_block_id: '2149'
+  type: Design
+  category: Resources
+  name: Delete resource
+  description: How to delete resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2150'
+  type: Design
+  category: HTTP Status User Error
+  name: 404 Not Found
+  description: The requested resource could not be found but may be available in the
+    future. Subsequent requests by the client are permissible.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2152'
+  type: Design
+  category: Resources
+  name: Retrieve resource partially
+  description: How to retrieve partially a resource
+  logo: 'null'
+  tags: Design
+- building_block_id: '2153'
+  type: Design
+  category: HTTP Status User Error
+  name: 409 Conflict
+  description: Indicates that the request could not be processed because of conflict
+    in the request, such as an edit conflict between multiple simultaneous updates.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2154'
+  type: Design
+  category: Best Practices
+  name: Global design
+  description: General considerations on API design
+  logo: 'null'
+  tags: Design
+- building_block_id: '2155'
+  type: Design
+  category: HTTP Methods
+  name: OPTIONS
+  description: The OPTIONS method returns the HTTP methods that the server supports
+    for the specified URL. This can be used to check the functionality of a web server
+    by requesting ���*�۪ instead of a specific resource.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2159'
+  type: Design
+  category: HTTP Status User Error
+  name: 415 Unsupported Media Type
+  description: "'The request entity has a media type which the server or resource
+    does not support. For example, the client uploads an image as image/svg+xml, but
+    the server requires that images use a different format.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2160'
+  type: Design
+  category: Resources
+  name: Relationships
+  description: How to define and use relations between resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2161'
+  type: Design
+  category: HTTP Status User Error
+  name: 400 Bad Request
+  description: The server cannot or will not process the request due to an apparent
+    client error (e.g., malformed request syntax, too large size, invalid request
+    message framing, or deceptive request routing).
+  logo: 'null'
+  tags: Design
+- building_block_id: '2162'
+  type: Design
+  category: HTTP Status Redirection
+  name: 304 Not Modified
+  description: Indicates that the resource has not been modified since the version
+    specified by the request headers If-Modified-Since or If-None-Match. In such case,
+    there is no need to retransmit the resource since the client still has a previously-downloaded
+    copy.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2163'
+  type: Design
+  category: HTTP Status User Error
+  name: 422 Unprocessable Entity
+  description: The request was well-formed but was unable to be followed due to semantic
+    errors.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2165'
+  type: Design
+  category: Resources
+  name: Create resource with a specific ID
+  description: How to create resource with a provided id
+  logo: 'null'
+  tags: Design
+- building_block_id: '2166'
+  type: Design
+  category: HTTP Status Success
+  name: 200 OK
+  description: "'Standard response for successful HTTP requests. The actual response
+    will depend on the request method used. In a GET request, the response will contain
+    an entity corresponding to the requested resource. In a POST request, the response
+    will contain an entity describing or containing the result of the action.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2167'
+  type: Design
+  category: Response
+  name: Collection
+  description: What is a collection (set) of resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2168'
+  type: Design
+  category: HTTP Methods
+  name: HEAD
+  description: The HEAD method asks for a response identical to that of a GET request,
+    but without the response body. This is useful for retrieving meta-information
+    written in response headers, without having to transport the entire content.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2169'
+  type: Design
+  category: HTTP Status Success
+  name: 204 No Content
+  description: The server successfully processed the request and is not returning
+    any content.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2170'
+  type: Design
+  category: HTTP Status Success
+  name: 206 Partial Content
+  description: The server is delivering only part of the resource (byte serving) due
+    to a range header sent by the client. The range header is used by HTTP clients
+    to enable resuming of interrupted downloads, or split a download into multiple
+    simultaneous streams.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2171'
+  type: Design
+  category: Response
+  name: Sorting a collection
+  description: How to sort a collection of resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2172'
+  type: Design
+  category: HTTP Status User Error
+  name: 403 Forbidden
+  description: "'The request was a valid request, but the server is refusing to respond
+    to it. The user might be logged in but does not have the necessary permissions
+    for the resource.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2174'
+  type: Design
+  category: Response
+  name: HTTP Headers
+  description: The usage of standard or custom HTTP headers
+  logo: 'null'
+  tags: Design
+- building_block_id: '2175'
+  type: Design
+  category: HTTP Status Success
+  name: 201 Created
+  description: "'The request has been fulfilled, resulting in the creation of a new
+    resource.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2176'
+  type: Design
+  category: Media Types
+  name: Content negociation and media types
+  description: "'How to describe your API data format and/or propose different formats
+    (like json, yaml, xml atom, ...)'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2177'
+  type: Design
+  category: Resources
+  name: Action resource
+  description: How to use action resource (e.g. resources like /cancel or /approve)
+  logo: 'null'
+  tags: Design
+- building_block_id: '2178'
+  type: Design
+  category: HTTP Status User Error
+  name: 423 Locked
+  description: The resource that is being accessed is locked.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2179'
+  type: Design
+  category: HTTP Status User Error
+  name: 405 Method Not Allowed
+  description: A request method is not supported for the requested resource; for example,
+    a GET request on a form which requires data to be presented via POST, or a PUT
+    request on a read-only resource.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2180'
+  type: Design
+  category: HTTP Status User Error
+  name: 410 Gone
+  description: Indicates that the resource requested is no longer available and will
+    not be available again. This should be used when a resource has been intentionally
+    removed and the resource should be purged. Upon receiving a 410 status code, the
+    client should not request the resource in the future. Clients such as search engines
+    should remove the resource from their indices. Most use cases do not require clients
+    and search engines to purge the resource, and a 404 Not Found may be used instead.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2182'
+  type: Design
+  category: HTTP Methods
+  name: GET
+  description: The GET method requests a representation of the specified resource.
+    Requests using GET should only retrieve data and should have no other effect.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2183'
+  type: Design
+  category: HTTP Methods
+  name: PUT
+  description: The PUT method requests that the enclosed entity be stored under the
+    supplied URI. If the URI refers to an already existing resource, it is modified;
+    if the URI does not point to an existing resource, then the server can create
+    the resource with that URI.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2188'
+  type: Design
+  category: Resources
+  name: Resource ID
+  description: What is a resource ID and/or how it's built
+  logo: 'null'
+  tags: Design
+- building_block_id: '2189'
+  type: Design
+  category: HTTP Status User Error
+  name: 428 Precondition Required
+  description: The user has sent too many requests in a given amount of time. Intended
+    for use with rate-limiting schemes.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2191'
+  type: Design
+  category: HTTP Methods
+  name: POST
+  description: The POST method requests that the server accept the entity enclosed
+    in the request as a new subordinate of the web resource identified by the URI.
+    The data POSTed might be, for example, an annotation for existing resources; a
+    message for a bulletin board, newsgroup, mailing list, or comment thread; a block
+    of data that is the result of submitting a web form to a data-handling process;
+    or an item to add to a database.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2194'
+  type: Design
+  category: HTTP Status User Error
+  name: 412 Precondition Failed
+  description: The server does not meet one of the preconditions that the requester
+    put on the request.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2195'
+  type: Design
+  category: Other
+  name: Retrieve a collection
+  description: How to get a collection or resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2198'
+  type: Design
+  category: Resources
+  name: Resource's state
+  description: How to change a resource's state/status (like processed/sent/paid/...)
+  logo: 'null'
+  tags: Design
+- building_block_id: '2199'
+  type: Design
+  category: Error handling
+  name: Errors
+  description: How to handle errors
+  logo: 'null'
+  tags: Design
+- building_block_id: '2201'
+  type: Design
+  category: Resources
+  name: Retrieve resource
+  description: How to retrieve a resource
+  logo: 'null'
+  tags: Design
+- building_block_id: '2202'
+  type: Design
+  category: HTTP Methods
+  name: Forbidden methods alternatives
+  description: What to do when only possible HTTP methods are POST and GET
+  logo: 'null'
+  tags: Design
+- building_block_id: '2203'
+  type: Design
+  category: HTTP Methods
+  name: DELETE
+  description: The DELETE method deletes the specified resource.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2204'
+  type: Design
+  category: HTTP Status Server Error
+  name: 503 Service Unavailable
+  description: "'The server is currently unavailable (because it is overloaded or
+    down for maintenance). Generally, this is a temporary state.'"
+  logo: 'null'
+  tags: Design
+- building_block_id: '2205'
+  type: Design
+  category: Resources
+  name: ID with semantic
+  description: Using meaningful ids (like `me`)
+  logo: 'null'
+  tags: Design
+- building_block_id: '2206'
+  type: Design
+  category: HTTP Status Redirection
+  name: 301 Moved Permanently
+  description: This and all future requests should be directed to the given URI.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2207'
+  type: Design
+  category: Resources
+  name: Replace resource
+  description: How to replace (or update fully) a resource
+  logo: 'null'
+  tags: Design
+- building_block_id: '2208'
+  type: Design
+  category: Other
+  name: Asynchronicity
+  description: How to handle long operations
+  logo: 'null'
+  tags: Design
+- building_block_id: '2209'
+  type: Design
+  category: Resources
+  name: Resource
+  description: General informations about resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2210'
+  type: Design
+  category: Best Practices
+  name: Naming
+  description: How to name things
+  logo: 'null'
+  tags: Design
+- building_block_id: '2211'
+  type: Design
+  category: Resources
+  name: URL format
+  description: How to design URLs
+  logo: 'null'
+  tags: Design
+- building_block_id: '2212'
+  type: Design
+  category: Resources
+  name: Create resource
+  description: How to create resources
+  logo: 'null'
+  tags: Design
+- building_block_id: '2214'
+  type: Design
+  category: HTTP Status User Error
+  name: 401 Unauthorized
+  description: Similar to 403 Forbidden, but specifically for use when authentication
+    is required and has failed or has not yet been provided. The response must include
+    a WWW-Authenticate header field containing a challenge applicable to the requested
+    resource.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2215'
+  type: Design
+  category: Requests
+  name: HTTP Headers
+  description: The usage of standard or custom HTTP headers
+  logo: 'null'
+  tags: Design
+- building_block_id: '2225'
+  type: Design
+  category: Hypermedia
+  name: Collection+JSON
+  description: Collection+JSON is a JSON-based read/write hypermedia-type designed
+    to support management and querying of simple collections.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2226'
+  type: Design
+  category: Hypermedia
+  name: Extensible Markup Language (XML)
+  description: Extensible Markup Language (XML) is a simple, very flexible text format
+    derived from SGML (ISO 8879)
+  logo: 'null'
+  tags: Design
+- building_block_id: '2227'
+  type: Design
+  category: Hypermedia
+  name: Home Documents
+  description: A home document format for non-browser HTTP  clients.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2228'
+  type: Design
+  category: Hypermedia
+  name: Hydra
+  description: 'Hydra is an effort to simplify the development of interoperable, hypermedia-driven
+    Web APIs. '
+  logo: 'null'
+  tags: Design
+- building_block_id: '2229'
+  type: Design
+  category: Hypermedia
+  name: Hypertext Application Language (HAL)
+  description: HAL is a simple format that gives a consistent and easy way to hyperlink
+    between resources in your API.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2230'
+  type: Design
+  category: Hypermedia
+  name: JSON API
+  description: A specification for building APIs in JSON, and consistently formatting
+    their responses.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2231'
+  type: Design
+  category: Hypermedia
+  name: Mason
+  description: 'Mason is a JSON format for introducing hypermedia elements to classic
+    JSON data representations. '
+  logo: 'null'
+  tags: Design
+- building_block_id: '2232'
+  type: Design
+  category: Hypermedia
+  name: Noun As Resource With HyperLinks (NARWHL)
+  description: A framework intended to provide a roadmap for those needing to implement
+    an API using current best practices, but is flexible enough to grow into the future.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2233'
+  type: Design
+  category: Hypermedia
+  name: Siren
+  description: A hypermedia specification for representing entities in APIs.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2234'
+  type: Design
+  category: Hypermedia
+  name: Uniform Basis for Exchanging Representations (UBER)
+  description: 'The UBER message format is a minimal read/write hypermedia type designed
+    to support simple state transfers and ad-hoc hypermedia-based transitions. '
+  logo: 'null'
+  tags: Design
+- building_block_id: '2235'
+  type: Design
+  category: Hypermedia
+  name: XForms
+  description: XForms is an XML format used for collecting inputs from web forms,
+    and can be used to describe a user interface and a set of common data manipulation
+    tasks.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2236'
+  type: Design
+  category: Hypermedia
+  name: XML Inclusions (XInclude)
+  description: 'Inclusion is a format to merge a number of XML information sets into
+    a single composite infoset. '
+  logo: 'null'
+  tags: Design
+- building_block_id: '2237'
+  type: Design
+  category: Hypermedia
+  name: XML Linking Language (XLink)
+  description: Allows elements to be inserted into XML documents in order to create
+    and describe links between resources.
+  logo: 'null'
+  tags: Design
+- building_block_id: '2238'
+  type: Design
+  category: Hypermedia
+  name: xml:id
+  description: An ID attribute in XML documents and defines processing of this attribute
+    to identify IDs in the absence of validation, without fetching external resources,
+    and without relying on an internal subset.
+  logo: 'null'
+  tags: Design

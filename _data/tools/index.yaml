@@ -1,0 +1,548 @@
+- slug: 18f-api-standards
+  name: 18F API Standards
+  description: >-
+    18F is a technology team inside the US federal government. 18F is very
+    API-focused: our first project was an API for business opportunities. This
+    document captures 18F's view of API best practices and standards. We aim to
+    incorporate as many of them as possible into our work. APIs, like other web
+    applications, vary greatly in implementation and design, depending on the
+    situation and the problem the application is solving.
+  url: 'https://github.com/18F/api-standards'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/logo-18f.png
+  tags: 'Design,API Design Guide'
+- slug: api-blueprint-sublime-plugin
+  name: API Blueprint Sublime Plugin
+  description: An API Blueprint Sublime editor text plugin.
+  url: 'https://github.com/apiaryio/api-blueprint-sublime-plugin/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/sublime-dark-icon.png
+  tags: 'GitHub,IDE,API Blueprint,API Blueprint Core,Design,Design'
+- slug: apidesignguide
+  name: api-design-guide
+  description: >-
+    Several Cisco business units have teamed up to create this RESTful API
+    design guide. Collectively, this includes&nbsp;DevNet,&nbsp;Collaboration,
+    and the Application Platform Group. The objective of this document is to act
+    as a guide to define the future, it does not represent the current state of
+    all REST APIs at Cisco.
+  url: 'https://github.com/CiscoDevNet/api-design-guide'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/CiscoDevNetUrl-1-460x210.jpg
+  tags: 'GitHub,Design,API Design Guide'
+- slug: apidesigner
+  name: api-designer
+  description: >-
+    API Designer&nbsp;is a standalone/embeddable editor
+    for&nbsp;RAML&nbsp;(RESTful API Modeling Language) written in JavaScript
+    using Angular.JS. By default, the editor uses an in-browser filesystem
+    stored in HTML5 Localstorage.
+  url: 'https://api.github.com/repos/mulesoft/api-designer'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/mulesoft-api-designer-screenshot.png
+  tags: 'GitHub,Design,Design Editor'
+- slug: apiguidelines
+  name: api-guidelines
+  description: >-
+    The&nbsp;Microsoft REST API Guidelines, as a design principle, encourages
+    application developers to have resources accessible to them via a RESTful
+    HTTP interface. To provide the smoothest possible experience for developers
+    on platforms following the Microsoft REST API Guidelines, REST APIs SHOULD
+    follow consistent design guidelines to make using them easy and intuitive.
+  url: 'https://github.com/Microsoft/api-guidelines'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/Screen
+    Shot 2017-03-16 at 10.56.41 AM.png
+  tags: 'GitHub,Design,API Design Guide'
+- slug: apiguide
+  name: apiguide
+  description: >-
+    The DTO is working to release draft API design guide describing contemporary
+    best practices in API design and developer empathy. The final document will
+    be mandatory policy that all Commonwealth agencies must follow, and that
+    citizens could be entitled to expect. The agency has published a version
+    control version on Github with a public ticket system for issues and
+    support, and invited our users to help make it better.
+  url: 'https://github.com/AusDTO/apiguide'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/11763427.png
+  tags: 'Design,API Design Guide'
+- slug: atom-editor-api-blueprint-preview
+  name: Atom Editor API Blueprint Preview
+  description: >-
+    The Atom Editor API Blueprint preview is a plugin for the Atom editor that
+    allows you to render HTML representation of API Blueprint in the right of
+    the current open Atom editor using CTRL-SHIFT-A. This plugin requires Agilou
+    to be installed and available in your path.
+  url: 'https://atom.io/packages/api-blueprint-preview'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/atom-icon.png
+  tags: 'Design,API Blueprint,Design,IDE'
+- slug: barrister-rpc
+  name: Barrister RPC
+  description: >-
+    Barrister is a RPC system that uses an external interface definition (IDL)
+    file to describe the interfaces and data structures that a component
+    implements. It is similar to tools like Protocol Buffers, Thrift, Avro, and
+    SOAP.
+  url: 'http://barrister.bitmechanic.com/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/barrister-rpc.png
+  tags: 'Definitions,API Specification,Design'
+- slug: cloud-foundry-cloud-controller-api-style-guide
+  name: Cloud Foundry Cloud Controller API Style Guide
+  description: >-
+    This document serves as a style guide for the Cloud Controller API. It is
+    intended to act as a repository for patterns and best practices when
+    designing and developing new API endpoints. This is a living document; It
+    will change over time as we learn more about our users and develop features.
+  url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/cloud-foundry-logo.png
+  tags: 'Design,API Design Guide'
+- slug: collection+json
+  name: Collection+JSON
+  description: >-
+    Collection+JSON is a JSON-based read/write hypermedia-type designed to
+    support management and querying of simple collections.
+  url: 'http://amundsen.com/media-types/collection/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: 'https://github.com/collection-json'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/madmen_icon_400x400.jpg
+  tags: 'Hypermedia,Definitions,Design'
+- slug: deployd
+  name: deployd
+  description: a toolkit for building realtime APIs
+  url: 'https://github.com/deployd/deployd'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Design,Design,GitHub,Deployment,Real Time'
+- slug: gnostic
+  name: gnostic
+  description: >-
+    Compile OpenAPI descriptions into equivalent Protocol Buffer
+    representations. Profit.
+  url: 'https://github.com/googleapis/gnostic'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Design,gRPC'
+- slug: google-api-design-guide
+  name: Google API Design Guide
+  description: >-
+    This is a general design guide for networked APIs. It has been used inside
+    Google since 2014 and is the guide we follow when designing Cloud
+    APIs&nbsp;and other Google APIs. It is shared here to inform outside
+    developers and to make it easier for us all to work together. Google Cloud
+    Endpoints developers may find this guide particularly useful when designing
+    gRPC APIs, and we strongly recommend such developers use these design
+    principles.
+  url: 'https://cloud.google.com/apis/design/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/google-api-design-guide-screenshot.png
+  tags: 'Design,API Design Guide'
+- slug: hal
+  name: HAL
+  description: >-
+    HAL is a simple format that gives a consistent and easy way to hyperlink
+    between resources in your API. Adopting HAL will make your API explorable,
+    and its documentation easily discoverable from within the API itself. In
+    short, it will make your API easier to work with and therefore more
+    attractive to client developers. APIs that adopt HAL can be easily served
+    and consumed using open source libraries available for most major
+    programming languages. It's also simple enough that you can just deal with
+    it as you would any other JSON.
+  url: 'http://stateless.co/hal_specification.html'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+  tags: 'Hypermedia,Definitions,Design'
+- slug: haufe-group-api-design-guide
+  name: Haufe Group API Design Guide
+  description: >-
+    Purpose of this style guide is to gather a list of rules, best practices,
+    resources and our way of creating REST APIs in Haufe Group. The style guide
+    addresses API Designers, mostly developers and architects, who want to
+    design an API. Intention is to ease the design process by providing helpful
+    rules to create a successful API that your customers will love.
+  url: 'http://haufe-lexware.github.io/api-style-guide/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/Logo_Haufe_Gruppe.gif
+  tags: 'Design,API Design Guide'
+- slug: home-documents-for-http-apis
+  name: Home Documents for HTTP APIs
+  description: >-
+    JSON Home Document is an HTTP API definition formated that follows the
+    RFC4627 specification, and has the media type application/json-home.
+  url: 'http://tools.ietf.org/html/draft-nottingham-json-home-02'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/ietf-logo.png
+  tags: 'Definitions,Design,Discovery'
+- slug: httpapidesign
+  name: http-api-design
+  description: >-
+    This guide describes a set of HTTP+JSON API design practices, originally
+    extracted from work on the&nbsp;Heroku Platform API. This guide informs
+    additions to that API and also guides new internal APIs at Heroku. We hope
+    it&rsquo;s also of interest to API designers outside of Heroku. Our goals
+    here are consistency and focusing on business logic while avoiding design
+    bikeshedding. We&rsquo;re looking for&nbsp;a good, consistent,
+    well-documented way&nbsp;to design APIs, not necessarily&nbsp;the only/ideal
+    way.
+  url: 'https://github.com/interagent/http-api-design'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/heroku-dev-center.png
+  tags: 'GitHub,Design,API Design Guide'
+- slug: interpol
+  name: Interpol
+  description: >-
+    Interpol is a toolkit for policing your HTTP JSON interface. To use it,
+    define the endpoints of your HTTP API in simple YAML files. Interpol
+    provides multiple tools to work with endpoint definitions.
+  url: 'https://github.com/seomoz/interpol'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/interpol-logo.png
+  tags: 'Definitions, Generator, Validator, Design'
+- slug: jsonld
+  name: JSON-LD
+  description: >-
+    JSON-LD is a lightweight Linked Data format. It is easy for humans to read
+    and write. It is based on the already successful JSON format and provides a
+    way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data
+    format for programming environments, REST Web services, and unstructured
+    databases such as CouchDB and MongoDB.
+  url: 'http://json-ld.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/json-ld.png
+  tags: 'Hypermedia,Definitions,Semantics,Design'
+- slug: mason
+  name: Mason
+  description: >-
+    Mason is a JSON format for introducing hypermedia elements to classic JSON
+    data representations. With Mason, you get hypermedia elements for linking
+    and modifying data, features for communicating to client developers and
+    standardized error handling. Mason is built on JSON, reads JSON, writes JSON
+    and generally fits well into a JSON based eco-system.
+  url: 'https://github.com/JornWildt/Mason'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/jorn-wildt.jpeg
+  tags: 'Hypermedia,Definitions, Design'
+- slug: open-data-protocol-odata
+  name: Open Data Protocol (OData)
+  description: >-
+    OData (Open Data Protocol) is an OASIS standard that defines the best
+    practice for building and consuming RESTful APIs. OData helps you focus on
+    your business logic while building RESTful APIs without having to worry
+    about the approaches to define request and response headers, status codes,
+    HTTP methods, URL conventions, media types, payload formats and query
+    options etc.
+  url: 'http://www.odata.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/odata-logo.png
+  tags: 'Definitions,Design,Data Specification'
+- slug: openapi-specification
+  name: OpenAPI-Specification
+  description: >-
+    The goal of The OpenAPI Specification is to define a standard,
+    language-agnostic interface to REST APIs which allows both humans and
+    computers to discover and understand the capabilities of the service without
+    access to source code, documentation, or through network traffic inspection.
+    When properly defined via OpenAPI, a consumer can understand and interact
+    with the remote service with a minimal amount of implementation logic.
+    Similar to what interfaces have done for lower-level programming, OpenAPI
+    removes the guesswork in calling the servi
+  url: 'https://github.com/OAI/OpenAPI-Specification'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/openapi-spec.png
+  tags: 'Design,Definitions, API Specification'
+- slug: openstack-api-design-guide
+  name: OpenStack API Design Guide
+  description: >-
+    To improve the developer experience of API users by converging the OpenStack
+    API to a consistent and pragmatic RESTful design. The working group creates
+    guidelines that all OpenStack projects should follow for new development,
+    and promotes convergence of new APIs and future versions of existing APIs.
+  url: 'http://specs.openstack.org/openstack/api-wg/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/openstack-logo512.png
+  tags: 'Design,API Design Guide'
+- slug: paypal-api-design-standards
+  name: Paypal API Design Standards
+  description: >-
+    Paypal has developed their own API design standards, providing a common
+    blueprint for their teams to follow, while also transparently sharing with
+    their API community, and the wider API industry to follow.
+  url: 'https://github.com/paypal/api-standards/blob/master/api-style-guide.md'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paypal-logo.png
+  tags: 'Design,API Design Guide'
+- slug: raml-api-designer
+  name: RAML API Designer
+  description: >-
+    API Designer is a standalone/embeddable editor for RAML (RESTful API
+    Modeling Language) written in JavaScript using Angular.JS, which by default,
+    uses an in-browser filesystem stored in HTML5 Localstorage. Mulesoft
+    provides a cloud version of the editor as part of their larger API suite.
+  url: 'https://github.com/mulesoft/api-designer'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/mulesoft-api-design-editor.jpeg
+  tags: 'Design,Design'
+- slug: raml-api-notebook
+  name: RAML API Notebook
+  description: >-
+    API Notebook is a web-based, persistent, JavaScript scripting workspace that
+    enables live testing and exploring of APIs, and saving API use cases as
+    markdown gists, so they are versioned, forkable and shareable. It's an
+    example of literate programming. It is provided under the open-source CPAL
+    license.
+  url: 'https://github.com/mulesoft/api-notebook'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/raml-logo.jpg
+  tags: 'Design,Design Notebook'
+- slug: raml-specification
+  name: RAML Specification
+  description: >-
+    RESTful API Modeling Language (RAML) is a simple and succinct way of
+    describing practically-RESTful APIs. It encourages reuse, enables discovery
+    and pattern-sharing, and aims for merit-based emergence of best practices.
+    The goal is to help our current API ecosystem by solving immediate problems
+    and then encourage ever-better API patterns. RAML is built on broadly-used
+    standards such as YAML and JSON and is a non-proprietary, vendor-neutral
+    open spec.
+  url: 'http://raml.org'
+  short_url: ''
+  twitter: 'http://blog.raml.org/'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/raml-logo.jpg
+  tags: 'Definitions, Design,API Definitions,RAML'
+- slug: raml-store
+  name: RAML Store
+  description: >-
+    RAML Store provides a simple storage API plus a persistence plugin which
+    enables you to run the RAML API Designer locally (rather than using a cloud
+    service) and still be able to manage and collaborate on your design. The
+    service is built with node.js, using express and mongodb.
+  url: 'https://github.com/brianmc/raml-store'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/raml-logo.jpg
+  tags: 'Design,Design Editor'
+- slug: realtime-api-design-guide-from-fanout
+  name: Realtime API Design Guide from Fanout
+  description: >-
+    An API Design Guide dedicated to helping you understand the common design
+    approaches, as well as the pros and cons of realtime API design, showcasing
+    the implementations of 16 public real-time APIs--developed by Fanout.io
+  url: 'http://blog.fanout.io/2015/04/02/realtime-api-design-guide/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/fanout_icon.png
+  tags: 'Design,API Design Guide'
+- slug: restdesc
+  name: RESTdesc
+  description: >-
+    Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture
+    the functionality of hypermedia APIs, so automated agents can use them.
+    Despite their powerful capabilities, RESTdesc descriptions are easy to
+    master. The description is not a goal in itself: you want your API to be
+    used. See how RESTdesc opens up your API for discovery, based on its
+    functional characteristics.
+  url: 'http://restdesc.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/restdesc-logo.png
+  tags: 'Hypermedia,Definitions,Design'
+- slug: restful-api-description-language-radl
+  name: RESTful API Description Language (RADL)
+  description: >-
+    RESTful API Description Language (RADL) is an XML vocabulary for describing
+    Hypermedia-driven RESTful APIs. Unlike most HTTP API description languages,
+    RADL focuses on defining a truly hypermedia-driven REST API from the
+    client's point of view. Unlike description languages based on JSON or
+    Markdown, RADL makes it easy to integrate documentation written in HTML or
+    XML. The APIs that RADL describes may use any media type, in XML, JSON,
+    HTML, or any other format.
+  url: 'https://github.com/restful-api-description-language/RADL'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/radl-logo.png
+  tags: 'Definitions,API Specification,Design'
+- slug: restful-api-modeling-language
+  name: RESTful API Modeling Language
+  description: >-
+    RESTful API Modeling Language (RAML) is a simple and succinct way of
+    describing practically-RESTful APIs. It encourages reuse, enables discovery
+    and pattern-sharing, and aims for merit-based emergence of best practices.
+    The goal is to help our current API ecosystem by solving immediate problems
+    and then encourage ever-better API patterns. RAML is built on broadly-used
+    standards such as YAML and JSON and is a non-proprietary, vendor-neutral
+    open spec.
+  url: 'http://raml.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/raml-logo.jpg
+  tags: 'Definitions,API Specification,Design'
+- slug: restful-service-description-language-rsdl
+  name: RESTful Service Description Language (RSDL)
+  description: >-
+    The RESTful Service Description Language (RSDL) is a machine- and
+    human-readable XML description of HTTP-based web applications (typically
+    REST web services).
+  url: >-
+    http://www.balisage.net/Proceedings/vol10/html/Robie01/BalisageVol10-Robie01.html
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/rsdl-icon.png
+  tags: 'Definitions,API Specification,Design'

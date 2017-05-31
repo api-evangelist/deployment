@@ -1,86 +1,67 @@
 ---
 layout: page
+title: API Evangelist Tools
 ---
-<h3>{{ site.tools_title }}</h3>
-<p>{{ site.tools_desc }}</p>
-<center>
-<table width="90%" border="0" align="center" cellpadding="5">
-    <tr>
-      <td align="center" valign="middle" height="100" width="25%">
-        <p><a href="database/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-database-new.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="frameworks/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-framework.png" width="115" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="microservices/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-microservice.png" width="105" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="real-time/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-real-time.png" width="100" /></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="database/"><strong>Database</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="frameworks/"><strong>Framework</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="microservices/"><strong>Microservices</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="real-time/"><strong>Real Time</strong></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="containers/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-shipping-container.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="search/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-search.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="mock/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-mock-interface.png" width="80" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="serverless/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-serverless.png" width="100" /></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="containers/"><strong>Containers</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="search/"><strong>Search</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="mock/"><strong>Mock</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="serverless/"><strong>Serverless</strong></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="connectors/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-connector.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="internet-of-things/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-internet-of-things.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%"></td>
-      <td align="center" valign="middle" width="25%">  </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="connectors/"><strong>Connector</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="internet-of-things/"><strong>Internet of Things</strong></a></p>
-      </td>
-      <td align="center" valign="top"></td>
-      <td align="center" valign="top"></td>
-    </tr>
-</table>
-</center>
-<p>{{ site.tools_footer }}</p>
+
+{% assign approved_tags = 'API Specification,Data Specifications,Semantics,Schema,Hypermedia, Discovery,Data Policy,Encryption,Viewers,Connectors,Clients,Proxy' %}
+{% assign tool_content = site.data.tool_content.index[0] %}
+<section>
+	<header>
+		<h2>{{ tool_content.title }}</h2>
+		<p><img style="padding: 15px;" src="{{ tool_content.image }}" align="right" width="10%" /></p>
+		<p>{{ tool_content.header }}</p>
+	</header>
+		{% assign tools = site.data.tools.index %}
+		{% assign tagslist = '' %}
+		{% for tool in tools %}
+			{% assign tags = tool.tags %}
+			{% assign tagArray = tags | split: "," %}
+			{% for tag in tagArray %}
+				{% assign tag = tag | strip %}
+				{% if approved_tags contains tag %}
+					{% if tagslist contains tag %}
+					{% else %}
+						{% if tagslist != '' %}
+							{% assign tagslist = tagslist | append:',' %}
+						{% endif %}
+						{% assign tagslist = tagslist | append: tag %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		{% assign tagArray = tagslist | split: "," %}
+		{% assign tagArray = tagArray | sort: %}
+
+		{% for tag in tagArray %}
+			<h3>{{ tag }}</h3>
+			<div class="features">
+				{% for tool in tools %}
+					{% if tool.tags contains tag %}
+		        <article>
+		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" valign="top" /></a></p>
+		          <div class="content">
+		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
+		            <p>{{ tool.description }}</p>
+								<ul class="icons">
+									<li><a href="{{ tool.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+									{% if tool.twitter != '' %}
+									<li><a href="{{ tool.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									{% endif %}
+									{% if tool.blog != '' %}
+									<li><a href="{{ tool.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
+									{% endif %}
+									{% if tool.blog_rss != '' %}
+									<li><a href="{{ tool.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+									{% endif %}
+									{% if tool.github != '' %}
+									<li><a href="{{ tool.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+									{% endif %}
+								</ul>
+		          </div>
+		        </article>
+					{% endif %}
+		    {% endfor %}
+			</div>
+		{% endfor %}
+		<p>{{ tool_content.footer }}</p>
+</section>
