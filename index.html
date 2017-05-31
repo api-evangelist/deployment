@@ -139,7 +139,7 @@ title: API Evangelist - Design
 
 <!-- Tools -->
 <a name="Tools"></a>
-{% assign approved_tags = 'API Specification,Generator,Validator,API Design Guide,Data Specification,Design Editor,Design Notebook,Hypermedia,IDE,Semantics,gRPC' %}
+{% assign approved_tags = 'Connector,Containers,Database,Framework,Internet of Things,Microservices,Mock,Search,Serverless' %}
 {% assign tool_content = site.data.tool_content.index[0] %}
 <section>
 	<header>
@@ -148,26 +148,6 @@ title: API Evangelist - Design
 	</header>
 		{% assign tools = site.data.tools.index %}
 		{% assign tagslist = '' %}
-
-		{% for tool in tools %}
-			{% assign tags = tool.tags %}
-			{% assign tagArray = tags | split: "," %}
-			{% for tag in tagArray %}
-				{% assign tag = tag | strip %}
-					{% if tagslist contains tag %}
-					{% else %}
-						{% if tagslist != '' %}
-							{% assign tagslist = tagslist | append:',' %}
-						{% endif %}
-						{% assign tagslist = tagslist | append: tag %}
-					{% endif %}
-			{% endfor %}
-		{% endfor %}
-
-		{% assign tagArray = tagslist | split: "," %}
-		{% assign tagArray = tagArray | sort: %}
-
-		tagArray: {{ tagArray}}<br />
 
 		{% for tool in tools %}
 			{% assign tags = tool.tags %}
