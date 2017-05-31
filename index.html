@@ -46,7 +46,7 @@ title: API Evangelist - Design
 	<section id="banner">
 		<div class="content">
 			<header>
-				<h2>Latest From Blog on API Design: {{ post.title }}</h2>
+				<h2>Latest From Blog: {{ post.title }}</h2>
 				<p><em>{{ post.date | date_to_string }}</em></p>
 			</header>
 			{{ post.content }}
@@ -149,6 +149,26 @@ title: API Evangelist - Design
 		{% assign tools = site.data.tools.index %}
 		{% assign tagslist = '' %}
 
+		{% for tool in tools %}
+			{% assign tags = tool.tags %}
+			{% assign tagArray = tags | split: "," %}
+			{% for tag in tagArray %}
+				{% assign tag = tag | strip %}
+					{% if tagslist contains tag %}
+					{% else %}
+						{% if tagslist != '' %}
+							{% assign tagslist = tagslist | append:',' %}
+						{% endif %}
+						{% assign tagslist = tagslist | append: tag %}
+					{% endif %}
+			{% endfor %}
+		{% endfor %}
+
+		{% assign tagArray = tagslist | split: "," %}
+		{% assign tagArray = tagArray | sort: %}
+
+		tagArray: {{ tagArray}}<br />
+		
 		{% for tool in tools %}
 			{% assign tags = tool.tags %}
 			{% assign tagArray = tags | split: "," %}
