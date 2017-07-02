@@ -892,18 +892,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/jexia-logo.png
   tags: 'Deployment,Management,Cloud'
-- slug: justapis
-  name: JustAPIs
-  description: "JustAPIs is designed to help developers overcome existing limitations when it comes to building APIs.\_The JustAPIs solution is a high-performance, compiled executable that can run on any Linux, Windows, or Mac OSX based hardware, from a single developers laptop to large-scale, clustered production environments. With zero dependencies, JustAPIs can be installed instantly and includes sample APIs with familiar JavaScript-based business logic, so developers can be up and running with their own API server in minutes."
-  url: 'http://justapis.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/JustAPIs'
-  blog: 'http://blog.jexia.com/blog/'
-  blog_rss: 'http://blog.jexia.com/feed/'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/justapis-logo.png
-  tags: 'Management,Deployment,Internet of Things'
 - slug: magicstack.io
   name: Magicstack.io
   description: >-
