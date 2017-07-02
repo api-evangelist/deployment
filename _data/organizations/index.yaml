@@ -813,21 +813,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hook-io-logo.png
   tags: 'Microservices,Deployment,Database,Webhooks'
-- slug: hyper
-  name: Hyper
-  description: >-
-    Hyper is Hypercard for the modern age, and allows you to make your own
-    mini-apps for mobile and desktop, capture and organize information, and
-    publish on the web.
-  url: 'https://hyperrr.co/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Hyper_Hypercard_for_the_modern_age.png
-  tags: 'Serverless,Bots,Deployment'
 - slug: import.io
   name: import.io
   description: >-
