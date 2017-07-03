@@ -1,4 +1,15 @@
 ---
+- slug: apiplatform
+  name: API Platform
+  description: The ultimate PHP framework to build modern web APIs
+  url: https://github.com/api-platform/api-platform
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Management,Open Source
 - slug: apimandeployer
   name: apiman-deployer
   description: Contains scripts useful for deploying apiman into various environments
@@ -11,17 +22,6 @@
   github: ""
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
   tags: Deployment
-- slug: apiplatform
-  name: API Platform
-  description: The ultimate PHP framework to build modern web APIs
-  url: https://github.com/api-platform/api-platform
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Deployment,Management,Open Source
 - slug: arrestmysql
   name: Arrest-MySQL
   description: A plug-n-play RESTful API for your MySQL database.
@@ -402,17 +402,6 @@
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/falcon-framework.png
   tags: Deployment,Python,Framework
-- slug: falcorrestify
-  name: falcor-restify
-  description: Restify Middleware for Hosting Falcor Data Sources.
-  url: https://github.com/Netflix/falcor-restify
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Deployment
 - slug: flaskrestful
   name: flask-restful
   description: Simple framework for creating REST APIs
@@ -500,17 +489,6 @@
   github: ""
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
   tags: Deployment,Framework,Go
-- slug: goa
-  name: goa
-  description: Design-based microservices in Go
-  url: https://github.com/goadesign/goa
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Microservices,Deployment
 - slug: gomicro
   name: go-micro
   description: A pluggable RPC microservice framework
@@ -522,6 +500,17 @@
   github: ""
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
   tags: Deployment,Microservices
+- slug: goa
+  name: goa
+  description: Design-based microservices in Go
+  url: https://github.com/goadesign/goa
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Microservices,Deployment
 - slug: grape
   name: Grape
   description: Grape is a REST-like API micro-framework for Ruby. It's designed to
@@ -804,17 +793,6 @@
   github: ""
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
   tags: Deployment,Framework,Java
-- slug: nodeapi
-  name: NodeAPI
-  description: Simple RESTful API implementation on Node.js + MongoDB.
-  url: https://github.com/ealeksandrov/NodeAPI
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Database,MongoDB,Deployment,Node.js
 - slug: noderestify
   name: node-restify
   description: node.js REST framework specifically meant for web service APIs
@@ -826,6 +804,17 @@
   github: ""
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
   tags: Deployment,Framework
+- slug: nodeapi
+  name: NodeAPI
+  description: Simple RESTful API implementation on Node.js + MongoDB.
+  url: https://github.com/ealeksandrov/NodeAPI
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Database,MongoDB,Deployment,Node.js
 - slug: noms
   name: noms
   description: The versioned, forkable, syncable database
@@ -963,18 +952,6 @@
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/silk-logo.png
   tags: Haskell,Deployment,Framework
-- slug: rest.li
-  name: rest.li
-  description: Rest.li is a REST+JSON framework for building robust, scalable service
-    architectures using dynamic discovery and simple asynchronous APIs.
-  url: https://github.com/linkedin/rest.li
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Deployment,Framework,Java
 - slug: rest.li
   name: Rest.li
   description: Rest.li is an open source REST framework for building robust, scalable
@@ -1173,4 +1150,181 @@
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/RESTx.png
   tags: Framework,Java,Python,Deployment
+- slug: rest-layer
+  name: REST Layer
+  description: REST Layer is an API framework heavily inspired by the excellent Python
+    Eve. It helps you create a comprehensive, customizable, and secure REST (graph)
+    API on top of pluggable backend storages with no boiler plate code so you can
+    focus on your business logic.
+  url: http://rest-layer.io/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,Go
+- slug: heketi
+  name: Heketi
+  description: 'Heketi provides a RESTful management interface which can be used to
+    manage the life cycle of GlusterFS volumes. With Heketi, cloud services like OpenStack
+    Manila, Kubernetes, and OpenShift can dynamically provision GlusterFS volumes
+    with any of the supported durability types. '
+  url: https://github.com/heketi/heketi
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,Go
+- slug: goat
+  name: Goat
+  description: Goat is a minimalistic REST API server in Go. You can pronounce it
+    like the goat, or go-at. Depends on how you like goats.
+  url: https://github.com/bahlo/goat
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,Go
+- slug: go-rest
+  name: Go Rest
+  description: A small and evil REST framework for Go
+  url: https://github.com/ungerik/go-rest
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,Go
+- slug: frisby
+  name: Frisby
+  description: Frisby is a REST API testing framework built on node.js and Jasmine
+    that makes testing API endpoints easy, fast, and fun.
+  url: http://frisbyjs.com/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/vlucas/frisby
+  image: https://s3.amazonaws.com/kinlane-productions/frisby/frisby-js-logo.png
+  tags: Deployment,Framework,Node.js
+- slug: chakram
+  name: Chakram
+  description: Chakram allows you to write clear and comprehensive tests, ensuring
+    JSON REST endpoints work correctly as you develop and in the future.
+  url: http://dareid.github.io/chakram/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/dareid/chakram
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,Node.js
+- slug: lux
+  name: Lux
+  description: Build scalable, Node.js-powered REST JSON APIs with almost no code.
+  url: https://lux.postlight.com/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/postlight/lux
+  image: https://s3.amazonaws.com/kinlane-productions/lux/lux-logo.png
+  tags: Deployment,Framework,Node.js
+- slug: diet
+  name: Diet
+  description: A tiny, fast and modular node.js web framework. Good for making fast
+    & scalable apps and apis.
+  url: http://dietjs.com/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/adamhalasz/diet
+  image: https://s3.amazonaws.com/kinlane-productions/diet/diet-logo.png
+  tags: Deployment,Framework,Node.js
+- slug: hapi
+  name: Hapi
+  description: A rich framework for building applications and services. Hapi enables
+    developers to focus on writing reusable application logic instead of spending
+    time building infrastructure.
+  url: https://hapijs.com/
+  shorturl: ""
+  twitter: https://twitter.com/hapijs
+  blog: ""
+  blogrss: ""
+  github: https://github.com/hapijs/hapi
+  image: https://s3.amazonaws.com/kinlane-productions/hapi/hapi-js.png
+  tags: Deployment,Framework,Node.js
+- slug: lightNode
+  name: LightNode
+  description: LightNode is a Micro RPC/REST Framework built on OWIN. LightNode is
+    a good alternative to the ASP.NET Web API and Nancy if you make a simple API.
+  url: http://neuecc.github.io/LightNode/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/neuecc/LightNode
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,.NET
+- slug: servicestack
+  name: ServiceStack
+  description: 1 framework for all your services and web apps that's intuitive and
+    Easy-to-use! Never read another text-book to learn another heavy .NET framework
+    again!
+  url: https://servicestack.net/
+  shorturl: ""
+  twitter: https://twitter.com/ServiceStack
+  blog: ""
+  blogrss: ""
+  github: https://github.com/ServiceStack/ServiceStack
+  image: https://s3.amazonaws.com/kinlane-productions/servicestack/servicestack-logo.png
+  tags: Deployment,Framework,.NET
+- slug: breeze
+  name: Breeze
+  description: "A \u201CBreeze-flavored\u201D Web API is the quickest, most productive
+    path to an HTTP service that a Breeze client can talk to with minimal configuration.
+    You\u2019ll use .NET components written specifically to support Breeze clients
+    and you\u2019ll write one (or a few) controllers in a style that minimizes your
+    server-side coding and maintenance without compromising power, flexibility, security
+    or performance."
+  url: http://breeze.github.io/doc-net/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/Breeze
+  image: https://s3.amazonaws.com/kinlane-productions/breeze/breeze-logo.png
+  tags: Deployment,Framework,.NET
+- slug: nelibur
+  name: Nelibur
+  description: Nelibur is message based web service framework on the pure WCF. Nelibur
+    simplifies creating high-performance and message based web services and you certainly
+    have all the power of the WCF.
+  url: http://nelibur.org/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/Nelibur/Nelibur
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
+  tags: Deployment,Framework,.NET
+- slug: nancyfx
+  name: NancyFX
+  description: Lightweight, low-ceremony, framework for building HTTP based services
+    on .Net and Mono.
+  url: http://nancyfx.org/
+  shorturl: ""
+  twitter: ""
+  blog: http://blog.nancyfx.org/
+  blogrss: http://blog.nancyfx.org/rss
+  github: https://github.com/NancyFx/Nancy
+  image: https://s3.amazonaws.com/kinlane-productions/nancy/nancy-logo.png
+  tags: Deployment,Framework,.NET
 ...
