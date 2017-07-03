@@ -1,0 +1,135 @@
+---
+- slug: azure-automation
+  name: Azure Automation
+  description: Automate all of those frequent, time-consuming, and error-prone cloud
+    management tasks. Azure Automation helps you focus on work that adds business
+    value. By reducing errors and boosting efficiency, it also helps to lower your
+    operational costs.
+  url: https://azure.microsoft.com/en-us/services/automation/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  tags: Microsoft,Orchestration,Automation,Webhooks
+- slug: hook.io
+  name: Hook.io
+  description: hook.io is the leading open-source provider of microservice and webhook
+    hosting. Our service is built with &nbsp;by Developers for Developers. hook.io
+    provides free hosting for Microservices and Webhooks. These hosted services have
+    full integrated access to the hook.io Developer API.
+  url: http://hook.io/
+  shorturl: ""
+  twitter: https://twitter.com/hookdotio
+  blog: https://hook.io/blog
+  blogrss: https://hook.io/blog/feed
+  github: https://github.com/bigcompany
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hook-io-logo.png
+  tags: Microservices,Deployment,Database,Webhooks
+- slug: iron.io
+  name: Iron.io
+  description: Iron.io is a cloud application services provider. Available on multiple
+    platforms and clouds, Iron.io products eliminate the need to worry about managing
+    and scaling infrastructure, letting developers focus on building great applications.
+    IronMQ, an industrial-strength message queue, and IronWorker, a high-scale task
+    queue, are elastic, durable and high-performance application services built with
+    the cloud in mind.
+  url: http://www.iron.io
+  shorturl: ""
+  twitter: https://twitter.com/getiron
+  blog: https://www.iron.io/blog/
+  blogrss: http://blog.iron.io/feeds/posts/default?alt=rss
+  github: https://github.com/iron-io
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ironio-logo.png
+  tags: Cloud,Messaging,Scheduling,Tasks,Tasking,Webhooks,Worker,Webhooks Service,API
+    LIfeycle,Target,Serverless
+- slug: request-bin
+  name: Request Bin
+  description: RequestBin gives you a URL that will collect requests made to it and
+    let you inspect them in a human-friendly way. Use RequestBin to see what your
+    HTTP client is sending or to inspect and debug webhook requests.
+  url: http://requestb.in/
+  shorturl: ""
+  twitter: https://twitter.com/RequestBin
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/requestbin-logo.png
+  tags: Webhooks Service,Webhooks
+- slug: rest-hooks
+  name: REST Hooks
+  description: REST Hooks itself is not a specification, it is a collection of patterns
+    that treat webhooks like subscriptions. These subscriptions are manipulated via
+    a REST API just like any other resource.
+  url: http://resthooks.org/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rest-hooks-logo.png
+  tags: Webhooks Service,Webhooks
+- slug: webhooks.io
+  name: webhooks.io
+  description: Fast, Reliable, Scalable Webhook Delivery Platform. Never drop or miss
+    a webhook again. Manage your delivery flow and guarantee delivery to your applications
+    with our webhook proxy service. Provide scalability and high availability to your
+    incoming webhooks in a matter of minutes. Need to send a single webhook to multiple
+    applications? Webhooks.io allows you to register a single endpoint with your vendor
+    and send that webhook to multiple destinations. Within each destination, you can
+    even setup individual retry policies.
+  url: https://webhooks.io/
+  shorturl: ""
+  twitter: https://twitter.com/webhooksio
+  blog: ""
+  blogrss: ""
+  github: https://github.com/webhooks-io
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webhooks-io-logo.png
+  tags: Webhooks,Webhooks Service
+- slug: webscript.io
+  name: webscript.io
+  description: Webscripts respond to HTTP requests, making them easy to call from
+    web and mobile apps. Webscripts have all the features you need, like password
+    hashing and persistent storage, plus the full programmability of Lua. Many developer
+    tools, such as GitHub and Stripe, offer webhooks as a way of delivering notifications.
+    Webscripts are a fast and easy way to receive those webhooks. Our built-in request
+    logging makes them equally easy to debug on-the-fly. Webscripts can also be activated
+    on a schedule, providing a simple way to build monitoring or other automation.
+  url: https://www.webscript.io/
+  shorturl: ""
+  twitter: https://twitter.com/webscriptio
+  blog: http://blog.webscript.io/
+  blogrss: http://blog.webscript.io/rss.xml
+  github: https://github.com/WebScript
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/webscript-logo.png
+  tags: Scripting,Webhooks,Webhook Platform,Webhooks Service,Serverless
+- slug: webtask
+  name: Webtask
+  description: Run code with an HTTP call. No provisioning. No deployment. Run server-side
+    code for your JavaScript and native applications. Just worry about your code.
+    Run code on each Stripe Payment, a GitHub Push, or any webhook, without setting
+    up servers. Allow your customers to extend your product using Node.js code instead
+    of creating your own DSL.
+  url: https://webtask.io/
+  shorturl: ""
+  twitter: https://twitter.com/webtaskio
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webtask-io-logo.png
+  tags: Serverless,Deployment,Webhooks
+- slug: zapier
+  name: Zapier
+  description: Zapier lets SaaS users create integrations that push data between hundreds
+    of best-in-breed web applications without having to write any code or wrangle
+    APIs.
+  url: https://zapier.com/
+  shorturl: ""
+  twitter: https://twitter.com/zapier
+  blog: https://zapier.com/blog/
+  blogrss: https://zapier.com/engineering/feeds/latest/
+  github: https://github.com/zapier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/zapier-logo.png
+  tags: Automation,Interoperability,iPaaS,Webhooks,Webhooks Service,API LIfeycle
+...
