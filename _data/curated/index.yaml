@@ -5,4 +5,84 @@
   url: https://tune.com/blog/startups-need-api/
   domain: tune.com
   image: ""
+- curated_id: oRajRrp4DZtiCTGkCmbzCVAGSbPGwIQYVXyFxEI5ivk=_15c8793fca5:468a5a:931ce22d
+  item_date: "2017-06-08 04:59:35"
+  title: 'API Platform 2.1 Feature Walkthrough: Create Blazing Fast Hypermedia APIs,
+    Generate JS Apps'
+  url: https://dunglas.fr/?p=4008
+  domain: dunglas.fr
+  image: ""
+- curated_id: 7IQ0q0PXB2GCfXyIboyX5tfj+hDeOtw0qnl9pCszksQ=_15c9eb90d77:2b5baca:28ce9b86
+  item_date: "2017-06-12 16:47:23"
+  title: DreamFactory 2.7 adds CSV file import, OpenID Connect, and custom installation
+  url: http://blog.dreamfactory.com/dreamfactory-2.7-release-0-0
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: 7IQ0q0PXB2GCfXyIboyX5tfj+hDeOtw0qnl9pCszksQ=_15ca25bf424:31733dd:e55a4d93
+  item_date: "2017-06-13 09:44:59"
+  title: Turn CSV files into REST APIs with DreamFactory's Data Importer
+  url: http://blog.dreamfactory.com/dreamfactory-csv-import-0
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15ca6c6834d:332f9ef:d0168500
+  item_date: "2017-06-14 06:19:24"
+  title: Build your first RESTful API with Node.js
+  url: https://medium.com/p/e701b53d1f41
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15cc3de96be:12ecdb:35f03cd7
+  item_date: "2017-06-19 14:58:50"
+  title: Developing with Golang and the Xero API
+  url: https://medium.com/p/4e257b45fe8a
+  domain: medium.com
+  image: ""
+- curated_id: 4b5tCw5GvlXtruVS/z16h27znplNFRBntlQNEyTCvpo=_15cc5337e42:2e8f4a:5b78a817
+  item_date: "2017-06-20 04:00:17"
+  title: Running CDK 3.0 on Fedora 25
+  url: https://developers.redhat.com/blog/?p=436445
+  domain: developers.redhat.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15cc8f69b3b:12dbf3:80bfd069
+  item_date: "2017-06-20 21:11:56"
+  title: "FastGo with TripGo API \u2014 Sample App using React"
+  url: https://medium.com/p/4ca154e5ab9c
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15cce1d2879:126f8:ab1298eb
+  item_date: "2017-06-21 10:45:09"
+  title: Building a REST API with Laravel? Standardise your responses with JSend
+  url: https://medium.com/p/6084ceb20295
+  domain: medium.com
+  image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_15cd07ce9c1:5eb12d:5577d05
+  item_date: "2017-06-22 01:00:00"
+  title: Developing RESTful APIs with Kotlin
+  url: https://auth0.com/blog/developing-restful-apis-with-kotlin
+  domain: auth0.com
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15ce52693be:3084d8a:5b78a817
+  item_date: "2017-06-26 09:00:55"
+  title: CircleCI Containerizes Build, Test and Deploy Services as Separate Components
+  url: https://thenewstack.io/?p=2525505
+  domain: thenewstack.io
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15cfa3d4b87:53b75f9:517b1451
+  item_date: "2017-06-30 11:21:05"
+  title: Kubernetes 1.7 Brings Extensibility, Security Hardening and the Network Policy
+    API
+  url: https://thenewstack.io/?p=2607594
+  domain: thenewstack.io
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15d017a2fd8:5cb1d4a:517b1451
+  item_date: "2017-07-01 13:16:40"
+  title: 'Designing Web APIs using Google Firebase Functions: Achieving True Routing'
+  url: https://medium.com/p/2cb17a5cd288
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15d047b5081:5f202dd:5b78a817
+  item_date: "2017-07-02 10:54:49"
+  title: "RESTful APIs are anything but \u2014 Pippy\u2019s v1 API"
+  url: https://medium.com/p/4e0265e307c1
+  domain: medium.com
+  image: ""
 ...
