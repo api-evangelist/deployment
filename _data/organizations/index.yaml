@@ -830,22 +830,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1728_logo.png
   tags: 'Data,Scraping,API United Kingdom,Deployment'
-- slug: instant-api
-  name: Instant API
-  description: >-
-    Instant API is Platform as a Service that makes it easy for Developers to
-    Create, Host, Publish &amp; Document APIs from Existing Data and Services.
-    What used to take weeks or months now takes minutes and is a fraction of the
-    cost.&nbsp;
-  url: 'http://instantapi.co/'
-  short_url: ''
-  twitter: 'https://twitter.com/instantapi'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/instant-api-logo.png
-  tags: API Deployment Cloud
 - slug: irestful
   name: iRESTful
   description: >-

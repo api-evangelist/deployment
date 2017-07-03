@@ -204,7 +204,9 @@ title: API Evangelist - Design
 		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" valign="top" /></a></p>
 		          <div class="content">
 		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
-		            <p>{{ tool.description }}</p>
+		            <p>{{ tool.description }}</p>										
+								{% assign show_tags = tool.tags | join: ', ' %}
+								<p>{{ show_tags }}</p>
 								<ul class="icons">
 									<li><a href="{{ tool.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
 									{% if tool.twitter != '' %}
