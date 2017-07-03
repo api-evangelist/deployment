@@ -136,10 +136,10 @@ title: API Evangelist - Deployment
 				<div class="content">
 					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
 					<p>{{ organization.description }}</p>
-					<p>
+					<p><strong>Tags:</strong>&nbsp;
 						{% for tag in organization.tags %}
 							{% if tag != 'Github' %}
-									{{ tag }}{% if forloop.last == false %}, {% endif %}
+									{{ tag }}{% if forloop.last == false %},&nbsp;{% endif %}
 							{% endif %}
 						{% endfor %}
 					</p>
@@ -212,10 +212,10 @@ title: API Evangelist - Deployment
 		          <div class="content">
 		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
 		            <p>{{ tool.description }}</p>
-								<p>
+								<p><strong>Tags:</strong>&nbsp;
 									{% for tag in tool.tags %}
 										{% if tag != 'Github' %}
-												{{ tag }}{% if forloop.last == false %}, {% endif %}
+												{{ tag }}{% if forloop.last == false %},&nbsp;{% endif %}
 										{% endif %}
 									{% endfor %}
 								</p>
