@@ -11,9 +11,9 @@ title: API Evangelist Frameworks
 		{% assign tools = site.data.tools.index %}
 		{% for tool in tools %}
 			{% if tool.tags contains 'Framework' %}
-			- name: {{ tool.name }}
-	      description: {{ tool.description }}
-	      url: {{ tool.url }}
+			- name: {{ tool.name }}<br />
+	      description: {{ tool.description }}<br />
+	      url: {{ tool.url }}<br /><br />
 			{% endif %}
 		{% endfor %}
 </section>
