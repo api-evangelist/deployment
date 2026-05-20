@@ -1,0 +1,66 @@
+{
+  "id": "pipe_3a7c9b1e2d4f",
+  "name": "build-test-deploy",
+  "provider": "github-actions",
+  "repository": "https://github.com/acme/billing-service",
+  "triggers": ["push", "pull_request"],
+  "stages": [
+    {
+      "name": "build",
+      "jobs": [
+        {
+          "name": "compile",
+          "runner": "ubuntu-latest",
+          "image": "node:20",
+          "commands": ["npm ci", "npm run build"]
+        }
+      ],
+      "approval": false
+    },
+    {
+      "name": "test",
+      "jobs": [
+        {
+          "name": "unit-tests",
+          "runner": "ubuntu-latest",
+          "image": "node:20",
+          "commands": ["npm test -- --ci"]
+        },
+        {
+          "name": "integration-tests",
+          "runner": "ubuntu-latest",
+          "image": "node:20",
+          "commands": ["npm run test:integration"]
+        }
+      ],
+      "approval": false
+    },
+    {
+      "name": "deploy-staging",
+      "jobs": [
+        {
+          "name": "deploy",
+          "runner": "ubuntu-latest",
+          "image": "node:20",
+          "commands": ["npx vercel deploy --token $VERCEL_TOKEN --target preview"]
+        }
+      ],
+      "approval": false
+    },
+    {
+      "name": "deploy-production",
+      "jobs": [
+        {
+          "name": "deploy",
+          "runner": "ubuntu-latest",
+          "image": "node:20",
+          "commands": ["npx vercel deploy --token $VERCEL_TOKEN --prod"]
+        }
+      ],
+      "approval": true
+    }
+  ],
+  "deployment_strategy": "canary",
+  "status": "success",
+  "created_at": "2026-05-01T08:30:00Z"
+}

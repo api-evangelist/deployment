@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "dep": "https://api-evangelist.github.io/deployment/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+
+    "Deployment": "dep:Deployment",
+    "Pipeline": "dep:Pipeline",
+    "Build": "dep:Build",
+    "Release": "dep:Release",
+    "Environment": "dep:Environment",
+    "Stage": "dep:Stage",
+    "Job": "dep:Job",
+
+    "id": "schema:identifier",
+    "name": "schema:name",
+    "description": "schema:description",
+
+    "platform": {
+      "@id": "dep:platform",
+      "@type": "xsd:string"
+    },
+    "provider": {
+      "@id": "schema:provider",
+      "@type": "xsd:string"
+    },
+    "environment": {
+      "@id": "dep:environment",
+      "@type": "xsd:string"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "repository": {
+      "@id": "dep:repository",
+      "@type": "@id"
+    },
+    "branch": {
+      "@id": "dep:branch",
+      "@type": "xsd:string"
+    },
+    "commit_sha": {
+      "@id": "dep:commitSha",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "dep:status",
+      "@type": "xsd:string"
+    },
+    "build": {
+      "@id": "dep:build",
+      "@type": "@id"
+    },
+    "build_id": {
+      "@id": "dep:buildId",
+      "@type": "xsd:string"
+    },
+    "duration_seconds": {
+      "@id": "dep:durationSeconds",
+      "@type": "xsd:integer"
+    },
+    "image": {
+      "@id": "dep:image",
+      "@type": "xsd:string"
+    },
+    "triggers": {
+      "@id": "dep:triggers",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "stages": {
+      "@id": "dep:stages",
+      "@container": "@list"
+    },
+    "jobs": {
+      "@id": "dep:jobs",
+      "@container": "@set"
+    },
+    "runner": {
+      "@id": "dep:runner",
+      "@type": "xsd:string"
+    },
+    "commands": {
+      "@id": "dep:commands",
+      "@container": "@list",
+      "@type": "xsd:string"
+    },
+    "approval": {
+      "@id": "dep:approval",
+      "@type": "xsd:boolean"
+    },
+    "deployment_strategy": {
+      "@id": "dep:deploymentStrategy",
+      "@type": "xsd:string"
+    },
+    "source": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "promoted_to_production_at": {
+      "@id": "dep:promotedToProductionAt",
+      "@type": "xsd:dateTime"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

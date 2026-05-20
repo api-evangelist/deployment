@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/deployment/refs/heads/main/json-structure/deployment-deployment-structure.json",
+  "name": "Deployment",
+  "description": "Represents a single deployment of an application or service to a managed runtime, edge network, cluster, or PaaS environment.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the deployment assigned by the deployment platform.",
+      "example": "dpl_8FQk2zR4nXyVbN1k"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the deployment or the application it represents.",
+      "example": "marketing-site"
+    },
+    "platform": {
+      "type": "string",
+      "description": "Deployment platform or PaaS that owns this deployment.",
+      "enum": [
+        "vercel",
+        "netlify",
+        "render",
+        "railway",
+        "fly-io",
+        "heroku",
+        "aws-elastic-beanstalk",
+        "aws-app-runner",
+        "google-cloud-run",
+        "google-app-engine",
+        "azure-app-service",
+        "cloudflare-pages",
+        "koyeb",
+        "northflank",
+        "porter",
+        "qovery",
+        "other"
+      ],
+      "example": "vercel"
+    },
+    "environment": {
+      "type": "string",
+      "description": "Target environment for this deployment.",
+      "enum": [
+        "development",
+        "preview",
+        "staging",
+        "production"
+      ],
+      "example": "production"
+    },
+    "source": {
+      "type": "object",
+      "description": "Source repository and revision that produced this deployment.",
+      "properties": {
+        "repository": {
+          "type": "uri",
+          "description": "Git repository URL.",
+          "example": "https://github.com/acme/marketing-site"
+        },
+        "branch": {
+          "type": "string",
+          "description": "Source branch.",
+          "example": "main"
+        },
+        "commit_sha": {
+          "type": "string",
+          "description": "Commit SHA built into the deployment.",
+          "example": "9c1d4a3f8e7b2c5a6f0d1e3b4c8a7f9e0d2b1c5a"
+        }
+      }
+    },
+    "url": {
+      "type": "uri",
+      "description": "Public URL where the deployed application is reachable.",
+      "example": "https://marketing-site-7q8w.vercel.app"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current lifecycle status of the deployment.",
+      "enum": [
+        "queued",
+        "building",
+        "deploying",
+        "ready",
+        "error",
+        "canceled",
+        "superseded"
+      ],
+      "example": "ready"
+    },
+    "build": {
+      "type": "object",
+      "description": "Build metadata captured by the deployment platform.",
+      "properties": {
+        "build_id": {
+          "type": "string",
+          "description": "Identifier of the build that produced the deployment artifact.",
+          "example": "bld_4f7a9c2d1e8b6f0a"
+        },
+        "duration_seconds": {
+          "type": "integer",
+          "description": "Time in seconds the build took to complete.",
+          "example": 47
+        },
+        "image": {
+          "type": "string",
+          "description": "Container image reference for deployments that build a container.",
+          "example": "registry.example.com/marketing-site:9c1d4a3"
+        }
+      }
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "When the deployment was created.",
+      "example": "2026-05-19T10:14:00Z"
+    },
+    "promoted_to_production_at": {
+      "type": "datetime",
+      "description": "When the deployment was promoted to production, if applicable.",
+      "example": "2026-05-19T10:22:00Z"
+    }
+  },
+  "required": [
+    "id",
+    "platform",
+    "environment",
+    "status"
+  ]
+}

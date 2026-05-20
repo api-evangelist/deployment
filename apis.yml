@@ -1,0 +1,193 @@
+aid: deployment
+name: Deployment
+description: >-
+  An index and topic collection covering application deployment platforms,
+  Platform-as-a-Service (PaaS) providers, and CI/CD-as-a-service tools that
+  expose APIs for shipping code to production. Deployment platforms automate
+  the path from source repository to running application, handling build,
+  release, promotion, rollback, and continuous delivery. This collection
+  spans modern PaaS providers like Vercel, Netlify, Render, Railway, Fly.io,
+  and Heroku; cloud platform deployment services like AWS Elastic Beanstalk,
+  Google Cloud Run, and Azure App Service; hosted CI/CD platforms like GitHub
+  Actions, GitLab CI, CircleCI, Travis CI, Buildkite, and Harness; and
+  GitOps and continuous delivery tools like Argo CD, Flux CD, Spinnaker,
+  Octopus Deploy, Jenkins, Tekton, and Werf.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Deployment
+- CI/CD
+- Continuous Deployment
+- Continuous Integration
+- Continuous Delivery
+- PaaS
+- GitOps
+- Build
+- Pipeline
+- Release Management
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/deployment/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Argo CD
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/apis.yml
+- name: AWS App Runner
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/apis.yml
+- name: AWS CodeBuild
+  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/apis.yml
+- name: AWS Elastic Beanstalk
+  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/apis.yml
+- name: Azure DevOps
+  url: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/apis.yml
+- name: Bitbucket Pipelines
+  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/apis.yml
+- name: Buildkite
+  url: https://raw.githubusercontent.com/api-evangelist/buildkite/refs/heads/main/apis.yml
+- name: Buildpacks
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/apis.yml
+- name: CircleCI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/apis.yml
+- name: CloudBees
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/apis.yml
+- name: Cloud Foundry
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/apis.yml
+- name: Codefresh
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/apis.yml
+- name: Continuous Delivery Foundation
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/apis.yml
+- name: Cycloid
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/apis.yml
+- name: Dagger
+  url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/apis.yml
+- name: Drone CI
+  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/apis.yml
+- name: Earthly
+  url: https://raw.githubusercontent.com/api-evangelist/earthly/refs/heads/main/apis.yml
+- name: env0
+  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/apis.yml
+- name: Flux CD
+  url: https://raw.githubusercontent.com/api-evangelist/fluxcd/refs/heads/main/apis.yml
+- name: Fly.io
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/apis.yml
+- name: Gitea
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/apis.yml
+- name: GitHub Actions
+  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/apis.yml
+- name: GitLab CI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab-ci/refs/heads/main/apis.yml
+- name: GitOps
+  url: https://raw.githubusercontent.com/api-evangelist/gitops/refs/heads/main/apis.yml
+- name: Google Cloud App Engine
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/apis.yml
+- name: Google Cloud Build
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/apis.yml
+- name: Google Cloud Deploy
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/apis.yml
+- name: Google Cloud Run
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/apis.yml
+- name: Harness
+  url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/apis.yml
+- name: Heroku
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/apis.yml
+- name: Jenkins
+  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/apis.yml
+- name: Jenkins Pipeline
+  url: https://raw.githubusercontent.com/api-evangelist/jenkins-pipeline/refs/heads/main/apis.yml
+- name: Koyeb
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/apis.yml
+- name: KubeVela
+  url: https://raw.githubusercontent.com/api-evangelist/kubevela/refs/heads/main/apis.yml
+- name: Microsoft Azure App Service
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/apis.yml
+- name: Netlify
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/apis.yml
+- name: Northflank
+  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/apis.yml
+- name: Octopus Deploy
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/apis.yml
+- name: Porter
+  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/apis.yml
+- name: Qovery
+  url: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/apis.yml
+- name: Railway
+  url: https://raw.githubusercontent.com/api-evangelist/railway/refs/heads/main/apis.yml
+- name: Render
+  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/apis.yml
+- name: Spacelift
+  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/apis.yml
+- name: Spinnaker
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/apis.yml
+- name: TeamCity
+  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/apis.yml
+- name: Tekton
+  url: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/apis.yml
+- name: Travis CI
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/apis.yml
+- name: Vercel
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/apis.yml
+- name: Werf
+  url: https://raw.githubusercontent.com/api-evangelist/werf/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Git-Driven Deployment
+    description: Modern PaaS providers like Vercel, Netlify, Render, and Railway connect directly to Git repositories and automatically deploy on every push, branch, or pull request, removing the need for separate CI/CD configuration.
+  - name: Continuous Integration Pipelines
+    description: CI/CD-as-a-service platforms like GitHub Actions, GitLab CI, CircleCI, and Buildkite provide hosted runners that execute build, test, and packaging pipelines triggered by source control events.
+  - name: Continuous Delivery and Release Orchestration
+    description: Continuous delivery tools like Spinnaker, Harness, and Octopus Deploy coordinate multi-stage rollouts across environments with approval gates, canary analysis, and automated rollback.
+  - name: GitOps and Declarative Sync
+    description: GitOps controllers like Argo CD and Flux CD continuously reconcile cluster state with declarative manifests stored in Git, treating the repository as the source of truth for deployments.
+  - name: Build Pipelines and Artifacts
+    description: Build-focused services like AWS CodeBuild, Google Cloud Build, Dagger, Earthly, and Buildpacks compile source code into deployable artifacts, container images, or executable bundles in reproducible environments.
+  - name: Preview Environments
+    description: Platforms like Vercel, Netlify, Railway, and Qovery automatically spin up isolated preview environments for every pull request, giving teams a live URL to validate changes before merging.
+  - name: Managed Application Runtimes
+    description: PaaS offerings like Heroku, AWS Elastic Beanstalk, Google App Engine, and Azure App Service abstract away infrastructure, scaling deployed applications based on traffic without operator intervention.
+  - name: Release Promotion and Approval Gates
+    description: Pipeline tools like Octopus Deploy, Harness, and Azure DevOps model environments and promotion stages explicitly, with role-based approval gates between development, staging, and production.
+- type: UseCases
+  data:
+  - name: Push-to-Deploy Frontend Hosting
+    description: Frontend teams connect a Git repository to Vercel, Netlify, or Cloudflare Pages and every commit automatically builds and deploys a new version, with preview URLs for every pull request.
+  - name: Multi-Stage CI/CD for Backend Services
+    description: Engineering teams use GitHub Actions, GitLab CI, or CircleCI to build, test, scan, and publish backend services through promotion stages from development to production.
+  - name: GitOps Continuous Deployment to Kubernetes
+    description: Platform teams use Argo CD or Flux CD to declaratively sync Kubernetes manifests from Git repositories into clusters, with drift detection and automated reconciliation.
+  - name: Legacy Application Modernization on PaaS
+    description: Organizations migrate legacy web applications to managed runtimes like Heroku, AWS Elastic Beanstalk, or Azure App Service to offload patching, scaling, and load balancing.
+  - name: Progressive Delivery with Canaries
+    description: SRE teams use Spinnaker, Harness, or Argo Rollouts to release new versions to a small percentage of traffic, observe key metrics, and automatically promote or roll back based on health.
+  - name: Enterprise Release Orchestration
+    description: Release engineering teams use Octopus Deploy or Harness to coordinate complex multi-service releases across hybrid environments with approvals, runbooks, and audit trails.
+  - name: Edge and Serverless Container Deployment
+    description: Teams deploy containerized microservices to managed runtimes like Google Cloud Run, AWS App Runner, Fly.io, or Koyeb to get autoscaling and global distribution without managing Kubernetes.
+- type: Integrations
+  data:
+  - name: Vercel
+    description: Frontend cloud platform optimized for Next.js and other JavaScript frameworks, with Git-driven deployments, preview URLs, and a global edge network.
+  - name: Netlify
+    description: Web platform for modern static and Jamstack sites with built-in CI/CD, edge functions, and preview deployments for every pull request.
+  - name: GitHub Actions
+    description: Native CI/CD service for GitHub repositories with hosted runners, a marketplace of reusable actions, and tight integration with the GitHub event model.
+  - name: Argo CD
+    description: GitOps continuous delivery tool for Kubernetes that continuously reconciles cluster state with declarative manifests stored in Git.
+  - name: Spinnaker
+    description: Multi-cloud continuous delivery platform from Netflix and Google supporting advanced deployment strategies, manual judgments, and pipeline-as-code.
+  - name: Heroku
+    description: Original Platform-as-a-Service with a polyglot buildpack model, dyno-based runtime, and add-on marketplace for managed databases and services.
+  - name: Octopus Deploy
+    description: Release orchestration and deployment automation platform focused on enterprise environments, approvals, and complex multi-target releases.
+  - name: Harness
+    description: AI-driven software delivery platform spanning CI, CD, feature flags, cloud cost, and chaos engineering with adaptive verification.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

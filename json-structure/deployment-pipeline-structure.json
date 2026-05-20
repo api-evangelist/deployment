@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/deployment/refs/heads/main/json-structure/deployment-pipeline-structure.json",
+  "name": "Pipeline",
+  "description": "Represents a CI/CD pipeline definition: a named, ordered sequence of stages and jobs that build, test, and deploy an application.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of the pipeline within the CI/CD platform.",
+      "example": "pipe_3a7c9b1e2d4f"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the pipeline.",
+      "example": "build-test-deploy"
+    },
+    "provider": {
+      "type": "string",
+      "description": "CI/CD provider that owns this pipeline.",
+      "enum": [
+        "github-actions",
+        "gitlab-ci",
+        "bitbucket-pipelines",
+        "circleci",
+        "travis-ci",
+        "buildkite",
+        "jenkins",
+        "azure-devops",
+        "teamcity",
+        "drone-ci",
+        "harness",
+        "codefresh",
+        "spinnaker",
+        "argo-cd",
+        "flux-cd",
+        "tekton",
+        "other"
+      ],
+      "example": "github-actions"
+    },
+    "repository": {
+      "type": "uri",
+      "description": "Source repository the pipeline runs against.",
+      "example": "https://github.com/acme/billing-service"
+    },
+    "triggers": {
+      "type": "array",
+      "description": "Events that cause this pipeline to run.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "push",
+          "pull_request",
+          "tag",
+          "schedule",
+          "manual",
+          "webhook",
+          "promotion"
+        ]
+      },
+      "example": [
+        "push",
+        "pull_request"
+      ]
+    },
+    "stages": {
+      "type": "array",
+      "description": "Ordered stages that make up the pipeline.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Stage name.",
+            "example": "build"
+          },
+          "jobs": {
+            "type": "array",
+            "description": "Jobs executed in parallel within the stage.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "example": "compile"
+                },
+                "runner": {
+                  "type": "string",
+                  "example": "ubuntu-latest"
+                },
+                "image": {
+                  "type": "string",
+                  "example": "node:20"
+                },
+                "commands": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "example": [
+                    "npm ci",
+                    "npm run build"
+                  ]
+                }
+              }
+            }
+          },
+          "approval": {
+            "type": "boolean",
+            "description": "Whether the stage requires a manual approval before running.",
+            "example": false
+          }
+        }
+      }
+    },
+    "deployment_strategy": {
+      "type": "string",
+      "description": "Release strategy used when the pipeline performs deployments.",
+      "enum": [
+        "rolling",
+        "blue-green",
+        "canary",
+        "recreate",
+        "shadow",
+        "gitops-sync"
+      ],
+      "example": "canary"
+    },
+    "status": {
+      "type": "string",
+      "description": "Status of the most recent run of the pipeline.",
+      "enum": [
+        "success",
+        "failed",
+        "running",
+        "queued",
+        "canceled",
+        "skipped"
+      ],
+      "example": "success"
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "When the pipeline definition was created.",
+      "example": "2026-05-01T08:30:00Z"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "provider"
+  ]
+}

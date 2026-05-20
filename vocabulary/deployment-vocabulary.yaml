@@ -1,0 +1,383 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Deployment
+  description: Vocabulary for the deployment topic, covering Platform-as-a-Service providers, CI/CD pipeline services, build platforms, GitOps controllers, and continuous delivery tooling.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Vercel
+      namespace: vercel
+      status: active
+    - name: Netlify
+      namespace: netlify
+      status: active
+    - name: Heroku Platform API
+      namespace: heroku
+      status: active
+    - name: GitHub Actions
+      namespace: github-actions
+      status: active
+    - name: GitLab CI
+      namespace: gitlab-ci
+      status: active
+    - name: CircleCI
+      namespace: circleci
+      status: active
+    - name: Argo CD
+      namespace: argo-cd
+      status: active
+    - name: Spinnaker
+      namespace: spinnaker
+      status: active
+    - name: Octopus Deploy
+      namespace: octopus-deploy
+      status: active
+    - name: Harness
+      namespace: harness
+      status: active
+
+  resources:
+    - name: deployments
+      description: Individual deployments of an application or service to a runtime, environment, or edge network
+      actions:
+        - list
+        - get
+        - create
+        - cancel
+        - promote
+        - rollback
+    - name: pipelines
+      description: CI/CD pipeline definitions composed of ordered stages and jobs
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - trigger
+    - name: builds
+      description: Build executions that compile source code into deployable artifacts
+      actions:
+        - list
+        - get
+        - trigger
+        - cancel
+    - name: releases
+      description: Versioned releases promoted across environments by a continuous delivery system
+      actions:
+        - list
+        - get
+        - create
+        - promote
+        - rollback
+    - name: environments
+      description: Named deployment targets such as development, staging, and production
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: applications
+      description: Logical applications or services managed by a deployment platform
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: webhooks
+      description: Outbound notifications fired by the deployment platform on build, deploy, and release events
+      actions:
+        - list
+        - create
+        - delete
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: trigger
+      description: Manually start a pipeline or build run
+      httpMethod: POST
+      pattern: action
+    - name: cancel
+      description: Cancel an in-flight build or deployment
+      httpMethod: POST
+      pattern: action
+    - name: promote
+      description: Promote a release or deployment to the next environment
+      httpMethod: POST
+      pattern: action
+    - name: rollback
+      description: Revert to a previous deployment or release
+      httpMethod: POST
+      pattern: action
+
+  schemas:
+    core:
+      - name: Deployment
+        description: A single deployment of an application to a runtime or environment
+        properties:
+          - id
+          - name
+          - platform
+          - environment
+          - source
+          - url
+          - status
+          - build
+          - created_at
+          - promoted_to_production_at
+      - name: Pipeline
+        description: A CI/CD pipeline definition with stages and jobs
+        properties:
+          - id
+          - name
+          - provider
+          - repository
+          - triggers
+          - stages
+          - deployment_strategy
+          - status
+          - created_at
+
+  enums:
+    deployment_platforms:
+      - vercel
+      - netlify
+      - render
+      - railway
+      - fly-io
+      - heroku
+      - aws-elastic-beanstalk
+      - aws-app-runner
+      - google-cloud-run
+      - google-app-engine
+      - azure-app-service
+      - cloudflare-pages
+      - koyeb
+      - northflank
+      - porter
+      - qovery
+    cicd_providers:
+      - github-actions
+      - gitlab-ci
+      - bitbucket-pipelines
+      - circleci
+      - travis-ci
+      - buildkite
+      - jenkins
+      - azure-devops
+      - teamcity
+      - drone-ci
+      - harness
+      - codefresh
+      - spinnaker
+      - argo-cd
+      - flux-cd
+      - tekton
+    environments:
+      - development
+      - preview
+      - staging
+      - production
+    deployment_strategies:
+      - rolling
+      - blue-green
+      - canary
+      - recreate
+      - shadow
+      - gitops-sync
+    deployment_status:
+      - queued
+      - building
+      - deploying
+      - ready
+      - error
+      - canceled
+      - superseded
+    pipeline_triggers:
+      - push
+      - pull_request
+      - tag
+      - schedule
+      - manual
+      - webhook
+      - promotion
+
+capability:
+  workflows:
+    - name: Git Push to Production
+      description: Push a commit to the main branch and have a PaaS automatically build and deploy the application to production
+      apis:
+        - vercel
+        - netlify
+        - heroku
+      personas:
+        - Application Developer
+      domains:
+        - PaaS
+    - name: Pull Request Preview Environments
+      description: Spin up an isolated preview deployment for every pull request and tear it down on merge or close
+      apis:
+        - vercel
+        - netlify
+        - qovery
+      personas:
+        - Application Developer
+        - QA Engineer
+      domains:
+        - PaaS
+    - name: Multi-Stage CI/CD Pipeline
+      description: Build, test, scan, package, and deploy a service through development, staging, and production with approval gates
+      apis:
+        - github-actions
+        - gitlab-ci
+        - circleci
+      personas:
+        - Platform Engineer
+        - Release Engineer
+      domains:
+        - CI/CD
+    - name: GitOps Continuous Reconciliation
+      description: Continuously reconcile a Kubernetes cluster with declarative manifests committed to a Git repository
+      apis:
+        - argo-cd
+        - flux-cd
+      personas:
+        - Platform Engineer
+        - SRE
+      domains:
+        - GitOps
+    - name: Canary Release with Automated Rollback
+      description: Release a new version to a small percentage of traffic, observe metrics, and automatically promote or roll back
+      apis:
+        - spinnaker
+        - harness
+      personas:
+        - SRE
+        - Release Engineer
+      domains:
+        - Continuous Delivery
+    - name: Enterprise Release Orchestration
+      description: Coordinate multi-service releases across hybrid environments with approvals, runbooks, and audit trails
+      apis:
+        - octopus-deploy
+        - harness
+      personas:
+        - Release Engineer
+      domains:
+        - Continuous Delivery
+
+  personas:
+    - id: application-developer
+      name: Application Developer
+      description: Developers who write application code and push it to deployment platforms
+      workflows:
+        - Git Push to Production
+        - Pull Request Preview Environments
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers who build and operate internal deployment platforms and CI/CD pipelines
+      workflows:
+        - Multi-Stage CI/CD Pipeline
+        - GitOps Continuous Reconciliation
+    - id: release-engineer
+      name: Release Engineer
+      description: Engineers responsible for orchestrating releases, approvals, and rollouts
+      workflows:
+        - Multi-Stage CI/CD Pipeline
+        - Canary Release with Automated Rollback
+        - Enterprise Release Orchestration
+    - id: sre
+      name: SRE
+      description: Site reliability engineers responsible for production health and progressive delivery
+      workflows:
+        - GitOps Continuous Reconciliation
+        - Canary Release with Automated Rollback
+    - id: qa-engineer
+      name: QA Engineer
+      description: Engineers who validate changes in preview and pre-production environments
+      workflows:
+        - Pull Request Preview Environments
+
+  domains:
+    - name: PaaS
+      description: Platform-as-a-Service providers that manage runtime, scaling, and Git-driven deployment for application code
+    - name: CI/CD
+      description: Hosted continuous integration and delivery services that build, test, and release software
+    - name: GitOps
+      description: Pull-based continuous deployment using Git as the declarative source of truth for cluster and app state
+    - name: Continuous Delivery
+      description: Tooling for orchestrating multi-stage, multi-environment release pipelines with approvals and progressive rollouts
+    - name: Build
+      description: Hosted build services that produce deployable artifacts or container images from source
+
+crossReference:
+  - resource: deployments
+    operations:
+      - list
+      - get
+      - create
+      - promote
+      - rollback
+    workflows:
+      - Git Push to Production
+      - Canary Release with Automated Rollback
+    personas:
+      - Application Developer
+      - Release Engineer
+  - resource: pipelines
+    operations:
+      - list
+      - get
+      - create
+      - trigger
+    workflows:
+      - Multi-Stage CI/CD Pipeline
+    personas:
+      - Platform Engineer
+      - Release Engineer
+  - resource: releases
+    operations:
+      - list
+      - promote
+      - rollback
+    workflows:
+      - Enterprise Release Orchestration
+      - Canary Release with Automated Rollback
+    personas:
+      - Release Engineer
+      - SRE
+  - resource: environments
+    operations:
+      - list
+      - get
+      - create
+    workflows:
+      - Pull Request Preview Environments
+      - GitOps Continuous Reconciliation
+    personas:
+      - Platform Engineer
+      - QA Engineer
