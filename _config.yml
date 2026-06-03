@@ -1,0 +1,25 @@
+title: Deployment
+description: An index and topic collection covering application deployment platforms,
+  Platform-as-a-Service (PaaS) providers, and CI/CD-as-a-service tools that expose
+  APIs for shipping code to production. Deployment platforms automate the path from
+  source repository to running application, handling build, release, promotion, rollback,
+  and continuous delivery. This collection spans modern PaaS providers like Vercel,
+  Netlify, Render, Railway, Fly.io, and Heroku; cloud platform deployment services
+  like AWS Elastic Beanstalk, Google Cloud Run, and Azure App Service; hosted CI/CD
+  platforms like GitHub Actions, GitLab CI, CircleCI, Travis CI, Buildkite, and Harness;
+  and GitOps and continuous delivery tools like Argo CD, Flux CD, Spinnaker, Octopus
+  Deploy, Jenkins, Tekton, and Werf.
+url: https://deployment.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

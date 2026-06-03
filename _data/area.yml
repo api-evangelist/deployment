@@ -1,0 +1,261 @@
+meta:
+  name: Deployment
+  description: An index and topic collection covering application deployment platforms,
+    Platform-as-a-Service (PaaS) providers, and CI/CD-as-a-service tools that expose
+    APIs for shipping code to production. Deployment platforms automate the path from
+    source repository to running application, handling build, release, promotion,
+    rollback, and continuous delivery. This collection spans modern PaaS providers
+    like Vercel, Netlify, Render, Railway, Fly.io, and Heroku; cloud platform deployment
+    services like AWS Elastic Beanstalk, Google Cloud Run, and Azure App Service;
+    hosted CI/CD platforms like GitHub Actions, GitLab CI, CircleCI, Travis CI, Buildkite,
+    and Harness; and GitOps and continuous delivery tools like Argo CD, Flux CD, Spinnaker,
+    Octopus Deploy, Jenkins, Tekton, and Werf.
+  tags:
+  - Deployment
+  - CI/CD
+  - Continuous Deployment
+  - Continuous Integration
+  - Continuous Delivery
+  - PaaS
+  - GitOps
+  - Build
+  - Pipeline
+  - Release Management
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: deployment
+services_tools:
+- name: Argo CD
+  repo: https://github.com/api-evangelist/argo-cd
+  apisio: https://providers.apis.io/providers/argo-cd/
+- name: AWS App Runner
+  repo: https://github.com/api-evangelist/aws-app-runner
+  apisio: https://providers.apis.io/providers/aws-app-runner/
+- name: AWS CodeBuild
+  repo: https://github.com/api-evangelist/aws-codebuild
+  apisio: https://providers.apis.io/providers/aws-codebuild/
+- name: AWS Elastic Beanstalk
+  repo: https://github.com/api-evangelist/aws-elastic-beanstalk
+  apisio: https://providers.apis.io/providers/aws-elastic-beanstalk/
+- name: Azure DevOps
+  repo: https://github.com/api-evangelist/azure-devops
+  apisio: https://providers.apis.io/providers/azure-devops/
+- name: Bitbucket Pipelines
+  repo: https://github.com/api-evangelist/bitbucket-pipelines
+  apisio: https://providers.apis.io/providers/bitbucket-pipelines/
+- name: Buildkite
+  repo: https://github.com/api-evangelist/buildkite
+  apisio: https://providers.apis.io/providers/buildkite/
+- name: Buildpacks
+  repo: https://github.com/api-evangelist/buildpacks
+  apisio: https://providers.apis.io/providers/buildpacks/
+- name: CircleCI
+  repo: https://github.com/api-evangelist/circleci
+  apisio: https://providers.apis.io/providers/circleci/
+- name: CloudBees
+  repo: https://github.com/api-evangelist/cloudbees
+  apisio: https://providers.apis.io/providers/cloudbees/
+- name: Cloud Foundry
+  repo: https://github.com/api-evangelist/cloud-foundry
+  apisio: https://providers.apis.io/providers/cloud-foundry/
+- name: Codefresh
+  repo: https://github.com/api-evangelist/codefresh
+  apisio: https://providers.apis.io/providers/codefresh/
+- name: Continuous Delivery Foundation
+  repo: https://github.com/api-evangelist/continuous-delivery-foundation
+  apisio: https://providers.apis.io/providers/continuous-delivery-foundation/
+- name: Cycloid
+  repo: https://github.com/api-evangelist/cycloid
+  apisio: https://providers.apis.io/providers/cycloid/
+- name: Dagger
+  repo: https://github.com/api-evangelist/dagger
+  apisio: https://providers.apis.io/providers/dagger/
+- name: Drone CI
+  repo: https://github.com/api-evangelist/drone-ci
+  apisio: https://providers.apis.io/providers/drone-ci/
+- name: Earthly
+  repo: https://github.com/api-evangelist/earthly
+  apisio: https://providers.apis.io/providers/earthly/
+- name: env0
+  repo: https://github.com/api-evangelist/env0
+  apisio: https://providers.apis.io/providers/env0/
+- name: Flux CD
+  repo: https://github.com/api-evangelist/fluxcd
+  apisio: https://providers.apis.io/providers/fluxcd/
+- name: Fly.io
+  repo: https://github.com/api-evangelist/fly-io
+  apisio: https://providers.apis.io/providers/fly-io/
+- name: Gitea
+  repo: https://github.com/api-evangelist/gitea
+  apisio: https://providers.apis.io/providers/gitea/
+- name: GitHub Actions
+  repo: https://github.com/api-evangelist/github-actions
+  apisio: https://providers.apis.io/providers/github-actions/
+- name: GitLab CI
+  repo: https://github.com/api-evangelist/gitlab-ci
+  apisio: https://providers.apis.io/providers/gitlab-ci/
+- name: GitOps
+  repo: https://github.com/api-evangelist/gitops
+  apisio: https://providers.apis.io/providers/gitops/
+- name: Google Cloud App Engine
+  repo: https://github.com/api-evangelist/google-cloud-app-engine
+  apisio: https://providers.apis.io/providers/google-cloud-app-engine/
+- name: Google Cloud Build
+  repo: https://github.com/api-evangelist/google-cloud-build
+  apisio: https://providers.apis.io/providers/google-cloud-build/
+- name: Google Cloud Deploy
+  repo: https://github.com/api-evangelist/google-cloud-deploy
+  apisio: https://providers.apis.io/providers/google-cloud-deploy/
+- name: Google Cloud Run
+  repo: https://github.com/api-evangelist/google-cloud-run
+  apisio: https://providers.apis.io/providers/google-cloud-run/
+- name: Harness
+  repo: https://github.com/api-evangelist/harness
+  apisio: https://providers.apis.io/providers/harness/
+- name: Heroku
+  repo: https://github.com/api-evangelist/heroku
+  apisio: https://providers.apis.io/providers/heroku/
+- name: Jenkins
+  repo: https://github.com/api-evangelist/jenkins
+  apisio: https://providers.apis.io/providers/jenkins/
+- name: Jenkins Pipeline
+  repo: https://github.com/api-evangelist/jenkins-pipeline
+  apisio: https://providers.apis.io/providers/jenkins-pipeline/
+- name: Koyeb
+  repo: https://github.com/api-evangelist/koyeb
+  apisio: https://providers.apis.io/providers/koyeb/
+- name: KubeVela
+  repo: https://github.com/api-evangelist/kubevela
+  apisio: https://providers.apis.io/providers/kubevela/
+- name: Microsoft Azure App Service
+  repo: https://github.com/api-evangelist/microsoft-azure-app-service
+  apisio: https://providers.apis.io/providers/microsoft-azure-app-service/
+- name: Netlify
+  repo: https://github.com/api-evangelist/netlify
+  apisio: https://providers.apis.io/providers/netlify/
+- name: Northflank
+  repo: https://github.com/api-evangelist/northflank
+  apisio: https://providers.apis.io/providers/northflank/
+- name: Octopus Deploy
+  repo: https://github.com/api-evangelist/octopus-deploy
+  apisio: https://providers.apis.io/providers/octopus-deploy/
+- name: Porter
+  repo: https://github.com/api-evangelist/porter
+  apisio: https://providers.apis.io/providers/porter/
+- name: Qovery
+  repo: https://github.com/api-evangelist/qovery
+  apisio: https://providers.apis.io/providers/qovery/
+- name: Railway
+  repo: https://github.com/api-evangelist/railway
+  apisio: https://providers.apis.io/providers/railway/
+- name: Render
+  repo: https://github.com/api-evangelist/render
+  apisio: https://providers.apis.io/providers/render/
+- name: Spacelift
+  repo: https://github.com/api-evangelist/spacelift
+  apisio: https://providers.apis.io/providers/spacelift/
+- name: Spinnaker
+  repo: https://github.com/api-evangelist/spinnaker
+  apisio: https://providers.apis.io/providers/spinnaker/
+- name: TeamCity
+  repo: https://github.com/api-evangelist/teamcity
+  apisio: https://providers.apis.io/providers/teamcity/
+- name: Tekton
+  repo: https://github.com/api-evangelist/tekton
+  apisio: https://providers.apis.io/providers/tekton/
+- name: Travis CI
+  repo: https://github.com/api-evangelist/travis-ci
+  apisio: https://providers.apis.io/providers/travis-ci/
+- name: Vercel
+  repo: https://github.com/api-evangelist/vercel
+  apisio: https://providers.apis.io/providers/vercel/
+- name: Werf
+  repo: https://github.com/api-evangelist/werf
+  apisio: https://providers.apis.io/providers/werf/
+features:
+- name: Git-Driven Deployment
+  description: Modern PaaS providers like Vercel, Netlify, Render, and Railway connect
+    directly to Git repositories and automatically deploy on every push, branch, or
+    pull request, removing the need for separate CI/CD configuration.
+- name: Continuous Integration Pipelines
+  description: CI/CD-as-a-service platforms like GitHub Actions, GitLab CI, CircleCI,
+    and Buildkite provide hosted runners that execute build, test, and packaging pipelines
+    triggered by source control events.
+- name: Continuous Delivery and Release Orchestration
+  description: Continuous delivery tools like Spinnaker, Harness, and Octopus Deploy
+    coordinate multi-stage rollouts across environments with approval gates, canary
+    analysis, and automated rollback.
+- name: GitOps and Declarative Sync
+  description: GitOps controllers like Argo CD and Flux CD continuously reconcile
+    cluster state with declarative manifests stored in Git, treating the repository
+    as the source of truth for deployments.
+- name: Build Pipelines and Artifacts
+  description: Build-focused services like AWS CodeBuild, Google Cloud Build, Dagger,
+    Earthly, and Buildpacks compile source code into deployable artifacts, container
+    images, or executable bundles in reproducible environments.
+- name: Preview Environments
+  description: Platforms like Vercel, Netlify, Railway, and Qovery automatically spin
+    up isolated preview environments for every pull request, giving teams a live URL
+    to validate changes before merging.
+- name: Managed Application Runtimes
+  description: PaaS offerings like Heroku, AWS Elastic Beanstalk, Google App Engine,
+    and Azure App Service abstract away infrastructure, scaling deployed applications
+    based on traffic without operator intervention.
+- name: Release Promotion and Approval Gates
+  description: Pipeline tools like Octopus Deploy, Harness, and Azure DevOps model
+    environments and promotion stages explicitly, with role-based approval gates between
+    development, staging, and production.
+use_cases:
+- name: Push-to-Deploy Frontend Hosting
+  description: Frontend teams connect a Git repository to Vercel, Netlify, or Cloudflare
+    Pages and every commit automatically builds and deploys a new version, with preview
+    URLs for every pull request.
+- name: Multi-Stage CI/CD for Backend Services
+  description: Engineering teams use GitHub Actions, GitLab CI, or CircleCI to build,
+    test, scan, and publish backend services through promotion stages from development
+    to production.
+- name: GitOps Continuous Deployment to Kubernetes
+  description: Platform teams use Argo CD or Flux CD to declaratively sync Kubernetes
+    manifests from Git repositories into clusters, with drift detection and automated
+    reconciliation.
+- name: Legacy Application Modernization on PaaS
+  description: Organizations migrate legacy web applications to managed runtimes like
+    Heroku, AWS Elastic Beanstalk, or Azure App Service to offload patching, scaling,
+    and load balancing.
+- name: Progressive Delivery with Canaries
+  description: SRE teams use Spinnaker, Harness, or Argo Rollouts to release new versions
+    to a small percentage of traffic, observe key metrics, and automatically promote
+    or roll back based on health.
+- name: Enterprise Release Orchestration
+  description: Release engineering teams use Octopus Deploy or Harness to coordinate
+    complex multi-service releases across hybrid environments with approvals, runbooks,
+    and audit trails.
+- name: Edge and Serverless Container Deployment
+  description: Teams deploy containerized microservices to managed runtimes like Google
+    Cloud Run, AWS App Runner, Fly.io, or Koyeb to get autoscaling and global distribution
+    without managing Kubernetes.
+integrations:
+- name: Vercel
+  description: Frontend cloud platform optimized for Next.js and other JavaScript
+    frameworks, with Git-driven deployments, preview URLs, and a global edge network.
+- name: Netlify
+  description: Web platform for modern static and Jamstack sites with built-in CI/CD,
+    edge functions, and preview deployments for every pull request.
+- name: GitHub Actions
+  description: Native CI/CD service for GitHub repositories with hosted runners, a
+    marketplace of reusable actions, and tight integration with the GitHub event model.
+- name: Argo CD
+  description: GitOps continuous delivery tool for Kubernetes that continuously reconciles
+    cluster state with declarative manifests stored in Git.
+- name: Spinnaker
+  description: Multi-cloud continuous delivery platform from Netflix and Google supporting
+    advanced deployment strategies, manual judgments, and pipeline-as-code.
+- name: Heroku
+  description: Original Platform-as-a-Service with a polyglot buildpack model, dyno-based
+    runtime, and add-on marketplace for managed databases and services.
+- name: Octopus Deploy
+  description: Release orchestration and deployment automation platform focused on
+    enterprise environments, approvals, and complex multi-target releases.
+- name: Harness
+  description: AI-driven software delivery platform spanning CI, CD, feature flags,
+    cloud cost, and chaos engineering with adaptive verification.
