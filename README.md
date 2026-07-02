@@ -3,8 +3,6 @@ An index and topic collection covering application deployment platforms, Platfor
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - Deployment, CI/CD, Continuous Deployment, Continuous Integration, Continuous Delivery, PaaS, GitOps, Build, Pipeline, Release Management
