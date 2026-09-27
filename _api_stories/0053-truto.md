@@ -1,7 +1,8 @@
 ---
-title: 'Build a Production Strapi MCP Server for ChatGPT: Media & Content'
-link: https://truto.one/blog/build-a-production-strapi-mcp-server-for-chatgpt-media-content/
-published: '2026-08-19'
+title: 'B2B Unified API Platforms for Native Integrations: The 2026 Vendor Comparison
+  Matrix'
+link: https://truto.one/blog/b2b-unified-api-platforms-for-native-integrations-the-2026-vendor-comparison-matrix/
+published: '2026-08-23'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one

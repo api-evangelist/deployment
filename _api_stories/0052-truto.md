@@ -1,7 +1,8 @@
 ---
-title: Top Arcade.dev Alternatives for Building and Managing MCP Servers
-link: https://truto.one/blog/top-arcadedev-alternatives-for-building-and-managing-mcp-servers/
-published: '2026-08-19'
+title: 'Building a Multi-Tenant Databricks MCP Server for AI Agents: 2026 Architecture
+  Guide'
+link: https://truto.one/blog/building-a-multi-tenant-databricks-mcp-server-for-ai-agents-2026-architecture-guide/
+published: '2026-08-24'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one

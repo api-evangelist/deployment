@@ -1,8 +1,7 @@
 ---
-title: Building and connecting a production-ready ecommerce MCP server using Amazon
-  Bedrock AgentCore and Mistral AI Studio
-link: https://aws.amazon.com/blogs/machine-learning/building-and-connecting-a-production-ready-ecommerce-mcp-server-using-amazon-bedrock-agentcore-and-mistral-ai-studio/
-published: '2026-07-08'
+title: 'Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers'
+link: https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers/
+published: '2026-07-15'
 provider: amazon-bedrock
 repo: https://github.com/api-evangelist/amazon-bedrock
 domain: aws.amazon.com
