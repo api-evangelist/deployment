@@ -1,7 +1,7 @@
 ---
-title: Build a Supply Chain Control Tower with ToolJet MCP
-link: https://blog.tooljet.com/supply-chain-control-tower-tooljet-mcp/
-published: '2026-09-15'
+title: Build a Warehouse Layout Planner With ToolJet MCP
+link: https://blog.tooljet.com/warehouse-layout-planner/
+published: '2026-09-23'
 provider: tooljet
 repo: https://github.com/api-evangelist/tooljet
 domain: blog.tooljet.com
