@@ -20,6 +20,17 @@ tags:
 - Continuous Deployment
 - Continuous Integration
 - Continuous Delivery
+- Platform-as-a-Service
+- GitOps
+- Builds
+- Pipelines
+- Release Management
+tags_raw:
+- Deployment
+- CI/CD
+- Continuous Deployment
+- Continuous Integration
+- Continuous Delivery
 - PaaS
 - GitOps
 - Build
