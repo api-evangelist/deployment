@@ -1,5 +1,6 @@
 aid: deployment
 name: Deployment
+kind: topic
 description: >-
   An index and topic collection covering application deployment platforms,
   Platform-as-a-Service (PaaS) providers, and CI/CD-as-a-service tools that
