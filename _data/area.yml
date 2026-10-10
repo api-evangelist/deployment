@@ -16,10 +16,10 @@ meta:
   - Continuous Deployment
   - Continuous Integration
   - Continuous Delivery
-  - PaaS
+  - Platform-as-a-Service
   - GitOps
-  - Build
-  - Pipeline
+  - Builds
+  - Pipelines
   - Release Management
   portal: https://apievangelist.com
   github: https://github.com/api-evangelist
