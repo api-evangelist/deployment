@@ -1,8 +1,0 @@
----
-title: 'Build vs. Buy MCP Runtime: 2026 Decision Guide | Arcade.dev'
-link: https://www.arcade.dev/blog/mcp-runtime-build-vs-buy/
-published: '2026-05-13'
-provider: arcade-dev
-repo: https://github.com/api-evangelist/arcade-dev
-domain: www.arcade.dev
----
