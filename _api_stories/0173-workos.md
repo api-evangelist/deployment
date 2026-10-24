@@ -1,7 +1,7 @@
 ---
-title: How to build a stateless MCP server on 2026-07-28, secured with AuthKit
-link: https://workos.com/blog/build-stateless-mcp-server-2026-07-28-authkit
-published: '2026-07-30'
+title: Paul Klein on collapsing the agent stack into one platform
+link: https://workos.com/blog/paul-klein-browserbase-agent-stack-aie-2026
+published: '2026-08-05'
 provider: workos
 repo: https://github.com/api-evangelist/workos
 domain: workos.com
