@@ -1,7 +1,7 @@
 ---
-title: Build a Supplier Product Import App with ToolJet MCP
-link: https://blog.tooljet.com/supplier-product-import-app/
-published: '2026-09-29'
+title: Build a Hiring Inbox Sorter App with ToolJet MCP and Jev
+link: https://blog.tooljet.com/hiring-inbox-sorter-app/
+published: '2026-10-09'
 provider: tooljet
 repo: https://github.com/api-evangelist/tooljet
 domain: blog.tooljet.com
