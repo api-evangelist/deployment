@@ -1,7 +1,7 @@
 ---
-title: Build a Dispatch Command Centre with ToolJet MCP
-link: https://blog.tooljet.com/field-operations-command-centre-tooljet-mcp/
-published: '2026-09-18'
+title: Build an SME Loan Underwriting App with ToolJet MCP and Jev
+link: https://blog.tooljet.com/sme-loan-underwriting-app/
+published: '2026-10-05'
 provider: tooljet
 repo: https://github.com/api-evangelist/tooljet
 domain: blog.tooljet.com
